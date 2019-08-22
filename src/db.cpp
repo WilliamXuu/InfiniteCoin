@@ -501,13 +501,8 @@ CBlockIndex static * InsertBlockIndex(uint256 hash)
 
 bool CTxDB::LoadBlockIndex()
 {
-    int64 nStart = GetTimeMillis();
-    printf("LoadBlockIndexGuts...\n");
-
     if (!LoadBlockIndexGuts())
         return false;
-
-    printf("LoadedBlockIndexGuts %15"PRI64d"ms\n", GetTimeMillis() - nStart);
 
     if (fRequestShutdown)
         return true;

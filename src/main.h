@@ -33,20 +33,20 @@ class CNode;
 static const unsigned int MAX_BLOCK_SIZE = 10000000;  // 10000KB block hard limit
 static const unsigned int MAX_BLOCK_SIZE_GEN = MAX_BLOCK_SIZE/2; // 5000KB  block soft limit
 static const unsigned int MAX_BLOCK_SIGOPS = MAX_BLOCK_SIZE/50;  // 200KB
-static const unsigned int MAX_ORPHAN_TRANSACTIONS = MAX_BLOCK_SIZE/50; // 100KB
+static const unsigned int MAX_ORPHAN_TRANSACTIONS = MAX_BLOCK_SIZE/100; // 100KB
 
 /** The maximum size for transactions we're willing to relay/mine */
 static const unsigned int MAX_STANDARD_TX_SIZE = 100000;
 
 //min tx fee
-static const int64 MIN_TX_FEE =1000000;
+static const int64 MIN_TX_FEE = 1.0 * COIN;
 
 
 static const int64 MIN_RELAY_TX_FEE = MIN_TX_FEE;
 
 //soft limit
-static const int64 DUST_SOFT_LIMIT = MIN_TX_FEE;
-static const int64 DUST_HARD_LIMIT = MIN_TX_FEE;
+static const int64 DUST_SOFT_LIMIT = 1.0 * COIN;
+static const int64 DUST_HARD_LIMIT = 1.0 * COIN;
 
 
 static const int64 MAX_MONEY = 90600000000 * COIN; // Infinitecoin: maximum of 90600M coins
@@ -626,8 +626,8 @@ public:
 //            nMinFee *= MAX_BLOCK_SIZE_GEN / (MAX_BLOCK_SIZE_GEN - nNewBlockSize);
 //        }
 
-        if(nMinFee<MIN_TX_FEE){
-            nMinFee=MIN_TX_FEE;
+        if(nMinFee<0.01*COIN){
+            nMinFee=0.01*COIN;
         }
         if(nMinFee>10000*COIN){
             nMinFee=10000*COIN;
