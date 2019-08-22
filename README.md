@@ -1,4 +1,6 @@
-Infinitecoin - a fork of Litecoin version. Like Litecoin it uses scrypt as a proof of work scheme.
+Infinitecoin
+---
+Infinitecoin is a fork of Litecoin version. Like Litecoin it uses scrypt as a proof of work scheme.
 
 	- Total coins will be about 90,600 millions 
 	- 30 sec block target
@@ -10,6 +12,59 @@ Infinitecoin - a fork of Litecoin version. Like Litecoin it uses scrypt as a pro
 Development process
 ===================
 
+2019-8-20  1.9.1.8  
+--
+1. Remove the inner web links
+2. Fix 1.9.1.4 and 1.9.1.6 versions as nodes, mobile wallet can not connect these versions of node synchronization problem.
+
+
+2018-8-16 1.9.1.4
+--
+1. Beautify the startup page, more concise, more contemporary
+2. The modification fee is changed from the original package size to 0.2% according to the transfer amount, up to 10,000 IFC, and the minimum 0.01 IFC charge.
+3. Wallet home page to increase navigation station, block browser, mine pool list, source code download address
+4. Add the version number in the lower right corner, click to link to the wallet download page
+5. Chinese translation is more accurate
+6. Add a fee calculation tool on the transfer page, and calculate the commission required for the transfer based on the input amount.
+7. When adding or modifying the wallet password, the input password behavior is changed to: it is visible in the plain text when input, and the mask is added after the input is completed,effectively preventing the password input error.
+8. Add a fee collection rule prompt on the transaction page
+9. The maximum number of input words in the debug window has been changed from 65535 to 6553500, which is convenient for sending a large amount of transaction raw data.
+10. Each block of data can reach about 10,000 transfer transactions
+
+
+2018-04-10
+--
+1. Fix the problem that IFC can't start after Linux system is turned off IPv6.
+
+
+2018-03-22
+--
+community official version 1.8.8.2, this version is modified and compiled based on the original 1.8.8.0 source code.
+1. increased direct click transactions in transaction records, ID can jump to block browser query transaction records.
+2. repair the receiving currency form, modify the first label in the address book form, cause the second tags to be modified bug.
+3. about page image replacement, and increased the community's official website link.
+4. repair of the lower right corner in the state of typos "kind" correct "clock"
+5. improve the mining state of the lower right corner of Chinese display
+6. verify that all English in the message window is translated into Chinese.
+7. perfect the Chinese tray right click menu language display
+8. improve the Chinese language display page.
+9. The options page improves the Chinese language display
+10. Improve the Chinese language display in the rest of the warning box
+11. increase the number of connections to the default network nodes to 32, improve the block synchronization speed.
+12. Upgrade the QT version to 4.8.7 to improve security
+13. modify the default location of block data, which is the Infinitecoin folder under the current software running directory.
+14. there will be vc++ rumtime error error when repairing json-rpc and console.
+
+2018-3-15
+--
+1. increase the number of connections to the default network nodes to 32, improve the block synchronization speed.
+2. perfect Chinese Translation
+3. Upgrade the QT version to 4.8.7 to improve security
+4. modify the default location of block data, which is the Infinitecoin folder under the current software running directory.
+
+
+(Older)2015-4
+---
 Developers work in their own trees, then submit pull requests when
 they think their feature or bug fix is ready.
 
