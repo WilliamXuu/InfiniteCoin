@@ -18,7 +18,7 @@ Development process
 2. Fix 1.9.1.4 and 1.9.1.6 versions as nodes, mobile wallet can not connect these versions of node synchronization problem.
 
 
-2018-8-16 1.9.1.4
+2018-8-16 1.9.1.0
 --
 1. Beautify the startup page, more concise, more contemporary
 2. The modification fee is changed from the original package size to 0.2% according to the transfer amount, up to 10,000 IFC, and the minimum 0.01 IFC charge.
