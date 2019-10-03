@@ -867,14 +867,15 @@ uint256 static GetOrphanRoot(const CBlock* pblock)
 int64 static GetBlockValue(int nHeight, int64 nFees)
 {
     int64 nSubsidy = 524288 * COIN;
-    int halvings = nHeight / Params().SubsidyHalvingInterval();
+    int halvings = nHeight / 86400;
 
     //Force block reward to zero when right shift if undefined
     if(halvings>=64)
         return nFees;
 
 	// Subsidy is cut in half every 86400 blocks, which will occur approximately every 1 month
-    nSubsidy >>= (nHeight / 86400); // Infinitecoin: 86400 blocks in ~1 month
+    nSubsidy >>= halvings; // Infinitecoin: 86400 blocks in ~1 month
+
     return nSubsidy + nFees;
 }
 
