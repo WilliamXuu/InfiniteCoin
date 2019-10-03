@@ -12,6 +12,12 @@ Infinitecoin is a fork of Litecoin version. Like Litecoin it uses scrypt as a pr
 Development process
 ===================
 
+2019-10-03  1.9.1.9  
+--
+1. Fix the problem which the reward overflows after the 64th time block reward halving.
+Refer to the Bitcoin 0.9.2 CR1 revision method on June 1, 2014.
+
+
 2019-8-20  1.9.1.8  
 --
 1. Remove the inner web links
