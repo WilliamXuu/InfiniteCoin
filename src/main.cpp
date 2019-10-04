@@ -873,7 +873,7 @@ int64 static GetBlockValue(int nHeight, int64 nFees)
     if(halvings>=64)
         return nFees;
 
-	// Subsidy is cut in half every 86400 blocks, which will occur approximately every 1 month
+    // Subsidy is cut in half every 86400 blocks, which will occur approximately every 1 month
     nSubsidy >>= halvings; // Infinitecoin: 86400 blocks in ~1 month
 
     return nSubsidy + nFees;
