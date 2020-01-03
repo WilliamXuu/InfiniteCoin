@@ -2070,7 +2070,8 @@ bool LoadBlockIndex(bool fAllowNew)
         pchMessageStart[1] = 0xc1;
         pchMessageStart[2] = 0xb7;
         pchMessageStart[3] = 0xdc;
-        hashGenesisBlock = uint256("0x47cfc1ea5d27a873dcc90fa8befc9378dbc793ca68dd608d4f6aa123437701ba");
+        // Test network failed to open issue has been fixed (since 1.9.8.0)
+        hashGenesisBlock = uint256("0xa0d9fb1b5db8c3402289b6632a42adb073d647623d161b81f360d0e62a9c0d77");
     }
 
     //
