@@ -6,11 +6,11 @@
     <name>AboutDialog</name>
     <message>
         <source>About Bitcoin</source>
-        <translation type="obsolete">關於位元幣</translation>
+        <translation type="obsolete">關於無限幣</translation>
     </message>
     <message>
         <source>&lt;b&gt;Bitcoin&lt;/b&gt; version</source>
-        <translation type="obsolete">&lt;b&gt;位元幣&lt;/b&gt;版本</translation>
+        <translation type="obsolete">&lt;b&gt;無限幣&lt;/b&gt;版本</translation>
     </message>
     <message>
         <source>Copyright &amp;copy;  2009-2012 Bitcoin Developers
@@ -40,17 +40,17 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="157"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Infinitecoin community website:https://www.infinitecoin.in&lt;/p&gt;&lt;p&gt;Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php.&lt;/p&gt;&lt;p&gt;This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Infinitecoin community website:https://bitcointalk.org/index.php?topic=356065.0&lt;/p&gt;&lt;p&gt;Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php.&lt;/p&gt;&lt;p&gt;This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="190"/>
-        <source>Offical Website: &lt;a href=&quot;http://www.infinitecoin.com/&quot;&gt;www.infinitecoin.com&lt;/a&gt;</source>
+        <source>Offical Website: &lt;a href=&quot;https://bitcointalk.org/index.php?topic=356065.0&lt;/a&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="206"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Offical Forums: &lt;a href=&quot;http://www.infinitecointalk.org/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;www.infinitecointalk.org&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Infinitecoin community website: &lt;a href=&quot;https://www.infinitecoin.in&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://www.infinitecoin.in&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Offical Forums: &lt;a href=&quot;https://bitcointalk.org/index.php?topic=356065.0&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;www.infinitecointalk.org&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Infinitecoin community website: &lt;a href=&quot;https://bitcointalk.org/index.php?topic=356065.0&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://bitcointalk.org/index.php?topic=356065.0&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -63,7 +63,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <source>These are your Bitcoin addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation type="obsolete">這是你用來收款的位元幣位址. 你可以提供不同的位址給不同的付款人, 來追蹤是誰支付給你.</translation>
+        <translation type="obsolete">這是你用來收款的無限幣位址. 你可以提供不同的位址給不同的付款人, 來追蹤是誰支付給你.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="36"/>
@@ -258,7 +258,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <source>WARNING: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!
 Are you sure you wish to encrypt your wallet?</source>
-        <translation type="obsolete">警告: 如果將錢包加密後忘記密碼, 你會&lt;b&gt;失去其中所有的位元幣&lt;/b&gt;!
+        <translation type="obsolete">警告: 如果將錢包加密後忘記密碼, 你會&lt;b&gt;失去其中所有的無限幣&lt;/b&gt;!
 你確定要將錢包加密嗎?</translation>
     </message>
     <message>
@@ -269,7 +269,7 @@ Are you sure you wish to encrypt your wallet?</source>
     </message>
     <message>
         <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation type="obsolete">位元幣現在要關閉以完成加密程序. 請記住, 加密錢包無法完全防止入侵電腦的惡意程式偷取你的位元幣.</translation>
+        <translation type="obsolete">無限幣現在要關閉以完成加密程序. 請記住, 加密錢包無法完全防止入侵電腦的惡意程式偷取你的無限幣.</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="207"/>
@@ -333,7 +333,7 @@ Are you sure you wish to encrypt your wallet?</source>
     <name>BitcoinGUI</name>
     <message>
         <source>Bitcoin Wallet</source>
-        <translation type="obsolete">位元幣錢包</translation>
+        <translation type="obsolete">無限幣錢包</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="232"/>
@@ -342,7 +342,7 @@ Are you sure you wish to encrypt your wallet?</source>
     </message>
     <message>
         <source>Show/Hide &amp;Bitcoin</source>
-        <translation type="obsolete">顯示/隱藏位元幣</translation>
+        <translation type="obsolete">顯示/隱藏無限幣</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="533"/>
@@ -434,7 +434,7 @@ Are you sure you wish to encrypt your wallet?</source>
     </message>
     <message>
         <source>Show information about Bitcoin</source>
-        <translation type="obsolete">顯示位元幣相關資訊</translation>
+        <translation type="obsolete">顯示無限幣相關資訊</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="275"/>
@@ -485,15 +485,15 @@ Are you sure you wish to encrypt your wallet?</source>
     </message>
     <message>
         <source>Send coins to a Bitcoin address</source>
-        <translation type="obsolete">付錢到一個位元幣位址</translation>
+        <translation type="obsolete">付錢到一個無限幣位址</translation>
     </message>
     <message>
         <source>Modify configuration options for Bitcoin</source>
-        <translation type="obsolete">修改位元幣的設定選項</translation>
+        <translation type="obsolete">修改無限幣的設定選項</translation>
     </message>
     <message>
         <source>Show or hide the Bitcoin window</source>
-        <translation type="obsolete">顯示或隱藏位元幣的視窗</translation>
+        <translation type="obsolete">顯示或隱藏無限幣的視窗</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="284"/>
@@ -567,12 +567,12 @@ Are you sure you wish to encrypt your wallet?</source>
     </message>
     <message>
         <source>Bitcoin client</source>
-        <translation type="obsolete">位元幣客戶軟體</translation>
+        <translation type="obsolete">無限幣客戶軟體</translation>
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to Bitcoin network</source>
         <translation type="obsolete">
-            <numerusform>與位元幣網路有 %n 個連線在使用中</numerusform>
+            <numerusform>與無限幣網路有 %n 個連線在使用中</numerusform>
         </translation>
     </message>
     <message>
@@ -772,7 +772,7 @@ Address: %4
     </message>
     <message>
         <source>A fatal error occured. Bitcoin can no longer continue safely and will quit.</source>
-        <translation type="obsolete">發生了致命的錯誤. 位元幣程式將無法繼續安全執行, 只好結束.</translation>
+        <translation type="obsolete">發生了致命的錯誤. 無限幣程式將無法繼續安全執行, 只好結束.</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="118"/>
@@ -801,7 +801,7 @@ Address: %4
     </message>
     <message>
         <source>The user interface language can be set here. This setting will only take effect after restarting Bitcoin.</source>
-        <translation type="obsolete">可以在這裡設定使用者介面的語言. 這個設定在位元幣程式重啓後才會生效.</translation>
+        <translation type="obsolete">可以在這裡設定使用者介面的語言. 這個設定在無限幣程式重啓後才會生效.</translation>
     </message>
     <message>
         <source>User Interface &amp;Language:</source>
@@ -821,7 +821,7 @@ Address: %4
     </message>
     <message>
         <source>Whether to show Bitcoin addresses in the transaction list</source>
-        <translation type="obsolete">是否要在交易列表中顯示位元幣位址</translation>
+        <translation type="obsolete">是否要在交易列表中顯示無限幣位址</translation>
     </message>
     <message>
         <source>Warning</source>
@@ -829,7 +829,7 @@ Address: %4
     </message>
     <message>
         <source>This setting will take effect after restarting Bitcoin.</source>
-        <translation type="obsolete">這個設定會在位元幣程式重啓後生效.</translation>
+        <translation type="obsolete">這個設定會在無限幣程式重啓後生效.</translation>
     </message>
 </context>
 <context>
@@ -897,7 +897,7 @@ Address: %4
     </message>
     <message>
         <source>The entered address &quot;%1&quot; is not a valid Bitcoin address.</source>
-        <translation type="obsolete">輸入的位址 &quot;%1&quot; 並不是有效的位元幣位址.</translation>
+        <translation type="obsolete">輸入的位址 &quot;%1&quot; 並不是有效的無限幣位址.</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="105"/>
@@ -959,7 +959,7 @@ Address: %4
     <name>HelpMessageBox</name>
     <message>
         <source>Bitcoin-Qt</source>
-        <translation type="obsolete">位元幣-Qt</translation>
+        <translation type="obsolete">無限幣-Qt</translation>
     </message>
     <message>
         <source>version</source>
@@ -1011,11 +1011,11 @@ Address: %4
     </message>
     <message>
         <source>&amp;Start Bitcoin on system login</source>
-        <translation type="obsolete">系統登入時啟動位元幣</translation>
+        <translation type="obsolete">系統登入時啟動無限幣</translation>
     </message>
     <message>
         <source>Automatically start Bitcoin after logging in to the system</source>
-        <translation type="obsolete">在登入系統後自動啓動位元幣</translation>
+        <translation type="obsolete">在登入系統後自動啓動無限幣</translation>
     </message>
     <message>
         <source>&amp;Detach databases at shutdown</source>
@@ -1086,7 +1086,7 @@ Address: %4
     </message>
     <message>
         <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation type="obsolete">輸入位元幣位址 (比如說 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <translation type="obsolete">輸入無限幣位址 (比如說 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <source>Error signing</source>
@@ -1197,7 +1197,7 @@ Address: %4
     </message>
     <message>
         <source>Connect to the Bitcon network through a SOCKS4 proxy (e.g. when connecting through Tor)</source>
-        <translation type="obsolete">透過 SOCKS4 代理伺服器連線至位元幣網路 (比如說透過 Tor)</translation>
+        <translation type="obsolete">透過 SOCKS4 代理伺服器連線至無限幣網路 (比如說透過 Tor)</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1420,7 +1420,7 @@ Address: %4
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="obsolete">顯示的資訊可能是過期的. 與位元幣網路的連線建立後, 你的錢包會自動和網路同步, 但這個步驟還沒完成.</translation>
+        <translation type="obsolete">顯示的資訊可能是過期的. 與無限幣網路的連線建立後, 你的錢包會自動和網路同步, 但這個步驟還沒完成.</translation>
     </message>
     <message>
         <location filename="../forms/overviewpage.ui" line="89"/>
@@ -1460,12 +1460,12 @@ Address: %4
     </message>
     <message>
         <location filename="../forms/overviewpage.ui" line="217"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;http://www.ifc123.top/?r=ifc1910&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Navigation Site&lt;/span&gt;&lt;/a&gt; | &lt;a href=&quot;https://chainz.cryptoid.info/ifc/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Blockchain Explorer&lt;/span&gt;&lt;/a&gt; | &lt;a href=&quot;https://www.ifc123.net/archives/147.html&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Pool List&lt;/span&gt;&lt;/a&gt; | &lt;a href=&quot;https://github.com/withu2018/infinitecoin&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Github&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Navigation Site&lt;/span&gt;&lt;/a&gt; | &lt;a href=&quot;&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Blockchain Explorer&lt;/span&gt;&lt;/a&gt; | &lt;a href=&quot;&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Pool List&lt;/span&gt;&lt;/a&gt; | &lt;a href=&quot;&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Github&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../forms/overviewpage.ui" line="382"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;https://www.ifc123.net/archives/108.html&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Version 1.9.1 (2018-08-16)&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Version 1.9.1 (2018-08-16)&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1569,7 +1569,7 @@ Address: %4
     <name>RPCConsole</name>
     <message>
         <source>Bitcoin debug window</source>
-        <translation type="obsolete">位元幣除錯視窗</translation>
+        <translation type="obsolete">無限幣除錯視窗</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="49"/>
@@ -1651,7 +1651,7 @@ Address: %4
     </message>
     <message>
         <source>Open the Bitcoin debug logfile from the current data directory. This can take a few seconds for large logfiles.</source>
-        <translation type="obsolete">從目前的資料目錄下開啓位元幣的除錯紀錄檔. 當紀錄檔很大時可能要花好幾秒的時間.</translation>
+        <translation type="obsolete">從目前的資料目錄下開啓無限幣的除錯紀錄檔. 當紀錄檔很大時可能要花好幾秒的時間.</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="331"/>
@@ -1710,7 +1710,7 @@ Address: %4
     </message>
     <message>
         <source>Welcome to the Bitcoin RPC console.</source>
-        <translation type="obsolete">歡迎使用位元幣 RPC 主控台.</translation>
+        <translation type="obsolete">歡迎使用無限幣 RPC 主控台.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="297"/>
@@ -1918,7 +1918,7 @@ Address: %4
     </message>
     <message>
         <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation type="obsolete">輸入位元幣位址 (比如說 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <translation type="obsolete">輸入無限幣位址 (比如說 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="27"/>
@@ -2694,11 +2694,11 @@ Address: %4
     </message>
     <message>
         <source>Enter the message and signature below (be careful to correctly copy newlines, spaces, tabs and other invisible characters) to obtain the Bitcoin address used to sign the message.</source>
-        <translation type="obsolete">請在下面輸入訊息與簽章(有些字元是看不到的, 如換行, 空格, 跳位符號等, 請小心並正確地複製), 以獲知用來簽署該訊息的位元幣位址.</translation>
+        <translation type="obsolete">請在下面輸入訊息與簽章(有些字元是看不到的, 如換行, 空格, 跳位符號等, 請小心並正確地複製), 以獲知用來簽署該訊息的無限幣位址.</translation>
     </message>
     <message>
         <source>Verify a message and obtain the Bitcoin address used to sign the message</source>
-        <translation type="obsolete">驗證一則訊息, 並獲知用來簽署該訊息的位元幣位址</translation>
+        <translation type="obsolete">驗證一則訊息, 並獲知用來簽署該訊息的無限幣位址</translation>
     </message>
     <message>
         <source>&amp;Verify Message</source>
@@ -2722,7 +2722,7 @@ Address: %4
     </message>
     <message>
         <source>Enter Bitcoin signature</source>
-        <translation type="obsolete">輸入位元幣簽章</translation>
+        <translation type="obsolete">輸入無限幣簽章</translation>
     </message>
     <message>
         <source>Click &quot;Verify Message&quot; to obtain address</source>
@@ -2784,7 +2784,7 @@ Address: %4
     <name>bitcoin-core</name>
     <message>
         <source>Bitcoin version</source>
-        <translation type="obsolete">位元幣版本</translation>
+        <translation type="obsolete">無限幣版本</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="138"/>
@@ -2827,13 +2827,13 @@ Address: %4
     <message>
         <location filename="../bitcoinstrings.cpp" line="87"/>
         <source>Generate coins</source>
-        <translation>生產位元幣
+        <translation>生產無限幣
 </translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="73"/>
         <source>Don&apos;t generate coins</source>
-        <translation>不生產位元幣
+        <translation>不生產無限幣
 </translation>
     </message>
     <message>
@@ -3100,11 +3100,11 @@ SSL 選項: (SSL 設定程序請見 Bitcoin Wiki)
     </message>
     <message>
         <source>Cannot obtain a lock on data directory %s.  Bitcoin is probably already running.</source>
-        <translation type="obsolete">無法鎖定資料目錄 %s. 也許位元幣已經在執行了.</translation>
+        <translation type="obsolete">無法鎖定資料目錄 %s. 也許無限幣已經在執行了.</translation>
     </message>
     <message>
         <source>Bitcoin</source>
-        <translation type="obsolete">位元幣</translation>
+        <translation type="obsolete">無限幣</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="134"/>
@@ -3154,7 +3154,7 @@ SSL 選項: (SSL 設定程序請見 Bitcoin Wiki)
     </message>
     <message>
         <source>Wallet needed to be rewritten: restart Bitcoin to complete</source>
-        <translation type="obsolete">錢包需要重寫: 請重啟位元幣來完成</translation>
+        <translation type="obsolete">錢包需要重寫: 請重啟無限幣來完成</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="76"/>
@@ -3251,7 +3251,7 @@ SSL 選項: (SSL 設定程序請見 Bitcoin Wiki)
     </message>
     <message>
         <source>Unable to bind to %s on this computer. Bitcoin is probably already running.</source>
-        <translation type="obsolete">無法和這台電腦上的 %s 繫結. 也許位元幣已經在執行了.</translation>
+        <translation type="obsolete">無法和這台電腦上的 %s 繫結. 也許無限幣已經在執行了.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="86"/>
@@ -3470,7 +3470,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong Bitcoin will not work properly.</source>
-        <translation type="obsolete">警告: 請檢查電腦時間日期是否正確. 位元幣無法在時鐘不準的情況下正常運作.</translation>
+        <translation type="obsolete">警告: 請檢查電腦時間日期是否正確. 無限幣無法在時鐘不準的情況下正常運作.</translation>
     </message>
 </context>
 </TS>
