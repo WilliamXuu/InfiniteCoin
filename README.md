@@ -11,11 +11,17 @@ Infinitecoin is a fork of Litecoin version. Like Litecoin it uses scrypt as a pr
 
 Development process
 ===================
+2020-1-3  1.9.8.0
+--
+1. Delete access checkip.dyndns.org and www.showmyip.com (since 1.9.8.0)
+2. Test network failed to open issue has been fixed (since 1.9.8.0)
+3. Maximum number of restored nodes is 16 (reverted to 1.8.8.0)
+
 
 2019-10-03  1.9.1.9  
 --
 1. Fix the problem which the reward overflows after the 64th time block reward halving.
-Refer to the Bitcoin 0.9.2 CR1 revision method on June 1, 2014.
+Refer to the Bitcoin 0.9.2 rc1 revision method on June 1, 2014.
 
 
 2019-8-20  1.9.1.8  

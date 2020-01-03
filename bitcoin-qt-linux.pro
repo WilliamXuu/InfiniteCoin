@@ -1,7 +1,7 @@
 TEMPLATE = app
 TARGET = infinitecoin-qt
 macx:TARGET = "Infinitecoin-Qt"
-VERSION = 1.9.2.0
+VERSION = 1.9.8.0
 INCLUDEPATH += src src/json src/qt
 QT += core gui network
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
@@ -22,7 +22,6 @@ CONFIG += thread
 OBJECTS_DIR = build
 MOC_DIR = build
 UI_DIR = build
-
 
 # use: qmake "RELEASE=1"
 contains(RELEASE, 1) {
@@ -65,7 +64,7 @@ contains(USE_QRCODE, 1) {
 #  or: qmake "USE_UPNP=0" (disabled by default)
 #  or: qmake "USE_UPNP=-" (not supported)
 # miniupnpc (http://miniupnp.free.fr/files/) must be installed for support
-contains(USE_UPNP, 0) {
+contains(USE_UPNP, -) {
     message(Building without UPNP support)
 } else {
     message(Building with UPNP support)
@@ -88,7 +87,7 @@ contains(USE_DBUS, 1) {
 # use: qmake "USE_IPV6=1" ( enabled by default; default)
 #  or: qmake "USE_IPV6=0" (disabled by default)
 #  or: qmake "USE_IPV6=-" (not supported)
-contains(USE_IPV6, 0) {
+contains(USE_IPV6, -) {
     message(Building without IPv6 support)
 } else {
     count(USE_IPV6, 0) {
