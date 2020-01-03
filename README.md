@@ -12,7 +12,7 @@ Infinitecoin is a fork of Litecoin version. Like Litecoin it uses scrypt as a pr
 Development process
 ===================
 2020-1-3  1.9.8.0
---
+-- 
 1. Delete access checkip.dyndns.org and www.showmyip.com (since 1.9.8.0)
 2. Test network failed to open issue has been fixed (since 1.9.8.0)
 3. Maximum number of restored nodes is 16 (reverted to 1.8.8.0)
