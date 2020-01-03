@@ -38,7 +38,7 @@ const std::string CLIENT_NAME("Satoshi");
 #define GIT_ARCHIVE 1
 #ifdef GIT_ARCHIVE
 #    define GIT_COMMIT_ID "$Format:%h$"
-#    define GIT_COMMIT_DATE "$Format:%cD$"
+#    define GIT_COMMIT_DATE "$Format:%cD"
 #endif
 
 #define STRINGIFY(s) #s
