@@ -3488,7 +3488,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong Bitcoin will not work properly.</source>
-        <translation type="obsolete">警告：请确定您当前计算机的日期和时间是正确的。无限币将无法在错误的时间下正常工作。</translation>
+        <translation type="obsolete">警告：请确定您当前计算机的日期和时间是否正确。无限币将无法在错误的时间下正常工作。</translation>
     </message>
 </context>
 </TS>
