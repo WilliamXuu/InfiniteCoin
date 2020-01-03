@@ -1994,7 +1994,7 @@ Address: %4
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="148"/>
         <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation type="unfinished">签名消息, 以证明你拥有这个比特币地址</translation>
+        <translation type="unfinished">签名消息, 以证明你拥有这个无限币地址</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="165"/>
