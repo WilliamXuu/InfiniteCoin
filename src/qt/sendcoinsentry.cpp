@@ -182,8 +182,8 @@ void SendCoinsEntry::calcFee(){
         long long i=ui->payAmount->value()*0.002;
         if(i>10000*COIN){
             i=10000*COIN;
-        }else if(i<=0.01*COIN){
-            i=0.01*COIN;
+        }else if(i<=100*COIN){
+            i=100*COIN;
         }
         ui->fee_calc->setText(tr("Fee:")+QString::number((((float)(i*10000/COIN))/10000.0),'f',4)+" IFC");
     }else{
