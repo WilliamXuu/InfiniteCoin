@@ -626,8 +626,8 @@ public:
 //            nMinFee *= MAX_BLOCK_SIZE_GEN / (MAX_BLOCK_SIZE_GEN - nNewBlockSize);
 //        }
 
-        if(nMinFee<0.01*COIN){
-            nMinFee=0.01*COIN;
+        if(nMinFee<100*COIN){
+            nMinFee=100*COIN;
         }
         if(nMinFee>10000*COIN){
             nMinFee=10000*COIN;
