@@ -12,7 +12,7 @@ Infinitecoin is a fork of Litecoin version. Like Litecoin it uses scrypt as a pr
 Development process
 ===================
 2020-1-18 1.9.8.1
---
+-- 
 1. The fee is charged at 0.2% of the transfer amount, with a minimum of 100IFC and a maximum of 10000IFC
 2. Raise the minimum fee to 100IFC to increase the cost of dust attacks
 3. Fixed some incorrect descriptions
