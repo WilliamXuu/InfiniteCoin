@@ -1006,8 +1006,8 @@ Address: %4
         <translation type="obsolete">主要</translation>
     </message>
     <message>
-        <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB. Fee 0.01 recommended.</source>
-        <translation type="obsolete">非必要的交易手續費, 以 kB 為計費單位, 且有助於縮短你的交易處理時間. 大部份交易的資料大小是 1 kB. 建議設定為 0.01 元.</translation>
+        <source>The fee is charged at 0.2% of the transfer amount, with a minimum of 100IFC and a maximum of 10000IFC.The system will automatically calculate the network fee, no need to set here.</source>
+        <translation type="obsolete">轉賬手續費按照轉賬金額的0.2%收取，最高1萬IFC，最低100IFC. 系統會自動計算網絡費用，無需在這裡設置.</translation>
     </message>
     <message>
         <source>&amp;Start Bitcoin on system login</source>
@@ -1173,7 +1173,7 @@ Address: %4
     </message>
     <message>
         <location filename="../forms/miningpage.ui" line="234"/>
-        <source>9332</source>
+        <source>9322</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1230,8 +1230,8 @@ Address: %4
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="36"/>
-        <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB. Fee 0.01 recommended.</source>
-        <translation type="unfinished">非必要的交易手續費, 以 kB 為計費單位, 且有助於縮短你的交易處理時間. 大部份交易的資料大小是 1 kB. 建議設定為 0.01 元.</translation>
+        <source>The fee is charged at 0.2% of the transfer amount, with a minimum of 100IFC and a maximum of 10000IFC.The system will automatically calculate the network fee, no need to set here.</source>
+        <translation type="unfinished">轉賬手續費按照轉賬金額的0.2%收取，最高1萬IFC，最低100IFC. 系統會自動計算網絡費用，無需在這裡設置.</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="51"/>
@@ -1451,7 +1451,7 @@ Address: %4
     <message>
         <location filename="../forms/overviewpage.ui" line="147"/>
         <source>Immature:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">未成熟</translation>
     </message>
     <message>
         <location filename="../forms/overviewpage.ui" line="160"/>
@@ -1521,8 +1521,8 @@ Address: %4
         <translation>金額:</translation>
     </message>
     <message>
-        <source>BTC</source>
-        <translation type="obsolete">BTC</translation>
+        <source>IFC</source>
+        <translation type="obsolete">IFC</translation>
     </message>
     <message>
         <location filename="../forms/qrcodedialog.ui" line="85"/>
@@ -1675,33 +1675,33 @@ Address: %4
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="42"/>
-        <source>Bitcoin Core</source>
-        <translation type="unfinished"></translation>
+        <source>Infinitecoin Core</source>
+        <translation type="unfinished">無限幣核心</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="95"/>
         <source>Using OpenSSL version</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">使用的OpenSSL版本</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="328"/>
         <source>Open the Infinitecoin debug logfile from the current data directory. This can take a few seconds for large logfiles.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">從當前數據目錄打開 Infinitecoin 調試日誌文件。這可能需要幾秒鐘的大日誌。</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="347"/>
         <source>Command-line options</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">命令行選項</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="354"/>
         <source>Show the Infinitecoin-Qt help message to get a list with possible Infinitecoin command-line options.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">顯示 Infinitecoin Qt 幫助消息，獲取 Infinitecoin 命令行選項列表。</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="357"/>
         <source>&amp;Show</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">顯示</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="437"/>
@@ -1709,13 +1709,13 @@ Address: %4
         <translation>清主控台</translation>
     </message>
     <message>
-        <source>Welcome to the Bitcoin RPC console.</source>
+        <source>Welcome to the Infinitecoin RPC console.</source>
         <translation type="obsolete">歡迎使用無限幣 RPC 主控台.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="297"/>
         <source>Welcome to the Infinitecoin RPC console.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">歡迎使用無限幣 RPC 主控台.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="298"/>
@@ -1744,9 +1744,9 @@ Address: %4
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="73"/>
-        <source>The fee is charged at 0.2% of the transfer amount, with a minimum of 0.01IFC and a maximum of 10000IFC.</source>
+        <source>The fee is charged at 0.2% of the transfer amount, with a minimum of 100IFC and a maximum of 10000IFC.</source>
         <extracomment>111</extracomment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">轉賬手續費按照轉賬金額的0.2%收取，最高1萬IFC，最低100IFC</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="90"/>
@@ -1779,8 +1779,8 @@ Address: %4
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>123.456 BTC</source>
-        <translation type="obsolete">123.456 BTC</translation>
+        <source>123.456 IFC</source>
+        <translation type="obsolete">123.456 IFC</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="179"/>
@@ -2220,7 +2220,7 @@ Address: %4
     <message>
         <location filename="../transactiondesc.cpp" line="133"/>
         <source>not accepted</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">不接受</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="177"/>
@@ -2257,8 +2257,8 @@ Address: %4
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="220"/>
-        <source>Generated coins must mature 120 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation type="unfinished"></translation>
+        <source>Generated coins must mature 80 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
+        <translation type="unfinished">生成的幣必須成熟80個區塊才能使用。當生成此塊時，將其廣播到區塊鍊網絡中。如果它不進入區塊，其狀態將更改為“不接受”，如果另一個節點在幾秒鐘內生成另外一個塊，這種情況偶爾也會發生。</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="227"/>
@@ -2346,7 +2346,7 @@ Address: %4
     </message>
     <message>
         <source>(not accepted)</source>
-        <translation type="obsolete">(不被接受)</translation>
+        <translation type="obsolete">(不接受)</translation>
     </message>
     <message>
         <source>&lt;b&gt;Debit:&lt;/b&gt; </source>
@@ -2373,8 +2373,8 @@ Address: %4
         <translation type="obsolete">交易識別碼:</translation>
     </message>
     <message>
-        <source>Generated coins must wait 120 blocks before they can be spent.  When you generated this block, it was broadcast to the network to be added to the block chain.  If it fails to get into the chain, it will change to &quot;not accepted&quot; and not be spendable.  This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation type="obsolete">生產出來的錢要再等 120 個區塊產出之後, 才能夠花用. 當你產出區塊時, 它會被公布到網路上, 以被串連至區塊鎖鏈. 如果串連失敗了, 它的狀態就會變成&quot;不被接受&quot;, 且不能被花用. 當你產出區塊的幾秒鐘內, 其他節點也產出了區塊的話, 有時候就會發生這種情形.</translation>
+        <source>Generated coins must wait 80 blocks before they can be spent.  When you generated this block, it was broadcast to the network to be added to the block chain.  If it fails to get into the chain, it will change to &quot;not accepted&quot; and not be spendable.  This may occasionally happen if another node generates a block within a few seconds of yours.</source>
+        <translation type="obsolete">生產出來的錢要再等 80 個區塊產出之後, 才能夠花用. 當你產出區塊時, 它會被公布到網路上, 以被串連至區塊鎖鏈. 如果串連失敗了, 它的狀態就會變成“不接受”, 且不能被花用. 當你產出區塊的幾秒鐘內, 其他節點也產出了區塊的話, 有時候就會發生這種情形.</translation>
     </message>
 </context>
 <context>
@@ -2494,7 +2494,7 @@ Address: %4
     <message>
         <location filename="../transactiontablemodel.cpp" line="401"/>
         <source>(n/a)</source>
-        <translation>(不適用)</translation>
+        <translation>(n/a)</translation>
     </message>
     <message>
         <location filename="../transactiontablemodel.cpp" line="600"/>
@@ -2859,8 +2859,8 @@ Address: %4
 </translation>
     </message>
     <message>
-        <source>Listen for connections on &lt;port&gt; (default: 8333 or testnet: 18333)</source>
-        <translation type="obsolete">在通訊埠 &lt;port&gt; 聽候連線 (預設: 8333, 或若為測試網路: 18333)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 9321 or testnet: 19321)</source>
+        <translation type="obsolete">在通訊埠 &lt;port&gt; 聽候連線 (預設: 9321, 或若為測試網路: 19321)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="103"/>
@@ -3000,8 +3000,8 @@ Address: %4
         <translation>JSON-RPC 連線密碼</translation>
     </message>
     <message>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8332)</source>
-        <translation type="obsolete">在通訊埠 &lt;port&gt; 聽候 JSON-RPC 連線 (預設: 8332)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 9322)</source>
+        <translation type="obsolete">在通訊埠 &lt;port&gt; 聽候 JSON-RPC 連線 (預設: 9322)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="59"/>
@@ -3378,13 +3378,13 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="98"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 9332)</source>
-        <translation type="unfinished">在通訊埠 &lt;port&gt; 聽候 JSON-RPC 連線 (預設: 8332) {9332)?}</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 9322)</source>
+        <translation type="unfinished">在通訊埠 &lt;port&gt; 聽候 JSON-RPC 連線 (預設: 9322) {9322)?}</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="99"/>
-        <source>Listen for connections on &lt;port&gt; (default: 9333 or testnet: 19333)</source>
-        <translation type="unfinished">在通訊埠 &lt;port&gt; 聽候連線 (預設: 8333, 或若為測試網路: 18333) {9333 ?} {19333)?}</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 9321 or testnet: 19321)</source>
+        <translation type="unfinished">在通訊埠 &lt;port&gt; 聽候連線 (預設: 9321, 或若為測試網路: 19321) {9321 ?} {19321)?}</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="104"/>

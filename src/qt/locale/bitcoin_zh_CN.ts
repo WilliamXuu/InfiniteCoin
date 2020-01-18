@@ -1005,8 +1005,8 @@ Address: %4
         <translation type="obsolete">主选项</translation>
     </message>
     <message>
-        <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB. Fee 0.01 recommended.</source>
-        <translation type="obsolete">建议支付交易费用，有助于您的交易得到尽快处理. 建议支付1个无限币.</translation>
+        <source>The fee is charged at 0.2% of the transfer amount, with a minimum of 100IFC and a maximum of 10000IFC.The system will automatically calculate the network fee, no need to set here.</source>
+        <translation type="obsolete">转账手续费按照转账金额的0.2%收取，最高1万IFC，最低100IFC. 系统会自动计算网络费用，无需在这里设置.</translation>
     </message>
     <message>
         <source>&amp;Start Bitcoin on system login</source>
@@ -1172,7 +1172,7 @@ Address: %4
     </message>
     <message>
         <location filename="../forms/miningpage.ui" line="234"/>
-        <source>9332</source>
+        <source>9322</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1229,8 +1229,8 @@ Address: %4
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="36"/>
-        <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB. Fee 0.01 recommended.</source>
-        <translation type="unfinished">建议支付交易费用，有助于您的交易得到尽快处理. 建议支付1个无限币.</translation>
+        <source>The fee is charged at 0.2% of the transfer amount, with a minimum of 100IFC and a maximum of 10000IFC.The system will automatically calculate the network fee, no need to set here.</source>
+        <translation type="unfinished">转账手续费按照转账金额的0.2%收取，最高1万IFC，最低100IFC. 系统会自动计算网络费用，无需在这里设置.</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="51"/>
@@ -1524,8 +1524,8 @@ Address: %4
         <translation>金额：</translation>
     </message>
     <message>
-        <source>BTC</source>
-        <translation type="obsolete">BTC</translation>
+        <source>IFC</source>
+        <translation type="obsolete">IFC</translation>
     </message>
     <message>
         <location filename="../forms/qrcodedialog.ui" line="85"/>
@@ -1678,8 +1678,8 @@ Address: %4
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="42"/>
-        <source>Bitcoin Core</source>
-        <translation type="unfinished">核心</translation>
+        <source>Infinitecoin Core</source>
+        <translation type="unfinished">无限币核心</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="95"/>
@@ -1712,13 +1712,13 @@ Address: %4
         <translation>清空控制台</translation>
     </message>
     <message>
-        <source>Welcome to the Bitcoin RPC console.</source>
-        <translation type="obsolete">欢迎来到 RPC 控制台.</translation>
+        <source>Welcome to the Infinitecoin RPC console.</source>
+        <translation type="obsolete">欢迎使用无限币 RPC 控制台.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="297"/>
         <source>Welcome to the Infinitecoin RPC console.</source>
-        <translation type="unfinished">欢迎来到 RPC 控制台.</translation>
+        <translation type="unfinished">欢迎使用无限币 RPC 控制台.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="298"/>
@@ -1747,9 +1747,9 @@ Address: %4
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="73"/>
-        <source>The fee is charged at 0.2% of the transfer amount, with a minimum of 0.01IFC and a maximum of 10000IFC.</source>
+        <source>The fee is charged at 0.2% of the transfer amount, with a minimum of 100IFC and a maximum of 10000IFC.</source>
         <extracomment>111</extracomment>
-        <translation type="unfinished">转账手续费按照转账金额的0.2%收取，最高1万IFC，最低0.01IFC</translation>
+        <translation type="unfinished">转账手续费按照转账金额的0.2%收取，最高1万IFC，最低100IFC</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="90"/>
@@ -1782,8 +1782,8 @@ Address: %4
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>123.456 BTC</source>
-        <translation type="obsolete">123.456 BTC</translation>
+        <source>123.456 IFC</source>
+        <translation type="obsolete">123.456 IFC</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="179"/>
@@ -2227,7 +2227,7 @@ Address: %4
     <message>
         <location filename="../transactiondesc.cpp" line="133"/>
         <source>not accepted</source>
-        <translation type="unfinished">未接受</translation>
+        <translation type="unfinished">不接受</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="177"/>
@@ -2264,8 +2264,8 @@ Address: %4
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="220"/>
-        <source>Generated coins must mature 120 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation type="unfinished">生成的币必须成熟60个区块才能使用。当生成此块时，将其广播到区块链网络中。如果它不进入区块，其状态将更改为“不能接受”，如果另一个节点在几秒钟内生成另外一个块，这种情况偶尔也会发生。</translation>
+        <source>Generated coins must mature 80 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
+        <translation type="unfinished">生成的币必须成熟80个区块才能使用。当生成此块时，将其广播到区块链网络中。如果它不进入区块，其状态将更改为“不接受”，如果另一个节点在几秒钟内生成另外一个块，这种情况偶尔也会发生。</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="227"/>
@@ -2353,7 +2353,7 @@ Address: %4
     </message>
     <message>
         <source>(not accepted)</source>
-        <translation type="obsolete">(未接受)</translation>
+        <translation type="obsolete">(不接受)</translation>
     </message>
     <message>
         <source>&lt;b&gt;Debit:&lt;/b&gt; </source>
@@ -2380,8 +2380,8 @@ Address: %4
         <translation type="obsolete">交易ID：</translation>
     </message>
     <message>
-        <source>Generated coins must wait 120 blocks before they can be spent.  When you generated this block, it was broadcast to the network to be added to the block chain.  If it fails to get into the chain, it will change to &quot;not accepted&quot; and not be spendable.  This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation type="obsolete">新生产的无限币必须等待60个数据块之后才能被使用. 当您生产出此数据块,它将被广播至无限币网络并添加至数据链. 如果添加到数据链失败, 它的状态将变成&quot;不被接受&quot;，生产的无限币将不能使用. 在您生产新数据块的几秒钟内, 如果其它节点也生产出同样的数据块，有可能会发生这种情况.</translation>
+        <source>Generated coins must wait 80 blocks before they can be spent.  When you generated this block, it was broadcast to the network to be added to the block chain.  If it fails to get into the chain, it will change to &quot;not accepted&quot; and not be spendable.  This may occasionally happen if another node generates a block within a few seconds of yours.</source>
+        <translation type="obsolete">新生产的无限币必须等待80个数据块之后才能被使用. 当您生产出此数据块,它将被广播至无限币网络并添加至数据链. 如果添加到数据链失败, 它的状态将变成&quot;不被接受&quot;，生产的无限币将不能使用. 在您生产新数据块的几秒钟内, 如果其它节点也生产出同样的数据块，有可能会发生这种情况.</translation>
     </message>
 </context>
 <context>
@@ -2471,7 +2471,7 @@ Address: %4
     <message>
         <location filename="../transactiontablemodel.cpp" line="311"/>
         <source>Generated but not accepted</source>
-        <translation>已生成但未被接受</translation>
+        <translation>已生成但不被接受</translation>
     </message>
     <message>
         <location filename="../transactiontablemodel.cpp" line="354"/>
@@ -2866,8 +2866,8 @@ Address: %4
 </translation>
     </message>
     <message>
-        <source>Listen for connections on &lt;port&gt; (default: 8333 or testnet: 18333)</source>
-        <translation type="obsolete">监听端口连接 &lt;port&gt; (缺省: 8333 or testnet: 18333)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 9321 or testnet: 19321)</source>
+        <translation type="obsolete">监听端口连接 &lt;port&gt; (缺省: 9321 or testnet: 19321)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="103"/>
@@ -3011,8 +3011,8 @@ Address: %4
 </translation>
     </message>
     <message>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8332)</source>
-        <translation type="obsolete">JSON-RPC连接监听&lt;端口&gt; (默认为 8332)
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 9322)</source>
+        <translation type="obsolete">JSON-RPC连接监听&lt;端口&gt; (默认为 9322)
 </translation>
     </message>
     <message>
@@ -3255,7 +3255,7 @@ SSL 选项: (SSL 安装教程具体见无限币维基百科)
     <message>
         <location filename="../bitcoinstrings.cpp" line="101"/>
         <source>Loading block index...</source>
-        <translation>请耐心等待，加载区块索引需要一定的时间...</translation>
+        <translation>正在载入区块索引...</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="57"/>
@@ -3295,7 +3295,7 @@ SSL 选项: (SSL 安装教程具体见无限币维基百科)
     <message>
         <location filename="../bitcoinstrings.cpp" line="41"/>
         <source>Warning: -paytxfee is set very high. This is the transaction fee you will pay if you send a transaction.</source>
-        <translation type="unfinished">警告: -paytxfee 交易费请按照转账金额的0.2%设置，最高1万IFC，最低0.01IFC。</translation>
+        <translation type="unfinished">警告: -paytxfee 交易费请按照转账金额的0.2%设置，最高1万IFC，最低100IFC。</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="102"/>
@@ -3397,13 +3397,13 @@ rpcpassword = %s
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="98"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 9332)</source>
-        <translation type="unfinished">JSON-RPC连接监听&lt;端口&gt; (默认为 9332)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 9322)</source>
+        <translation type="unfinished">JSON-RPC连接监听&lt;端口&gt; (默认为 9322)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="99"/>
-        <source>Listen for connections on &lt;port&gt; (default: 9333 or testnet: 19333)</source>
-        <translation type="unfinished">监听端口连接 &lt;port&gt; default: 9333 or testnet: 19333</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 9321 or testnet: 19321)</source>
+        <translation type="unfinished">监听端口连接 &lt;port&gt; default: 9321 or testnet: 19321</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="104"/>
@@ -3488,7 +3488,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong Bitcoin will not work properly.</source>
-        <translation type="obsolete">警告：请确定您当前计算机的日期和时间是否正确。无限币将无法在错误的时间下正常工作。</translation>
+        <translation type="obsolete">警告：请确定您当前计算机的日期和时间是正确的。无限币将无法在错误的时间下正常工作。</translation>
     </message>
 </context>
 </TS>

@@ -1019,8 +1019,8 @@ Address: %4
         <translation type="obsolete">Основное</translation>
     </message>
     <message>
-        <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB. Fee 0.01 recommended.</source>
-        <translation type="obsolete">Опциональная комиссия за каждый КБ транзакции, которая позволяет быть уверенным, что Ваша транзакция будет обработана быстро.  Большинство транзакций занимают 1КБ.  Рекомендуется комиссия 0.01.</translation>
+        <source>The fee is charged at 0.2% of the transfer amount, with a minimum of 100IFC and a maximum of 10000IFC.The system will automatically calculate the network fee, no need to set here.</source>
+        <translation type="obsolete"></translation>
     </message>
     <message>
         <source>&amp;Start Bitcoin on system login</source>
@@ -1186,7 +1186,7 @@ Address: %4
     </message>
     <message>
         <location filename="../forms/miningpage.ui" line="234"/>
-        <source>9332</source>
+        <source>9322</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1243,8 +1243,8 @@ Address: %4
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="36"/>
-        <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB. Fee 0.01 recommended.</source>
-        <translation type="unfinished">Опциональная комиссия за каждый КБ транзакции, которая позволяет быть уверенным, что Ваша транзакция будет обработана быстро.  Большинство транзакций занимают 1КБ.  Рекомендуется комиссия 0.01.</translation>
+        <source>The fee is charged at 0.2% of the transfer amount, with a minimum of 100IFC and a maximum of 10000IFC.The system will automatically calculate the network fee, no need to set here.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="51"/>
@@ -1534,8 +1534,8 @@ Address: %4
         <translation>Количество:</translation>
     </message>
     <message>
-        <source>BTC</source>
-        <translation type="obsolete">BTC</translation>
+        <source>IFC</source>
+        <translation type="obsolete">IFC</translation>
     </message>
     <message>
         <location filename="../forms/qrcodedialog.ui" line="85"/>
@@ -1688,7 +1688,7 @@ Address: %4
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="42"/>
-        <source>Bitcoin Core</source>
+        <source>Infinitecoin Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1722,8 +1722,8 @@ Address: %4
         <translation>Очистить консоль</translation>
     </message>
     <message>
-        <source>Welcome to the Bitcoin RPC console.</source>
-        <translation type="obsolete">Добро пожаловать в RPC-консоль Bitcoin.</translation>
+        <source>Welcome to the Infinitecoin RPC console.</source>
+        <translation type="obsolete">Добро пожаловать в RPC-консоль Infinitecoin.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="297"/>
@@ -1757,7 +1757,7 @@ Address: %4
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="73"/>
-        <source>The fee is charged at 0.2% of the transfer amount, with a minimum of 0.01IFC and a maximum of 10000IFC.</source>
+        <source>The fee is charged at 0.2% of the transfer amount, with a minimum of 100IFC and a maximum of 10000IFC.</source>
         <extracomment>111</extracomment>
         <translation type="unfinished"></translation>
     </message>
@@ -1792,8 +1792,8 @@ Address: %4
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>123.456 BTC</source>
-        <translation type="obsolete">123.456 BTC</translation>
+        <source>123.456 IFC</source>
+        <translation type="obsolete">123.456 IFC</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="179"/>
@@ -2276,7 +2276,7 @@ Address: %4
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="220"/>
-        <source>Generated coins must mature 120 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
+        <source>Generated coins must mature 80 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2392,8 +2392,8 @@ Address: %4
         <translation type="obsolete">Идентификатор транзакции:</translation>
     </message>
     <message>
-        <source>Generated coins must wait 120 blocks before they can be spent.  When you generated this block, it was broadcast to the network to be added to the block chain.  If it fails to get into the chain, it will change to &quot;not accepted&quot; and not be spendable.  This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation type="obsolete">Сгенерированные монеты должны подождать 120 блоков прежде, чем они смогут быть отправлены.  Когда Вы сгенерировали этот блок он был отправлен в сеть, чтобы он был добавлен к цепочке блоков.  Если данная процедура не удастся, статус изменится на «не подтверждено» и монеты будут непередаваемыми.  Такое может случайно происходить в случае, если другой узел сгенерирует блок на несколько секунд раньше.</translation>
+        <source>Generated coins must wait 80 blocks before they can be spent.  When you generated this block, it was broadcast to the network to be added to the block chain.  If it fails to get into the chain, it will change to &quot;not accepted&quot; and not be spendable.  This may occasionally happen if another node generates a block within a few seconds of yours.</source>
+        <translation type="obsolete">Сгенерированные монеты должны подождать 80 блоков прежде, чем они смогут быть отправлены.  Когда Вы сгенерировали этот блок он был отправлен в сеть, чтобы он был добавлен к цепочке блоков.  Если данная процедура не удастся, статус изменится на «не подтверждено» и монеты будут непередаваемыми.  Такое может случайно происходить в случае, если другой узел сгенерирует блок на несколько секунд раньше.</translation>
     </message>
 </context>
 <context>
@@ -2875,8 +2875,8 @@ Address: %4
         <translation>Укажите таймаут соединения (в миллисекундах)</translation>
     </message>
     <message>
-        <source>Listen for connections on &lt;port&gt; (default: 8333 or testnet: 18333)</source>
-        <translation type="obsolete">Принимать входящие подключения на &lt;port&gt; (по умолчанию: 8333 или 18333 в тестовой сети)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 9321 or testnet: 19321)</source>
+        <translation type="obsolete">Принимать входящие подключения на &lt;port&gt; (по умолчанию: 9321 или 19321 в тестовой сети)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="103"/>
@@ -3013,8 +3013,8 @@ Address: %4
         <translation>Пароль для подключений JSON-RPC</translation>
     </message>
     <message>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8332)</source>
-        <translation type="obsolete">Ожидать подключения JSON-RPC на &lt;порт&gt; (по умолчанию: 8332)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 9322)</source>
+        <translation type="obsolete">Ожидать подключения JSON-RPC на &lt;порт&gt; (по умолчанию: 9322)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="59"/>
@@ -3383,13 +3383,13 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="98"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 9332)</source>
-        <translation type="unfinished">Ожидать подключения JSON-RPC на &lt;порт&gt; (по умолчанию: 8332) {9332)?}</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 9322)</source>
+        <translation type="unfinished">Ожидать подключения JSON-RPC на &lt;порт&gt; (по умолчанию: 9322) {9322)?}</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="99"/>
-        <source>Listen for connections on &lt;port&gt; (default: 9333 or testnet: 19333)</source>
-        <translation type="unfinished">Принимать входящие подключения на &lt;port&gt; (по умолчанию: 8333 или 18333 в тестовой сети) {9333 ?} {19333)?}</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 9321 or testnet: 19321)</source>
+        <translation type="unfinished">Принимать входящие подключения на &lt;port&gt; (по умолчанию: 9321 или 19321 в тестовой сети) {9321 ?} {19321)?}</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="104"/>

@@ -927,8 +927,8 @@ Adresas: %4</translation>
         <translation type="obsolete">Pagrindinis</translation>
     </message>
     <message>
-        <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB. Fee 0.01 recommended.</source>
-        <translation type="obsolete">Neprivaloma sandorio mokestis už KB, kuris padeda įsitikinti, kad jūsų sandoriai tvarkomi greitai. Daugelis sandorių yra tik 1KB dydžio. Rekomenduojamas 0,01 mokestis.</translation>
+        <source>The fee is charged at 0.2% of the transfer amount, with a minimum of 100IFC and a maximum of 10000IFC.The system will automatically calculate the network fee, no need to set here.</source>
+        <translation type="obsolete"></translation>
     </message>
 </context>
 <context>
@@ -1050,7 +1050,7 @@ Adresas: %4</translation>
     </message>
     <message>
         <location filename="../forms/miningpage.ui" line="234"/>
-        <source>9332</source>
+        <source>9322</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1095,8 +1095,8 @@ Adresas: %4</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="36"/>
-        <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB. Fee 0.01 recommended.</source>
-        <translation type="unfinished">Neprivaloma sandorio mokestis už KB, kuris padeda įsitikinti, kad jūsų sandoriai tvarkomi greitai. Daugelis sandorių yra tik 1KB dydžio. Rekomenduojamas 0,01 mokestis.</translation>
+        <source>The fee is charged at 0.2% of the transfer amount, with a minimum of 100IFC and a maximum of 10000IFC.The system will automatically calculate the network fee, no need to set here.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="51"/>
@@ -1378,8 +1378,8 @@ Adresas: %4</translation>
         <translation>Suma:</translation>
     </message>
     <message>
-        <source>BTC</source>
-        <translation type="obsolete">BTC</translation>
+        <source>IFC</source>
+        <translation type="obsolete">IFC</translation>
     </message>
     <message>
         <location filename="../forms/qrcodedialog.ui" line="85"/>
@@ -1520,7 +1520,7 @@ Adresas: %4</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="42"/>
-        <source>Bitcoin Core</source>
+        <source>Infinitecoin Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1585,7 +1585,7 @@ Adresas: %4</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="73"/>
-        <source>The fee is charged at 0.2% of the transfer amount, with a minimum of 0.01IFC and a maximum of 10000IFC.</source>
+        <source>The fee is charged at 0.2% of the transfer amount, with a minimum of 100IFC and a maximum of 10000IFC.</source>
         <extracomment>111</extracomment>
         <translation type="unfinished"></translation>
     </message>
@@ -1620,8 +1620,8 @@ Adresas: %4</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>123.456 BTC</source>
-        <translation type="obsolete">123.456 BTC</translation>
+        <source>123.456 IFC</source>
+        <translation type="obsolete">123.456 IFC</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="179"/>
@@ -2104,7 +2104,7 @@ Adresas: %4</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="220"/>
-        <source>Generated coins must mature 120 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
+        <source>Generated coins must mature 80 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2220,8 +2220,8 @@ Adresas: %4</translation>
         <translation type="obsolete">Sandorio ID:</translation>
     </message>
     <message>
-        <source>Generated coins must wait 120 blocks before they can be spent.  When you generated this block, it was broadcast to the network to be added to the block chain.  If it fails to get into the chain, it will change to &quot;not accepted&quot; and not be spendable.  This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation type="obsolete">Išgautos monetos turi sulaukti 120 blokų, kol jos gali būti naudojamos. Kai sukūrėte šį bloką, jis buvo transliuojamas tinkle ir turėjo būti įtrauktas į blokų grandinę. Jei nepavyksta patekti į grandinę, bus pakeista į &quot;nepriėmė&quot;, o ne &quot;vartojamas&quot;. Tai kartais gali atsitikti, jei kitas mazgas per keletą sekundžių sukuria bloką po jūsų bloko.</translation>
+        <source>Generated coins must wait 80 blocks before they can be spent.  When you generated this block, it was broadcast to the network to be added to the block chain.  If it fails to get into the chain, it will change to &quot;not accepted&quot; and not be spendable.  This may occasionally happen if another node generates a block within a few seconds of yours.</source>
+        <translation type="obsolete">Išgautos monetos turi sulaukti 80 blokų, kol jos gali būti naudojamos. Kai sukūrėte šį bloką, jis buvo transliuojamas tinkle ir turėjo būti įtrauktas į blokų grandinę. Jei nepavyksta patekti į grandinę, bus pakeista į &quot;nepriėmė&quot;, o ne &quot;vartojamas&quot;. Tai kartais gali atsitikti, jei kitas mazgas per keletą sekundžių sukuria bloką po jūsų bloko.</translation>
     </message>
 </context>
 <context>
@@ -2638,8 +2638,8 @@ Adresas: %4</translation>
         <translation>Nustatyti sujungimo trukmę (milisekundėmis)</translation>
     </message>
     <message>
-        <source>Listen for connections on &lt;port&gt; (default: 8333 or testnet: 18333)</source>
-        <translation type="obsolete">Sujungimo klausymas prijungčiai  &lt;port&gt; (pagal nutylėjimą: 8333 arba testnet: 18333)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 9321 or testnet: 19321)</source>
+        <translation type="obsolete">Sujungimo klausymas prijungčiai  &lt;port&gt; (pagal nutylėjimą: 9321 arba testnet: 19321)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="103"/>
@@ -2768,8 +2768,8 @@ Adresas: %4</translation>
         <translation>Slaptažodis JSON-RPC sujungimams</translation>
     </message>
     <message>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8332)</source>
-        <translation type="obsolete">Klausymas JSON-RPC sujungimui prijungčiai &lt;port&gt; (pagal nutylėjimą: 8332)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 9322)</source>
+        <translation type="obsolete">Klausymas JSON-RPC sujungimui prijungčiai &lt;port&gt; (pagal nutylėjimą: 9322)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="59"/>
@@ -3093,13 +3093,13 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="98"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 9332)</source>
-        <translation type="unfinished">Klausymas JSON-RPC sujungimui prijungčiai &lt;port&gt; (pagal nutylėjimą: 8332) {9332)?}</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 9322)</source>
+        <translation type="unfinished">Klausymas JSON-RPC sujungimui prijungčiai &lt;port&gt; (pagal nutylėjimą: 9322) {9322)?}</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="99"/>
-        <source>Listen for connections on &lt;port&gt; (default: 9333 or testnet: 19333)</source>
-        <translation type="unfinished">Sujungimo klausymas prijungčiai  &lt;port&gt; (pagal nutylėjimą: 8333 arba testnet: 18333) {9333 ?} {19333)?}</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 9321 or testnet: 19321)</source>
+        <translation type="unfinished">Sujungimo klausymas prijungčiai  &lt;port&gt; (pagal nutylėjimą: 9321 arba testnet: 19321) {9321 ?} {19321)?}</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="104"/>

@@ -938,8 +938,8 @@ Endereço: %4</translation>
         <translation type="obsolete">Geral</translation>
     </message>
     <message>
-        <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB. Fee 0.01 recommended.</source>
-        <translation type="obsolete">Taxa de transação opcional por kB que ajuda a assegurar que as suas transações serão processadas rapidamente. A maioria das transações tem 1 kB. Taxa de 0.01 recomendada.</translation>
+        <source>The fee is charged at 0.2% of the transfer amount, with a minimum of 100IFC and a maximum of 10000IFC.The system will automatically calculate the network fee, no need to set here.</source>
+        <translation type="obsolete"></translation>
     </message>
 </context>
 <context>
@@ -1069,7 +1069,7 @@ Endereço: %4</translation>
     </message>
     <message>
         <location filename="../forms/miningpage.ui" line="234"/>
-        <source>9332</source>
+        <source>9322</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1114,8 +1114,8 @@ Endereço: %4</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="36"/>
-        <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB. Fee 0.01 recommended.</source>
-        <translation type="unfinished">Taxa de transação opcional por kB que ajuda a assegurar que as suas transações serão processadas rapidamente. A maioria das transações tem 1 kB. Taxa de 0.01 recomendada.</translation>
+        <source>The fee is charged at 0.2% of the transfer amount, with a minimum of 100IFC and a maximum of 10000IFC.The system will automatically calculate the network fee, no need to set here.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="51"/>
@@ -1397,8 +1397,8 @@ Endereço: %4</translation>
         <translation>Quantia:</translation>
     </message>
     <message>
-        <source>BTC</source>
-        <translation type="obsolete">BTC</translation>
+        <source>IFC</source>
+        <translation type="obsolete">IFC</translation>
     </message>
     <message>
         <location filename="../forms/qrcodedialog.ui" line="85"/>
@@ -1539,7 +1539,7 @@ Endereço: %4</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="42"/>
-        <source>Bitcoin Core</source>
+        <source>Infinitecoin Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1604,7 +1604,7 @@ Endereço: %4</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="73"/>
-        <source>The fee is charged at 0.2% of the transfer amount, with a minimum of 0.01IFC and a maximum of 10000IFC.</source>
+        <source>The fee is charged at 0.2% of the transfer amount, with a minimum of 100IFC and a maximum of 10000IFC.</source>
         <extracomment>111</extracomment>
         <translation type="unfinished"></translation>
     </message>
@@ -1639,8 +1639,8 @@ Endereço: %4</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>123.456 BTC</source>
-        <translation type="obsolete">123.456 BTC</translation>
+        <source>123.456 IFC</source>
+        <translation type="obsolete">123.456 IFC</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="179"/>
@@ -2120,7 +2120,7 @@ Endereço: %4</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="220"/>
-        <source>Generated coins must mature 120 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
+        <source>Generated coins must mature 80 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2236,8 +2236,8 @@ Endereço: %4</translation>
         <translation type="obsolete">ID da Transação:</translation>
     </message>
     <message>
-        <source>Generated coins must wait 120 blocks before they can be spent.  When you generated this block, it was broadcast to the network to be added to the block chain.  If it fails to get into the chain, it will change to &quot;not accepted&quot; and not be spendable.  This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation type="obsolete">Moedas geradas deverão maturar por 120 blocos antes de poderem ser gastas.  Quando gerou este bloco, ele foi transmitido para a rede para ser incluído na cadeia de blocos.  Se a inclusão na cadeia de blocos falhar, irá mudar o estado para &quot;não aceite&quot; e as moedas não poderão ser gastas.  Isto poderá acontecer ocasionalmente se outro nó da rede gerar um bloco a poucos segundos de diferença do seu.</translation>
+        <source>Generated coins must wait 80 blocks before they can be spent.  When you generated this block, it was broadcast to the network to be added to the block chain.  If it fails to get into the chain, it will change to &quot;not accepted&quot; and not be spendable.  This may occasionally happen if another node generates a block within a few seconds of yours.</source>
+        <translation type="obsolete">Moedas geradas deverão maturar por 80 blocos antes de poderem ser gastas.  Quando gerou este bloco, ele foi transmitido para a rede para ser incluído na cadeia de blocos.  Se a inclusão na cadeia de blocos falhar, irá mudar o estado para &quot;não aceite&quot; e as moedas não poderão ser gastas.  Isto poderá acontecer ocasionalmente se outro nó da rede gerar um bloco a poucos segundos de diferença do seu.</translation>
     </message>
 </context>
 <context>
@@ -2651,8 +2651,8 @@ Endereço: %4</translation>
         <translation>Especificar tempo de espera da ligação (em millisegundos)</translation>
     </message>
     <message>
-        <source>Listen for connections on &lt;port&gt; (default: 8333 or testnet: 18333)</source>
-        <translation type="obsolete">Escute por ligações em &lt;port&gt; (por defeito: 8333 ou testnet: 18333)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 9321 or testnet: 19321)</source>
+        <translation type="obsolete">Escute por ligações em &lt;port&gt; (por defeito: 9321 ou testnet: 19321)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="103"/>
@@ -2781,8 +2781,8 @@ Endereço: %4</translation>
         <translation>Palavra-passe para ligações JSON-RPC</translation>
     </message>
     <message>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8332)</source>
-        <translation type="obsolete">Escutar por ligações JSON-RPC na porta &lt;port&gt; (por defeito: 8332)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 9322)</source>
+        <translation type="obsolete">Escutar por ligações JSON-RPC na porta &lt;port&gt; (por defeito: 9322)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="59"/>
@@ -3127,13 +3127,13 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="98"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 9332)</source>
-        <translation type="unfinished">Escutar por ligações JSON-RPC na porta &lt;port&gt; (por defeito: 8332) {9332)?}</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 9322)</source>
+        <translation type="unfinished">Escutar por ligações JSON-RPC na porta &lt;port&gt; (por defeito: 9322) {9322)?}</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="99"/>
-        <source>Listen for connections on &lt;port&gt; (default: 9333 or testnet: 19333)</source>
-        <translation type="unfinished">Escute por ligações em &lt;port&gt; (por defeito: 8333 ou testnet: 18333) {9333 ?} {19333)?}</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 9321 or testnet: 19321)</source>
+        <translation type="unfinished">Escute por ligações em &lt;port&gt; (por defeito: 9321 ou testnet: 19321) {9321 ?} {19321)?}</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="104"/>
