@@ -939,8 +939,8 @@ Address: %4
         <translation type="obsolete">ראשי</translation>
     </message>
     <message>
-        <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB. Fee 0.01 recommended.</source>
-        <translation type="obsolete">עמלת פעולה אופציונלית לכל kB תבטיח שהפעולה שלך תעובד בזריזות. רוב הפעולות הן 1 kB. מומלצת עמלה בסך 0.01.</translation>
+        <source>The fee is charged at 0.2% of the transfer amount, with a minimum of 100IFC and a maximum of 10000IFC.The system will automatically calculate the network fee, no need to set here.</source>
+        <translation type="obsolete"></translation>
     </message>
 </context>
 <context>
@@ -1070,7 +1070,7 @@ Address: %4
     </message>
     <message>
         <location filename="../forms/miningpage.ui" line="234"/>
-        <source>9332</source>
+        <source>9322</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1115,8 +1115,8 @@ Address: %4
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="36"/>
-        <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB. Fee 0.01 recommended.</source>
-        <translation type="unfinished">עמלת פעולה אופציונלית לכל kB תבטיח שהפעולה שלך תעובד בזריזות. רוב הפעולות הן 1 kB. מומלצת עמלה בסך 0.01.</translation>
+        <source>The fee is charged at 0.2% of the transfer amount, with a minimum of 100IFC and a maximum of 10000IFC.The system will automatically calculate the network fee, no need to set here.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="51"/>
@@ -1398,7 +1398,7 @@ Address: %4
         <translation>כמות:</translation>
     </message>
     <message>
-        <source>BTC</source>
+        <source>IFC</source>
         <translation type="obsolete">ביטקוין</translation>
     </message>
     <message>
@@ -1540,7 +1540,7 @@ Address: %4
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="42"/>
-        <source>Bitcoin Core</source>
+        <source>Infinitecoin Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1605,7 +1605,7 @@ Address: %4
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="73"/>
-        <source>The fee is charged at 0.2% of the transfer amount, with a minimum of 0.01IFC and a maximum of 10000IFC.</source>
+        <source>The fee is charged at 0.2% of the transfer amount, with a minimum of 100IFC and a maximum of 10000IFC.</source>
         <extracomment>111</extracomment>
         <translation type="unfinished"></translation>
     </message>
@@ -1640,7 +1640,7 @@ Address: %4
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>123.456 BTC</source>
+        <source>123.456 IFC</source>
         <translation type="obsolete">123.456 ביטקוין</translation>
     </message>
     <message>
@@ -2121,7 +2121,7 @@ Address: %4
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="220"/>
-        <source>Generated coins must mature 120 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
+        <source>Generated coins must mature 80 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2237,8 +2237,8 @@ Address: %4
         <translation type="obsolete">מזהה פעולה:</translation>
     </message>
     <message>
-        <source>Generated coins must wait 120 blocks before they can be spent.  When you generated this block, it was broadcast to the network to be added to the block chain.  If it fails to get into the chain, it will change to &quot;not accepted&quot; and not be spendable.  This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation type="obsolete">מטבעות שנוצרו חייבים לחכות 120 בלוקים לפני שניתן לנצל אותם.  כשיצרת את הבלוק הזה, הוא שודר לרשת כדי להתווסף לשרשרת הבלוקים.  אם הוא אינו מצליח להיכנס לשרשרת, הוא ישתנה ל&quot;לא התקבל&quot; ולא ניתן יהיה לנצל אותו.  זה יכול לקרות מדי פעם אם צומת אחר מייצר בלוק בהפרש של מספר שניות מהבלוק שלך.</translation>
+        <source>Generated coins must wait 80 blocks before they can be spent.  When you generated this block, it was broadcast to the network to be added to the block chain.  If it fails to get into the chain, it will change to &quot;not accepted&quot; and not be spendable.  This may occasionally happen if another node generates a block within a few seconds of yours.</source>
+        <translation type="obsolete">מטבעות שנוצרו חייבים לחכות 80 בלוקים לפני שניתן לנצל אותם.  כשיצרת את הבלוק הזה, הוא שודר לרשת כדי להתווסף לשרשרת הבלוקים.  אם הוא אינו מצליח להיכנס לשרשרת, הוא ישתנה ל&quot;לא התקבל&quot; ולא ניתן יהיה לנצל אותו.  זה יכול לקרות מדי פעם אם צומת אחר מייצר בלוק בהפרש של מספר שניות מהבלוק שלך.</translation>
     </message>
 </context>
 <context>
@@ -2652,8 +2652,8 @@ Address: %4
         <translation>ציין הגבלת זמן לחיבור (במילישניות)</translation>
     </message>
     <message>
-        <source>Listen for connections on &lt;port&gt; (default: 8333 or testnet: 18333)</source>
-        <translation type="obsolete">האזן לחיבורים ב&lt;פורט&gt; (ברירת מחדל: 8333 או ברשת הבדיקה: 18333)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 9321 or testnet: 19321)</source>
+        <translation type="obsolete">האזן לחיבורים ב&lt;פורט&gt; (ברירת מחדל: 9321 או ברשת הבדיקה: 19321)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="103"/>
@@ -2782,8 +2782,8 @@ Address: %4
         <translation>סיסמה לחיבורי JSON-RPC</translation>
     </message>
     <message>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8332)</source>
-        <translation type="obsolete">האזן לחיבורי JSON-RPC ב&lt;פורט&gt; (ברירת מחדל: 8332)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 9322)</source>
+        <translation type="obsolete">האזן לחיבורי JSON-RPC ב&lt;פורט&gt; (ברירת מחדל: 9322)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="59"/>
@@ -3127,13 +3127,13 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="98"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 9332)</source>
-        <translation type="unfinished">האזן לחיבורי JSON-RPC ב&lt;פורט&gt; (ברירת מחדל: 8332) {9332)?}</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 9322)</source>
+        <translation type="unfinished">האזן לחיבורי JSON-RPC ב&lt;פורט&gt; (ברירת מחדל: 9322) {9322)?}</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="99"/>
-        <source>Listen for connections on &lt;port&gt; (default: 9333 or testnet: 19333)</source>
-        <translation type="unfinished">האזן לחיבורים ב&lt;פורט&gt; (ברירת מחדל: 8333 או ברשת הבדיקה: 18333) {9333 ?} {19333)?}</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 9321 or testnet: 19321)</source>
+        <translation type="unfinished">האזן לחיבורים ב&lt;פורט&gt; (ברירת מחדל: 9321 או ברשת הבדיקה: 19321) {9321 ?} {19321)?}</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="104"/>
