@@ -19,7 +19,7 @@ Infinitecoin is a fork of Litecoin version. Like Litecoin it uses scrypt as a pr
 
 Development process
 ===================
-2020-4-x 0.8.7.5
+2020-4-15 0.8.7.5
 -- 
 1. Upgrade from 0.6 core to 0.8 core based on Litecoin source code
 2. Loading and synchronization speed has been greatly improved
