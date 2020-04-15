@@ -1,16 +1,29 @@
-Infinitecoin
----
+Infinitecoin integration/staging tree
+===============================
+
+Copyright (c) 2009-2014 Bitcoin Developers, 
+Copyright (c) 2011-2014 Litecoin Developers, 
+Copyright (c) 2013-2020 Infinitecoin Developers
+
+What is Infinitecoin?
+----------------
+
 Infinitecoin is a fork of Litecoin version. Like Litecoin it uses scrypt as a proof of work scheme.
 
-	- Total coins will be about 90,600 millions 
-	- 30 sec block target
-	- Difficulty retargets once every hour
-	- initially 524,288 (2^19) coins per block, halves every 1 month (86,400 blocks).
-	- The default ports are 9321(connect) and 9322(json rpc).
+ - 30 second block targets
+ - subsidy halves in 86400 blocks (~1 month)
+ - ~90600 million total coins
+ - 524288 coins per block
+ - 120 blocks to retarget difficulty
 
 
 Development process
 ===================
+2020-4-x 0.8.7.5
+-- 
+1. Upgrade from 0.6 core to 0.8 core based on Litecoin source code
+2. Loading and synchronization speed has been greatly improved
+
 2020-1-18 1.9.8.1
 -- 
 1. The fee is charged at 0.2% of the transfer amount, with a minimum of 100IFC and a maximum of 10000IFC
