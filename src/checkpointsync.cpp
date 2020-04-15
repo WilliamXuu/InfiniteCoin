@@ -1,28 +1,7 @@
 // Copyright (c) 2012-2013 PPCoin developers
 // Copyright (c) 2013 Primecoin developers
-//
-// A perpetual use license of this advanced checkpoint technology is granted
-// to feathercoin by Sunny King on behalf of PPCoin developers and Primecoin
-// developers.
-//
-// Permission is hereby granted to any person obtaining a copy of the advanced
-// checkpoint technology, for perpetual use in feathercoin network, including
-// the rights to use, copy, modify, merge, publish, distribute, subject to the
-// following conditions:
-//
-// a) This license is not transferrable, no sublicense, and applies to
-//    feathercoin only.
-// b) The above copyright notice and this permission notice shall be included
-//    in all copies of source code distributions.
-//
-// Feathercoin is waived from displaying the above copyright notice in
-// 'About' for the inclusion of advanced checkpoint technology. Reference
-// in file 'COPYING' is appreciated but not required.
-//
-//
-// ****************************************************************************
-//
-// Introduction
+// Distributed under conditional MIT/X11 software license,
+// see the accompanying file COPYING
 //
 // The synchronized checkpoint system is first developed by Sunny King for
 // ppcoin network in 2012, giving cryptocurrency developers a tool to gain
@@ -90,7 +69,7 @@
 #include "base58.h"
 #include "bitcoinrpc.h"
 #include "main.h"
-#include "db.h"
+#include "txdb.h"
 #include "uint256.h"
 
 using namespace json_spirit;
@@ -98,8 +77,8 @@ using namespace std;
 
 
 // ppcoin: sync-checkpoint master key
-const std::string CSyncCheckpoint::strMainPubKey = "048759db87a464dfdbe7bb903adb441cc75d7c9b850133684a20a21c5c9b5e140c012967ec19ef49533d6887d228ed3d7256b3655468907325cfb9fc61be57a580";
-const std::string CSyncCheckpoint::strTestPubKey = "";
+const std::string CSyncCheckpoint::strMainPubKey = "04a60aab3d24106d0076d7e18d01a8233973783ba83bc50c33e6a80eb118cb1f3491acb244c320c4b42106cc88274a39bb6bdd072d27d06a6370984adac1c14b3a";
+const std::string CSyncCheckpoint::strTestPubKey = "0405f43221bab8286fa392a8e37dec3b6090f980b468e6d0ff3a3f886df05895dc0c677cf6a6ec4ec35f0bbdfc2ad9ed0a9752803639e239dbfb24116cfb26ffda";
 std::string CSyncCheckpoint::strMasterPrivKey = "";
 
 
@@ -168,16 +147,12 @@ bool ValidateSyncCheckpoint(uint256 hashCheckpoint)
 
 bool WriteSyncCheckpoint(const uint256& hashCheckpoint)
 {
-    CTxDB txdb;
-    txdb.TxnBegin();
-    if (!txdb.WriteSyncCheckpoint(hashCheckpoint))
+    if (!pblocktree->WriteSyncCheckpoint(hashCheckpoint))
     {
-        txdb.TxnAbort();
         return error("WriteSyncCheckpoint(): failed to write to txdb sync checkpoint %s", hashCheckpoint.ToString().c_str());
     }
-    if (!txdb.TxnCommit())
+    if (!pblocktree->Sync())
         return error("WriteSyncCheckpoint(): failed to commit to txdb sync checkpoint %s", hashCheckpoint.ToString().c_str());
-    txdb.Close();
 
     hashSyncCheckpoint = hashCheckpoint;
     return true;
@@ -200,20 +175,16 @@ bool AcceptPendingSyncCheckpoint()
             return false;
         }
 
-        CTxDB txdb;
         CBlockIndex* pindexCheckpoint = mapBlockIndex[hashPendingCheckpoint];
         if (IsSyncCheckpointEnforced() && !pindexCheckpoint->IsInMainChain())
         {
-            CBlock block;
-            if (!block.ReadFromDisk(pindexCheckpoint))
-                return error("AcceptPendingSyncCheckpoint: ReadFromDisk failed for sync checkpoint %s", hashPendingCheckpoint.ToString().c_str());
-            if (!block.SetBestChain(txdb, pindexCheckpoint))
+            CValidationState state;
+            if (!SetBestChain(state, pindexCheckpoint))
             {
                 hashInvalidCheckpoint = hashPendingCheckpoint;
                 return error("AcceptPendingSyncCheckpoint: SetBestChain failed for sync checkpoint %s", hashPendingCheckpoint.ToString().c_str());
             }
         }
-        txdb.Close();
 
         if (!WriteSyncCheckpoint(hashPendingCheckpoint))
             return error("AcceptPendingSyncCheckpoint(): failed to write sync checkpoint %s", hashPendingCheckpoint.ToString().c_str());
@@ -246,7 +217,6 @@ uint256 AutoSelectSyncCheckpoint()
 bool CheckSyncCheckpoint(const uint256& hashBlock, const CBlockIndex* pindexPrev)
 {
     int nHeight = pindexPrev->nHeight + 1;
-
     LOCK(cs_hashSyncCheckpoint);
     // sync-checkpoint should always be accepted block
     assert(mapBlockIndex.count(hashSyncCheckpoint));
@@ -286,30 +256,25 @@ bool WantedByPendingSyncCheckpoint(uint256 hashBlock)
 bool ResetSyncCheckpoint()
 {
     LOCK(cs_hashSyncCheckpoint);
-    const uint256& hash = Checkpoints::GetLatestHardenedCheckpoint();
+    uint256 hash = Checkpoints::GetLatestHardenedCheckpoint();
     if (mapBlockIndex.count(hash) && !mapBlockIndex[hash]->IsInMainChain())
     {
         // checkpoint block accepted but not yet in main chain
         printf("ResetSyncCheckpoint: SetBestChain to hardened checkpoint %s\n", hash.ToString().c_str());
-        CTxDB txdb;
-        CBlock block;
-        if (!block.ReadFromDisk(mapBlockIndex[hash]))
-            return error("ResetSyncCheckpoint: ReadFromDisk failed for hardened checkpoint %s", hash.ToString().c_str());
-        if (!block.SetBestChain(txdb, mapBlockIndex[hash]))
+        CValidationState state;
+        if (!SetBestChain(state, mapBlockIndex[hash]))
         {
             return error("ResetSyncCheckpoint: SetBestChain failed for hardened checkpoint %s", hash.ToString().c_str());
         }
-        txdb.Close();
-    }
-    else if(!mapBlockIndex.count(hash))
-    {
+    } else {
+        /* Reset to the last available checkpoint block in the main chain */
         // checkpoint block not yet accepted
         hashPendingCheckpoint = hash;
         checkpointMessagePending.SetNull();
-        printf("ResetSyncCheckpoint: pending for sync-checkpoint %s\n", hashPendingCheckpoint.ToString().c_str());
+        hash = Checkpoints::GetLastAvailableCheckpoint();
     }
 
-    if (!WriteSyncCheckpoint((mapBlockIndex.count(hash) && mapBlockIndex[hash]->IsInMainChain())? hash : hashGenesisBlock))
+    if (!WriteSyncCheckpoint(hash))
         return error("ResetSyncCheckpoint: failed to write sync checkpoint %s", hash.ToString().c_str());
     printf("ResetSyncCheckpoint: sync-checkpoint reset to %s\n", hashSyncCheckpoint.ToString().c_str());
     return true;
@@ -325,21 +290,18 @@ void AskForPendingSyncCheckpoint(CNode* pfrom)
 // Verify sync checkpoint master pubkey and reset sync checkpoint if changed
 bool CheckCheckpointPubKey()
 {
-    CTxDB txdb;
     std::string strPubKey = "";
     std::string strMasterPubKey = fTestNet? CSyncCheckpoint::strTestPubKey : CSyncCheckpoint::strMainPubKey;
-    if (!txdb.ReadCheckpointPubKey(strPubKey) || strPubKey != strMasterPubKey)
+    if (!pblocktree->ReadCheckpointPubKey(strPubKey) || strPubKey != strMasterPubKey)
     {
         // write checkpoint master key to db
-        txdb.TxnBegin();
-        if (!txdb.WriteCheckpointPubKey(strMasterPubKey))
+        if (!pblocktree->WriteCheckpointPubKey(strMasterPubKey))
             return error("CheckCheckpointPubKey() : failed to write new checkpoint master key to db");
-        if (!txdb.TxnCommit())
+        if (!pblocktree->Sync())
             return error("CheckCheckpointPubKey() : failed to commit new checkpoint master key to db");
         if (!ResetSyncCheckpoint())
             return error("CheckCheckpointPubKey() : failed to reset sync-checkpoint");
     }
-    txdb.Close();
     return true;
 }
 
@@ -355,10 +317,7 @@ bool SetCheckpointPrivKey(std::string strPrivKey)
     CBitcoinSecret vchSecret;
     if (!vchSecret.SetString(strPrivKey))
         return error("SendSyncCheckpoint: Checkpoint master key invalid");
-    CKey key;
-    bool fCompressed;
-    CSecret secret = vchSecret.GetSecret(fCompressed);
-    key.SetSecret(secret, fCompressed); // if key is not correct openssl may crash
+    CKey key = vchSecret.GetKey(); // if key is not correct openssl may crash
     if (!key.Sign(Hash(checkpoint.vchMsg.begin(), checkpoint.vchMsg.end()), checkpoint.vchSig))
         return false;
 
@@ -380,10 +339,7 @@ bool SendSyncCheckpoint(uint256 hashCheckpoint)
     CBitcoinSecret vchSecret;
     if (!vchSecret.SetString(CSyncCheckpoint::strMasterPrivKey))
         return error("SendSyncCheckpoint: Checkpoint master key invalid");
-    CKey key;
-    bool fCompressed;
-    CSecret secret = vchSecret.GetSecret(fCompressed);
-    key.SetSecret(secret, fCompressed); // if key is not correct openssl may crash
+    CKey key = vchSecret.GetKey(); // if key is not correct openssl may crash
     if (!key.Sign(Hash(checkpoint.vchMsg.begin(), checkpoint.vchMsg.end()), checkpoint.vchSig))
         return error("SendSyncCheckpoint: Unable to sign checkpoint, check private key?");
 
@@ -434,10 +390,8 @@ uint256 WantedByOrphan(const CBlock* pblockOrphan)
 // ppcoin: verify signature of sync-checkpoint message
 bool CSyncCheckpoint::CheckSignature()
 {
-    CKey key;
     std::string strMasterPubKey = fTestNet? CSyncCheckpoint::strTestPubKey : CSyncCheckpoint::strMainPubKey;
-    if (!key.SetPubKey(ParseHex(strMasterPubKey)))
-        return error("CSyncCheckpoint::CheckSignature() : SetPubKey failed");
+    CPubKey key(ParseHex(strMasterPubKey));
     if (!key.Verify(Hash(vchMsg.begin(), vchMsg.end()), vchSig))
         return error("CSyncCheckpoint::CheckSignature() : verify signature failed");
 
@@ -474,21 +428,17 @@ bool CSyncCheckpoint::ProcessSyncCheckpoint(CNode* pfrom)
     if (!ValidateSyncCheckpoint(hashCheckpoint))
         return false;
 
-    CTxDB txdb;
     CBlockIndex* pindexCheckpoint = mapBlockIndex[hashCheckpoint];
     if (IsSyncCheckpointEnforced() && !pindexCheckpoint->IsInMainChain())
     {
         // checkpoint chain received but not yet main chain
-        CBlock block;
-        if (!block.ReadFromDisk(pindexCheckpoint))
-            return error("ProcessSyncCheckpoint: ReadFromDisk failed for sync checkpoint %s", hashCheckpoint.ToString().c_str());
-        if (!block.SetBestChain(txdb, pindexCheckpoint))
+        CValidationState state;
+        if (!SetBestChain(state, pindexCheckpoint))
         {
             hashInvalidCheckpoint = hashCheckpoint;
             return error("ProcessSyncCheckpoint: SetBestChain failed for sync checkpoint %s", hashCheckpoint.ToString().c_str());
         }
     }
-    txdb.Close();
 
     if (!WriteSyncCheckpoint(hashCheckpoint))
         return error("ProcessSyncCheckpoint(): failed to write sync checkpoint %s", hashCheckpoint.ToString().c_str());
@@ -528,10 +478,6 @@ Value getcheckpoint(const Array& params, bool fHelp)
 
 Value sendcheckpoint(const Array& params, bool fHelp)
 {
-    #ifndef MASTER_NODE
-        throw runtime_error(" Currently this feature is disabled.");
-    #endif
-        
     if (fHelp || params.size() != 1)
         throw runtime_error(
             "sendcheckpoint <blockhash>\n"
@@ -580,39 +526,3 @@ Value enforcecheckpoint(const Array& params, bool fHelp)
     return Value::null;
 }
 
-// make a public-private key pair (first introduced in ppcoin)
-Value makekeypair(const Array& params, bool fHelp)
-{
-
-    #ifndef MASTER_NODE
-        throw runtime_error(" Currently this feature is disabled.");
-    #endif
-
-    if (fHelp || params.size() > 1)
-        throw runtime_error(
-            "makekeypair [prefix]\n"
-            "Make a public/private key pair.\n"
-            "[prefix] is optional preferred prefix for the public key.\n");
-
-    string strPrefix = "";
-    if (params.size() > 0)
-        strPrefix = params[0].get_str();
-
-    CKey key;
-    int nCount = 0;
-    do
-    {
-        key.MakeNewKey(false);
-        nCount++;
-    } while (nCount < 10000 && strPrefix != HexStr(key.GetPubKey().Raw()).substr(0, strPrefix.size()));
-
-    if (strPrefix != HexStr(key.GetPubKey().Raw()).substr(0, strPrefix.size()))
-        return Value::null;
-
-    bool fCompressed;
-    CSecret vchSecret = key.GetSecret(fCompressed);
-    Object result;
-    result.push_back(Pair("PublicKey", HexStr(key.GetPubKey().Raw())));
-    result.push_back(Pair("PrivateKey", CBitcoinSecret(vchSecret, fCompressed).ToString()));
-    return result;
-}
