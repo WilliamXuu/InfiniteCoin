@@ -1,3 +1,7 @@
+// Copyright (c) 2011-2013 The Bitcoin developers
+// Distributed under the MIT/X11 software license, see the accompanying
+// file COPYING or http://www.opensource.org/licenses/mit-license.php.
+
 #include "bitcoinunits.h"
 
 #include <QStringList>
@@ -11,9 +15,9 @@ BitcoinUnits::BitcoinUnits(QObject *parent):
 QList<BitcoinUnits::Unit> BitcoinUnits::availableUnits()
 {
     QList<BitcoinUnits::Unit> unitlist;
-    unitlist.append(BTC);
-    unitlist.append(mBTC);
-    unitlist.append(uBTC);
+    unitlist.append(IFC);
+    unitlist.append(mIFC);
+    unitlist.append(uIFC);
     return unitlist;
 }
 
@@ -21,9 +25,9 @@ bool BitcoinUnits::valid(int unit)
 {
     switch(unit)
     {
-    case BTC:
-    case mBTC:
-    case uBTC:
+    case IFC:
+    case mIFC:
+    case uIFC:
         return true;
     default:
         return false;
@@ -34,9 +38,9 @@ QString BitcoinUnits::name(int unit)
 {
     switch(unit)
     {
-    case BTC: return QString("IFC");
-    case mBTC: return QString("mIFC");
-    case uBTC: return QString::fromUtf8("μIFC");
+    case IFC: return QString("IFC");
+    case mIFC: return QString("mIFC");
+    case uIFC: return QString::fromUtf8("μIFC");
     default: return QString("???");
     }
 }
@@ -45,9 +49,9 @@ QString BitcoinUnits::description(int unit)
 {
     switch(unit)
     {
-    case BTC: return QString("Infinitecoins");
-    case mBTC: return QString("Milli-Infinitecoins (1 / 1,000)");
-    case uBTC: return QString("Micro-Infinitecoins (1 / 1,000,000)");
+    case IFC: return QString("Infinitecoins");
+    case mIFC: return QString("Milli-Infinitecoins (1 / 1,000)");
+    case uIFC: return QString("Micro-Infinitecoins (1 / 1,000,000)");
     default: return QString("???");
     }
 }
@@ -56,9 +60,9 @@ qint64 BitcoinUnits::factor(int unit)
 {
     switch(unit)
     {
-    case BTC:  return 100000000;
-    case mBTC: return 100000;
-    case uBTC: return 100;
+    case IFC:  return 100000000;
+    case mIFC: return 100000;
+    case uIFC: return 100;
     default:   return 100000000;
     }
 }
@@ -67,9 +71,9 @@ int BitcoinUnits::amountDigits(int unit)
 {
     switch(unit)
     {
-    case BTC: return 8; // allow 10,000,000
-    case mBTC: return 11; // 10,000,000,000
-    case uBTC: return 14; // 1,000,000,000,000
+    case IFC: return 8; // 21,000,000 (# digits, without commas)
+    case mIFC: return 11; // 21,000,000,000
+    case uIFC: return 14; // 21,000,000,000,000
     default: return 0;
     }
 }
@@ -78,9 +82,9 @@ int BitcoinUnits::decimals(int unit)
 {
     switch(unit)
     {
-    case BTC: return 8;
-    case mBTC: return 5;
-    case uBTC: return 2;
+    case IFC: return 8;
+    case mIFC: return 5;
+    case uIFC: return 2;
     default: return 0;
     }
 }
@@ -99,7 +103,7 @@ QString BitcoinUnits::format(int unit, qint64 n, bool fPlus)
     QString quotient_str = QString::number(quotient);
     QString remainder_str = QString::number(remainder).rightJustified(num_decimals, '0');
 
-    // Right-trim excess 0's after the decimal point
+    // Right-trim excess zeros after the decimal point
     int nTrim = 0;
     for (int i = remainder_str.size()-1; i>=2 && (remainder_str.at(i) == '0'); --i)
         ++nTrim;
