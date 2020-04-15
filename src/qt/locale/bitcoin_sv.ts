@@ -1,166 +1,163 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="sv">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="sv" version="2.0">
 <defaultcodec>UTF-8</defaultcodec>
 <context>
     <name>AboutDialog</name>
     <message>
-        <source>About Bitcoin</source>
-        <translation type="obsolete">Om Bitcoin</translation>
+        <location filename="../forms/aboutdialog.ui" line="+14"/>
+        <source>About Infinitecoin</source>
+        <translation>Om Infinitecoin</translation>
     </message>
     <message>
-        <source>&lt;b&gt;Bitcoin&lt;/b&gt; version</source>
-        <translation type="obsolete">&lt;b&gt;Bitcoin&lt;/b&gt;-version</translation>
+        <location line="+39"/>
+        <source>&lt;b&gt;Infinitecoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Infinitecoin&lt;/b&gt;-version</translation>
     </message>
     <message>
-        <source>Copyright © 2009-2012 Bitcoin Developers
-
+        <location line="+57"/>
+        <source>
 This is experimental software.
 
-Distributed under the MIT/X11 software license, see the accompanying file license.txt or http://www.opensource.org/licenses/mit-license.php.
+Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
-        <translation type="obsolete">Copyright © 2009-2012 Bitcoin-utvecklarna
-
+        <translation>
 Detta är experimentell mjukvara.
 
-Distribuerad under mjukvarulicensen MIT/X11, se den medföljande filen license.txt eller http://www.opensource.org/licenses/mit-license.php.
+
+Distribuerad under mjukvarulicensen MIT/X11, se den medföljande filen COPYING eller http://www.opensource.org/licenses/mit-license.php.
 
 Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användning i OpenSSL Toolkit (http://www.openssl.org/) och kryptografisk mjukvara utvecklad av Eric Young (eay@cryptsoft.com) samt UPnP-mjukvara skriven av Thomas Bernard.</translation>
     </message>
     <message>
-        <location filename="../forms/aboutdialog.ui" line="14"/>
-        <source>About Infinitecoin</source>
-        <translation type="unfinished"></translation>
+        <location filename="../aboutdialog.cpp" line="+14"/>
+        <source>Copyright</source>
+        <translation>Copyright</translation>
     </message>
     <message>
-        <location filename="../forms/aboutdialog.ui" line="47"/>
-        <source>&lt;b&gt;Infinitecoin&lt;/b&gt; version</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../forms/aboutdialog.ui" line="157"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Infinitecoin community website:https://bitcointalk.org/index.php?topic=356065.0&lt;/p&gt;&lt;p&gt;Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php.&lt;/p&gt;&lt;p&gt;This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../forms/aboutdialog.ui" line="190"/>
-        <source>Offical Website: &lt;a href=&quot;https://bitcointalk.org/index.php?topic=356065.0&lt;/a&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../forms/aboutdialog.ui" line="206"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Offical Forums: &lt;a href=&quot;https://bitcointalk.org/index.php?topic=356065.0&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;www.infinitecointalk.org&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Infinitecoin community website: &lt;a href=&quot;https://bitcointalk.org/index.php?topic=356065.0&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://bitcointalk.org/index.php?topic=356065.0&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <location line="+0"/>
+        <source>The Infinitecoin developers</source>
+        <translation>Infinitecoin-utvecklarna</translation>
     </message>
 </context>
 <context>
     <name>AddressBookPage</name>
     <message>
-        <location filename="../forms/addressbookpage.ui" line="14"/>
+        <location filename="../forms/addressbookpage.ui" line="+14"/>
         <source>Address Book</source>
         <translation>Adressbok</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation type="obsolete">Detta är dina Bitcoin-adresser för att ta emot betalningar.  Du kan ge varje avsändare en egen adress så att du kan hålla reda på vem som betalar dig.</translation>
-    </message>
-    <message>
-        <location filename="../forms/addressbookpage.ui" line="36"/>
+        <location line="+19"/>
         <source>Double-click to edit address or label</source>
         <translation>Dubbel-klicka för att ändra adressen eller etiketten</translation>
     </message>
     <message>
-        <location filename="../forms/addressbookpage.ui" line="63"/>
+        <location line="+27"/>
         <source>Create a new address</source>
         <translation>Skapa ny adress</translation>
     </message>
     <message>
-        <location filename="../forms/addressbookpage.ui" line="77"/>
+        <location line="+14"/>
         <source>Copy the currently selected address to the system clipboard</source>
         <translation>Kopiera den markerade adressen till systemets Urklipp</translation>
     </message>
     <message>
-        <location filename="../forms/addressbookpage.ui" line="66"/>
+        <location line="-11"/>
         <source>&amp;New Address</source>
         <translation>&amp;Ny adress</translation>
     </message>
     <message>
-        <location filename="../forms/addressbookpage.ui" line="20"/>
+        <location filename="../addressbookpage.cpp" line="+63"/>
         <source>These are your Infinitecoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation type="unfinished"></translation>
+        <translation>Detta är dina Infinitecoin-adresser för att ta emot betalningar.  Du kan ge varje avsändare en egen adress så att du kan hålla reda på vem som betalar dig.</translation>
     </message>
     <message>
-        <location filename="../forms/addressbookpage.ui" line="80"/>
+        <location filename="../forms/addressbookpage.ui" line="+14"/>
         <source>&amp;Copy Address</source>
         <translation>&amp;Kopiera adress</translation>
     </message>
     <message>
-        <location filename="../forms/addressbookpage.ui" line="91"/>
+        <location line="+11"/>
         <source>Show &amp;QR Code</source>
         <translation>Visa &amp;QR-kod</translation>
     </message>
     <message>
-        <location filename="../forms/addressbookpage.ui" line="102"/>
-        <source>Sign a message to prove you own a Bitcoin address</source>
-        <translation type="unfinished"></translation>
+        <location line="+11"/>
+        <source>Sign a message to prove you own a Infinitecoin address</source>
+        <translation>Signera ett meddelande för att bevisa att du äger denna adress</translation>
     </message>
     <message>
-        <source>Sign a message to prove you own this address</source>
-        <translation type="obsolete">Signera ett meddelande för att bevisa att du äger denna adress</translation>
+        <location line="+3"/>
+        <source>Sign &amp;Message</source>
+        <translation>Signera &amp;Meddelande</translation>
     </message>
     <message>
-        <location filename="../forms/addressbookpage.ui" line="105"/>
-        <source>&amp;Sign Message</source>
-        <translation>&amp;Signera meddelande</translation>
+        <location line="+25"/>
+        <source>Delete the currently selected address from the list</source>
+        <translation>Ta bort den valda adressen från listan</translation>
     </message>
     <message>
-        <location filename="../forms/addressbookpage.ui" line="116"/>
-        <source>Verify a message to ensure it was signed with a specified Bitcoin address</source>
-        <translation type="unfinished"></translation>
+        <location line="+27"/>
+        <source>Export the data in the current tab to a file</source>
+        <translation>Exportera informationen i den nuvarande fliken till en fil</translation>
     </message>
     <message>
-        <location filename="../forms/addressbookpage.ui" line="119"/>
+        <location line="+3"/>
+        <source>&amp;Export</source>
+        <translation>&amp;Exportera</translation>
+    </message>
+    <message>
+        <location line="-44"/>
+        <source>Verify a message to ensure it was signed with a specified Infinitecoin address</source>
+        <translation>Verifiera meddelandet för att vara säker på att den var signerad med den specificerade Infinitecoin-adressen</translation>
+    </message>
+    <message>
+        <location line="+3"/>
         <source>&amp;Verify Message</source>
-        <translation type="unfinished">&amp;Verifiera Meddelande</translation>
+        <translation>&amp;Verifiera Meddelande</translation>
     </message>
     <message>
-        <location filename="../forms/addressbookpage.ui" line="130"/>
-        <source>Delete the currently selected address from the list. Only sending addresses can be deleted.</source>
-        <translation>Ta bort den valda adressen från listan. Bara avsändar-adresser kan tas bort.</translation>
-    </message>
-    <message>
-        <location filename="../forms/addressbookpage.ui" line="133"/>
+        <location line="+14"/>
         <source>&amp;Delete</source>
-        <translation>&amp;Ta bort</translation>
+        <translation>&amp;Radera</translation>
     </message>
     <message>
-        <location filename="../addressbookpage.cpp" line="65"/>
+        <location filename="../addressbookpage.cpp" line="-5"/>
+        <source>These are your Infinitecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Detta är dina Infinitecoin adresser för att skicka betalningar. Kolla alltid summan och den mottagande adressen innan du skickar Infinitecoins.</translation>
+    </message>
+    <message>
+        <location line="+13"/>
         <source>Copy &amp;Label</source>
         <translation>Kopiera &amp;etikett</translation>
     </message>
     <message>
-        <location filename="../addressbookpage.cpp" line="67"/>
+        <location line="+1"/>
         <source>&amp;Edit</source>
         <translation>&amp;Editera</translation>
     </message>
     <message>
-        <location filename="../addressbookpage.cpp" line="317"/>
+        <location line="+1"/>
+        <source>Send &amp;Coins</source>
+        <translation>Skicka &amp;Infinitecoins</translation>
+    </message>
+    <message>
+        <location line="+260"/>
         <source>Export Address Book Data</source>
         <translation>Exportera Adressbok</translation>
     </message>
     <message>
-        <location filename="../addressbookpage.cpp" line="318"/>
+        <location line="+1"/>
         <source>Comma separated file (*.csv)</source>
         <translation>Kommaseparerad fil (*.csv)</translation>
     </message>
     <message>
-        <location filename="../addressbookpage.cpp" line="331"/>
+        <location line="+13"/>
         <source>Error exporting</source>
         <translation>Fel vid export</translation>
     </message>
     <message>
-        <location filename="../addressbookpage.cpp" line="331"/>
+        <location line="+0"/>
         <source>Could not write to file %1.</source>
         <translation>Kunde inte skriva till filen %1.</translation>
     </message>
@@ -168,17 +165,17 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
 <context>
     <name>AddressTableModel</name>
     <message>
-        <location filename="../addresstablemodel.cpp" line="149"/>
+        <location filename="../addresstablemodel.cpp" line="+144"/>
         <source>Label</source>
         <translation>Etikett</translation>
     </message>
     <message>
-        <location filename="../addresstablemodel.cpp" line="149"/>
+        <location line="+0"/>
         <source>Address</source>
         <translation>Adress</translation>
     </message>
     <message>
-        <location filename="../addresstablemodel.cpp" line="185"/>
+        <location line="+36"/>
         <source>(no label)</source>
         <translation>(Ingen etikett)</translation>
     </message>
@@ -186,545 +183,460 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
 <context>
     <name>AskPassphraseDialog</name>
     <message>
-        <location filename="../forms/askpassphrasedialog.ui" line="26"/>
+        <location filename="../forms/askpassphrasedialog.ui" line="+26"/>
         <source>Passphrase Dialog</source>
         <translation>Lösenords Dialog</translation>
     </message>
     <message>
-        <location filename="../forms/askpassphrasedialog.ui" line="47"/>
+        <location line="+21"/>
         <source>Enter passphrase</source>
         <translation>Ange lösenord</translation>
     </message>
     <message>
-        <location filename="../forms/askpassphrasedialog.ui" line="61"/>
+        <location line="+14"/>
         <source>New passphrase</source>
         <translation>Nytt lösenord</translation>
     </message>
     <message>
-        <location filename="../forms/askpassphrasedialog.ui" line="75"/>
+        <location line="+14"/>
         <source>Repeat new passphrase</source>
         <translation>Upprepa nytt lösenord</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="33"/>
+        <location filename="../askpassphrasedialog.cpp" line="+33"/>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>Ange plånbokens nya lösenord. &lt;br/&gt; Använd ett lösenord på &lt;b&gt;10 eller fler slumpmässiga tecken,&lt;/b&gt; eller &lt;b&gt;åtta eller fler ord.&lt;/b&gt;</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="34"/>
+        <location line="+1"/>
         <source>Encrypt wallet</source>
         <translation>Kryptera plånbok</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="37"/>
+        <location line="+3"/>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
         <translation>Denna operation behöver din plånboks lösenord för att låsa upp plånboken.</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="42"/>
+        <location line="+5"/>
         <source>Unlock wallet</source>
         <translation>Lås upp plånbok</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="45"/>
+        <location line="+3"/>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
         <translation>Denna operation behöver din plånboks lösenord för att dekryptera plånboken.</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="50"/>
+        <location line="+5"/>
         <source>Decrypt wallet</source>
         <translation>Dekryptera plånbok</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="53"/>
+        <location line="+3"/>
         <source>Change passphrase</source>
         <translation>Ändra lösenord</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="54"/>
+        <location line="+1"/>
         <source>Enter the old and new passphrase to the wallet.</source>
         <translation>Ange plånbokens gamla och nya lösenord.</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="100"/>
+        <location line="+46"/>
         <source>Confirm wallet encryption</source>
         <translation>Bekräfta kryptering av plånbok</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="160"/>
-        <source>Wallet passphrase was successfully changed.</source>
-        <translation type="unfinished"></translation>
+        <location line="+1"/>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR INFINITECOINS&lt;/b&gt;!</source>
+        <translation>VARNING: Om du krypterar din plånbok och glömmer ditt lösenord, kommer du att &lt;b&gt;FÖRLORA ALLA DINA TILLGÅNGAR&lt;/b&gt;!</translation>
     </message>
     <message>
-        <source>WARNING: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!
-Are you sure you wish to encrypt your wallet?</source>
-        <translation type="obsolete">VARNING: Om du krypterar din plånbok och glömmer ditt lösenord, kommer du att &lt;b&gt;FÖRLORA ALLA DINA TILLGÅNGAR&lt;/b&gt;!
-Är du säker på att du vill kryptera din plånbok?</translation>
+        <location line="+0"/>
+        <source>Are you sure you wish to encrypt your wallet?</source>
+        <translation>Är du säker på att du vill kryptera din plånbok?</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="110"/>
-        <location filename="../askpassphrasedialog.cpp" line="159"/>
+        <location line="+15"/>
+        <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
+        <translation>VIKTIGT: Alla tidigare säkerhetskopior du har gjort av plånbokens fil ska ersättas med den nya genererade, krypterade plånboks filen. Av säkerhetsskäl kommer tidigare säkerhetskopior av den okrypterade plånboks filen blir oanvändbara när du börjar använda en ny, krypterad plånbok.</translation>
+    </message>
+    <message>
+        <location line="+100"/>
+        <location line="+24"/>
+        <source>Warning: The Caps Lock key is on!</source>
+        <translation>Varning: Caps Lock är påslaget!</translation>
+    </message>
+    <message>
+        <location line="-130"/>
+        <location line="+58"/>
         <source>Wallet encrypted</source>
         <translation>Plånboken är krypterad</translation>
     </message>
     <message>
-        <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation type="obsolete">Programmet kommer nu att stänga ner för att färdigställa krypteringen. Tänk på att en krypterad plånbok inte skyddar mot stöld om din dator är infekterad med en keylogger.</translation>
+        <location line="-56"/>
+        <source>Infinitecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your infinitecoins from being stolen by malware infecting your computer.</source>
+        <translation>Programmet kommer nu att stänga ner för att färdigställa krypteringen. Tänk på att en krypterad plånbok inte skyddar mot stöld om din dator är infekterad med en keylogger.</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="207"/>
-        <location filename="../askpassphrasedialog.cpp" line="231"/>
-        <source>Warning: The Caps Lock key is on.</source>
-        <translation>Varning: Caps Lock är påslaget</translation>
-    </message>
-    <message>
-        <location filename="../askpassphrasedialog.cpp" line="116"/>
-        <location filename="../askpassphrasedialog.cpp" line="123"/>
-        <location filename="../askpassphrasedialog.cpp" line="165"/>
-        <location filename="../askpassphrasedialog.cpp" line="171"/>
+        <location line="+13"/>
+        <location line="+7"/>
+        <location line="+42"/>
+        <location line="+6"/>
         <source>Wallet encryption failed</source>
         <translation>Kryptering av plånbok misslyckades</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="101"/>
-        <source>WARNING: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR INFINITECOINS&lt;/b&gt;!
-Are you sure you wish to encrypt your wallet?</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../askpassphrasedialog.cpp" line="111"/>
-        <source>Infinitecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your infinitecoins from being stolen by malware infecting your computer.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../askpassphrasedialog.cpp" line="117"/>
+        <location line="-54"/>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
         <translation>Kryptering av plånbok misslyckades på grund av ett internt fel. Din plånbok blev inte krypterad.</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="124"/>
-        <location filename="../askpassphrasedialog.cpp" line="172"/>
+        <location line="+7"/>
+        <location line="+48"/>
         <source>The supplied passphrases do not match.</source>
         <translation>De angivna lösenorden överensstämmer inte.</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="135"/>
+        <location line="-37"/>
         <source>Wallet unlock failed</source>
         <translation>Upplåsning av plånbok misslyckades</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="136"/>
-        <location filename="../askpassphrasedialog.cpp" line="147"/>
-        <location filename="../askpassphrasedialog.cpp" line="166"/>
+        <location line="+1"/>
+        <location line="+11"/>
+        <location line="+19"/>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
         <translation>Lösenordet för dekryptering av plånbok var felaktig.</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="146"/>
+        <location line="-20"/>
         <source>Wallet decryption failed</source>
         <translation>Dekryptering av plånbok misslyckades</translation>
     </message>
     <message>
-        <source>Wallet passphrase was succesfully changed.</source>
-        <translation type="obsolete">Plånbokens lösenord har ändrats.</translation>
+        <location line="+14"/>
+        <source>Wallet passphrase was successfully changed.</source>
+        <translation>Plånbokens lösenord har ändrats.</translation>
     </message>
 </context>
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Bitcoin Wallet</source>
-        <translation type="obsolete">Bitcoin-plånbok</translation>
-    </message>
-    <message>
-        <location filename="../bitcoingui.cpp" line="232"/>
+        <location filename="../bitcoingui.cpp" line="+233"/>
         <source>Sign &amp;message...</source>
         <translation>Signera &amp;meddelande...</translation>
     </message>
     <message>
-        <source>Show/Hide &amp;Bitcoin</source>
-        <translation type="obsolete">Visa/Göm &amp;Bitcoin</translation>
-    </message>
-    <message>
-        <location filename="../bitcoingui.cpp" line="533"/>
+        <location line="+280"/>
         <source>Synchronizing with network...</source>
         <translation>Synkroniserar med nätverk...</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="197"/>
+        <location line="-349"/>
         <source>&amp;Overview</source>
         <translation>&amp;Översikt</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="74"/>
-        <source>Infinitecoin</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../bitcoingui.cpp" line="74"/>
-        <source>Wallet</source>
-        <translation type="unfinished">Plånbok</translation>
-    </message>
-    <message>
-        <location filename="../bitcoingui.cpp" line="198"/>
+        <location line="+1"/>
         <source>Show general overview of wallet</source>
         <translation>Visa översiktsvy av plånbok</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="203"/>
-        <source>&amp;Mining</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../bitcoingui.cpp" line="204"/>
-        <source>Configure mining</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../bitcoingui.cpp" line="208"/>
+        <location line="+20"/>
         <source>&amp;Transactions</source>
         <translation>&amp;Transaktioner</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="209"/>
+        <location line="+1"/>
         <source>Browse transaction history</source>
         <translation>Bläddra i transaktionshistorik</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="214"/>
-        <source>&amp;Address Book</source>
-        <translation>&amp;Adressbok</translation>
-    </message>
-    <message>
-        <location filename="../bitcoingui.cpp" line="215"/>
+        <location line="+7"/>
         <source>Edit the list of stored addresses and labels</source>
         <translation>Redigera listan med lagrade adresser och etiketter</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="220"/>
-        <source>&amp;Receive coins</source>
-        <translation>&amp;Ta emot bitcoins</translation>
-    </message>
-    <message>
-        <location filename="../bitcoingui.cpp" line="221"/>
+        <location line="-14"/>
         <source>Show the list of addresses for receiving payments</source>
         <translation>Visa listan med adresser för att ta emot betalningar</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="226"/>
-        <source>&amp;Send coins</source>
-        <translation>&amp;Skicka bitcoins</translation>
-    </message>
-    <message>
-        <source>Prove you control an address</source>
-        <translation type="obsolete">Bevisa att du kontrollerar en adress</translation>
-    </message>
-    <message>
-        <location filename="../bitcoingui.cpp" line="268"/>
+        <location line="+31"/>
         <source>E&amp;xit</source>
         <translation>&amp;Avsluta</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="269"/>
+        <location line="+1"/>
         <source>Quit application</source>
         <translation>Avsluta programmet</translation>
     </message>
     <message>
-        <source>&amp;About %1</source>
-        <translation type="obsolete">&amp;Om %1</translation>
+        <location line="+4"/>
+        <source>Show information about Infinitecoin</source>
+        <translation>Visa information om Infinitecoin</translation>
     </message>
     <message>
-        <source>Show information about Bitcoin</source>
-        <translation type="obsolete">Visa information om Bitcoin</translation>
-    </message>
-    <message>
-        <location filename="../bitcoingui.cpp" line="275"/>
+        <location line="+2"/>
         <source>About &amp;Qt</source>
         <translation>Om &amp;Qt</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="276"/>
+        <location line="+1"/>
         <source>Show information about Qt</source>
         <translation>Visa information om Qt</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="278"/>
+        <location line="+2"/>
         <source>&amp;Options...</source>
         <translation>&amp;Alternativ...</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="285"/>
+        <location line="+6"/>
         <source>&amp;Encrypt Wallet...</source>
         <translation>&amp;Kryptera plånbok...</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="288"/>
+        <location line="+3"/>
         <source>&amp;Backup Wallet...</source>
         <translation>&amp;Säkerhetskopiera plånbok...</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="290"/>
+        <location line="+2"/>
         <source>&amp;Change Passphrase...</source>
         <translation>&amp;Byt Lösenord...</translation>
     </message>
-    <message numerus="yes">
-        <location filename="../bitcoingui.cpp" line="535"/>
-        <source>~%n block(s) remaining</source>
-        <translation>
-            <numerusform>~%n block återstår</numerusform>
-            <numerusform>~%n block återstår</numerusform>
-        </translation>
+    <message>
+        <location line="+285"/>
+        <source>Importing blocks from disk...</source>
+        <translation>Importerar block från disk...</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="546"/>
-        <source>Downloaded %1 of %2 blocks of transaction history (%3% done).</source>
-        <translation>Laddat ner %1 av %2 block från transaktionshistoriken (%3% klart).</translation>
+        <location line="+3"/>
+        <source>Reindexing blocks on disk...</source>
+        <translation>Återindexerar block på disken...</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="283"/>
-        <source>&amp;Export...</source>
-        <translation>&amp;Exportera...</translation>
+        <location line="-347"/>
+        <source>Send coins to a Infinitecoin address</source>
+        <translation>Skicka mynt till en Infinitecoin-adress</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation type="obsolete">Skicka mynt till en Bitcoin-adress</translation>
+        <location line="+49"/>
+        <source>Modify configuration options for Infinitecoin</source>
+        <translation>Ändra konfigurationsalternativ för Infinitecoin</translation>
     </message>
     <message>
-        <source>Modify configuration options for Bitcoin</source>
-        <translation type="obsolete">Ändra konfigurationsalternativ för Bitcoin</translation>
-    </message>
-    <message>
-        <source>Show or hide the Bitcoin window</source>
-        <translation type="obsolete">Visa eller göm Bitcoin-fönstret</translation>
-    </message>
-    <message>
-        <location filename="../bitcoingui.cpp" line="284"/>
-        <source>Export the data in the current tab to a file</source>
-        <translation>Exportera informationen i den nuvarande fliken till en fil</translation>
-    </message>
-    <message>
-        <location filename="../bitcoingui.cpp" line="286"/>
-        <source>Encrypt or decrypt wallet</source>
-        <translation>Kryptera eller dekryptera plånbok</translation>
-    </message>
-    <message>
-        <location filename="../bitcoingui.cpp" line="289"/>
+        <location line="+9"/>
         <source>Backup wallet to another location</source>
         <translation>Säkerhetskopiera plånboken till en annan plats</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="291"/>
+        <location line="+2"/>
         <source>Change the passphrase used for wallet encryption</source>
         <translation>Byt lösenord för kryptering av plånbok</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="292"/>
+        <location line="+6"/>
         <source>&amp;Debug window</source>
         <translation>&amp;Debug fönster</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="293"/>
+        <location line="+1"/>
         <source>Open debugging and diagnostic console</source>
         <translation>Öppna debug- och diagnostikkonsolen</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="236"/>
+        <location line="-4"/>
         <source>&amp;Verify message...</source>
         <translation>&amp;Verifiera meddelande...</translation>
     </message>
     <message>
-        <source>Verify a message signature</source>
-        <translation type="obsolete">Verifiera meddelandets signatur</translation>
+        <location line="-165"/>
+        <location line="+530"/>
+        <source>Infinitecoin</source>
+        <translation>Infinitecoin</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="316"/>
+        <location line="-530"/>
+        <source>Wallet</source>
+        <translation>Plånbok</translation>
+    </message>
+    <message>
+        <location line="+101"/>
+        <source>&amp;Send</source>
+        <translation>&amp;Skicka</translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>&amp;Receive</source>
+        <translation>&amp;Ta emot</translation>
+    </message>
+    <message>
+        <location line="+14"/>
+        <source>&amp;Addresses</source>
+        <translation>&amp;Adresser</translation>
+    </message>
+    <message>
+        <location line="+22"/>
+        <source>&amp;About Infinitecoin</source>
+        <translation>&amp;Om Infinitecoin</translation>
+    </message>
+    <message>
+        <location line="+9"/>
+        <source>&amp;Show / Hide</source>
+        <translation>&amp;Visa / Göm</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Show or hide the main Window</source>
+        <translation>Visa eller göm huvudfönstret</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Encrypt the private keys that belong to your wallet</source>
+        <translation>Kryptera de privata nycklar som tillhör din plånbok</translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Sign messages with your Infinitecoin addresses to prove you own them</source>
+        <translation>Signera meddelanden med din Infinitecoinadress för att bevisa att du äger dem</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Verify messages to ensure they were signed with specified Infinitecoin addresses</source>
+        <translation>Verifiera meddelanden för att vara säker på att de var signerade med den specificerade Infinitecoin-adressen</translation>
+    </message>
+    <message>
+        <location line="+28"/>
         <source>&amp;File</source>
         <translation>&amp;Arkiv</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="326"/>
+        <location line="+7"/>
         <source>&amp;Settings</source>
         <translation>&amp;Inställningar</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="332"/>
+        <location line="+6"/>
         <source>&amp;Help</source>
         <translation>&amp;Hjälp</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="341"/>
+        <location line="+9"/>
         <source>Tabs toolbar</source>
         <translation>Verktygsfält för Tabbar</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="353"/>
-        <source>Actions toolbar</source>
-        <translation>Verktygsfältet för Handlingar</translation>
-    </message>
-    <message>
-        <location filename="../bitcoingui.cpp" line="366"/>
-        <location filename="../bitcoingui.cpp" line="375"/>
+        <location line="+17"/>
+        <location line="+10"/>
         <source>[testnet]</source>
         <translation>[testnet]</translation>
     </message>
     <message>
-        <source>Bitcoin client</source>
-        <translation type="obsolete">Bitcoin-klient</translation>
-    </message>
-    <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network</source>
-        <translation type="obsolete">
-            <numerusform>%n aktiv anslutning till Bitcoin-nätverket</numerusform>
-            <numerusform>%n aktiva anslutningar till Bitcoin-nätverket</numerusform>
-        </translation>
-    </message>
-    <message>
-        <location filename="../bitcoingui.cpp" line="227"/>
-        <source>Send coins to a Infinitecoin address</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../bitcoingui.cpp" line="233"/>
-        <source>Sign a message to prove you own a Bitcoin address</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../bitcoingui.cpp" line="237"/>
-        <source>Verify a message to ensure it was signed with a specified Bitcoin address</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../bitcoingui.cpp" line="241"/>
-        <source>S&amp;ignatures</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../bitcoingui.cpp" line="272"/>
-        <source>&amp;About Infinitecoin</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../bitcoingui.cpp" line="273"/>
-        <source>Show information about Infinitecoin</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../bitcoingui.cpp" line="279"/>
-        <source>Modify configuration options for Infinitecoin</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../bitcoingui.cpp" line="281"/>
-        <source>Show/Hide &amp;Infinitecoin</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../bitcoingui.cpp" line="282"/>
-        <source>Show or hide the Infinitecoin window</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../bitcoingui.cpp" line="375"/>
-        <location filename="../bitcoingui.cpp" line="439"/>
+        <location line="+47"/>
         <source>Infinitecoin client</source>
-        <translation type="unfinished"></translation>
+        <translation>Infinitecoin-klient</translation>
     </message>
     <message numerus="yes">
-        <location filename="../bitcoingui.cpp" line="510"/>
+        <location line="+141"/>
         <source>%n active connection(s) to Infinitecoin network</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-        </translation>
+        <translation><numerusform>%n aktiv anslutning till Infinitecoin-nätverket</numerusform><numerusform>%n aktiva anslutningar till Infinitecoin-nätverket</numerusform></translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="558"/>
-        <source>Downloaded %1 blocks of transaction history.</source>
-        <translation>Laddat ner %1 block från transaktionshistoriken.</translation>
+        <location line="+22"/>
+        <source>No block source available...</source>
+        <translation>Ingen block-källa tillgänglig...</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="561"/>
-        <source>Current difficulty is %1.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message numerus="yes">
-        <location filename="../bitcoingui.cpp" line="575"/>
-        <source>%n second(s) ago</source>
-        <translation>
-            <numerusform>%n sekund sedan</numerusform>
-            <numerusform>%n sekunder sedan</numerusform>
-        </translation>
-    </message>
-    <message numerus="yes">
-        <location filename="../bitcoingui.cpp" line="579"/>
-        <source>%n minute(s) ago</source>
-        <translation>
-            <numerusform>%n minut sedan</numerusform>
-            <numerusform>%n minuter sedan</numerusform>
-        </translation>
-    </message>
-    <message numerus="yes">
-        <location filename="../bitcoingui.cpp" line="583"/>
-        <source>%n hour(s) ago</source>
-        <translation>
-            <numerusform>%n timme sedan</numerusform>
-            <numerusform>%n timmar sedan</numerusform>
-        </translation>
-    </message>
-    <message numerus="yes">
-        <location filename="../bitcoingui.cpp" line="587"/>
-        <source>%n day(s) ago</source>
-        <translation>
-            <numerusform>%n dag sedan</numerusform>
-            <numerusform>%n dagar sedan</numerusform>
-        </translation>
+        <location line="+12"/>
+        <source>Processed %1 of %2 (estimated) blocks of transaction history.</source>
+        <translation>Bearbetat %1 av %2 (uppskattade) block av transaktionshistorik.</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="593"/>
+        <location line="+4"/>
+        <source>Processed %1 blocks of transaction history.</source>
+        <translation>Bearbetat %1 block i transaktionshistoriken.</translation>
+    </message>
+    <message numerus="yes">
+        <location line="+20"/>
+        <source>%n hour(s)</source>
+        <translation><numerusform>%n timme</numerusform><numerusform>%n timmar</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <location line="+4"/>
+        <source>%n day(s)</source>
+        <translation><numerusform>%n dag</numerusform><numerusform>%n dagar</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <location line="+4"/>
+        <source>%n week(s)</source>
+        <translation><numerusform>%n vecka</numerusform><numerusform>%n veckor</numerusform></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>%1 behind</source>
+        <translation>%1 efter</translation>
+    </message>
+    <message>
+        <location line="+14"/>
+        <source>Last received block was generated %1 ago.</source>
+        <translation>Senast mottagna block genererades %1 sen.</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Transactions after this will not yet be visible.</source>
+        <translation>Transaktioner efter denna kommer inte ännu vara synliga.</translation>
+    </message>
+    <message>
+        <location line="+22"/>
+        <source>Error</source>
+        <translation>Fel</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Warning</source>
+        <translation>Varning</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Information</source>
+        <translation>Information</translation>
+    </message>
+    <message>
+        <location line="+70"/>
+        <source>This transaction is over the size limit. You can still send it for a fee of %1, which goes to the nodes that process your transaction and helps to support the network. Do you want to pay the fee?</source>
+        <translation>Transaktionen överskrider storleksgränsen. Du kan dock fortfarande skicka den mot en kostnad av %1, som går till noderna som behandlar din transaktion och bidrar till nätverket. Vill du betala denna avgift?</translation>
+    </message>
+    <message>
+        <location line="-140"/>
         <source>Up to date</source>
         <translation>Uppdaterad</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="600"/>
+        <location line="+31"/>
         <source>Catching up...</source>
         <translation>Hämtar senaste...</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="610"/>
-        <source>Last received block was generated %1.</source>
-        <translation>Senast mottagna block genererades %1.</translation>
-    </message>
-    <message>
-        <location filename="../bitcoingui.cpp" line="626"/>
-        <source>Mining Infinitecoins at %1 hashes per second</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../bitcoingui.cpp" line="631"/>
-        <source>Not mining Infinitecoins</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../bitcoingui.cpp" line="683"/>
-        <source>This transaction is over the size limit.  You can still send it for a fee of %1, which goes to the nodes that process your transaction and helps to support the network.  Do you want to pay the fee?</source>
-        <translation>Transaktionen överskrider storleksgränsen.  Du kan dock fortfarande skicka den mot en kostnad av %1. Denna avgift går till noderna som behandlar din transaktion och bidrar till nätverket.  Vill du betala denna avgift?</translation>
-    </message>
-    <message>
-        <location filename="../bitcoingui.cpp" line="688"/>
+        <location line="+113"/>
         <source>Confirm transaction fee</source>
         <translation>Bekräfta överföringsavgift</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="715"/>
+        <location line="+8"/>
         <source>Sent transaction</source>
         <translation>Transaktion skickad</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="716"/>
+        <location line="+0"/>
         <source>Incoming transaction</source>
         <translation>Inkommande transaktion</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="717"/>
+        <location line="+1"/>
         <source>Date: %1
 Amount: %2
 Type: %3
@@ -737,183 +649,105 @@ Adress: %4
 </translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="846"/>
-        <location filename="../bitcoingui.cpp" line="861"/>
+        <location line="+33"/>
+        <location line="+23"/>
         <source>URI handling</source>
-        <translation type="unfinished"></translation>
+        <translation>URI hantering</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="846"/>
-        <location filename="../bitcoingui.cpp" line="861"/>
+        <location line="-23"/>
+        <location line="+23"/>
         <source>URI can not be parsed! This can be caused by an invalid Infinitecoin address or malformed URI parameters.</source>
-        <translation type="unfinished"></translation>
+        <translation>URI går inte att tolkas! Detta kan orsakas av en ogiltig Infinitecoin-adress eller felaktiga URI parametrar.</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="877"/>
+        <location line="+17"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
         <translation>Denna plånbok är &lt;b&gt;krypterad&lt;/b&gt; och för närvarande &lt;b&gt;olåst&lt;/b&gt;</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="885"/>
+        <location line="+8"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>Denna plånbok är &lt;b&gt;krypterad&lt;/b&gt; och för närvarande &lt;b&gt;låst&lt;/b&gt;</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="908"/>
-        <source>Backup Wallet</source>
-        <translation>Säkerhetskopiera Plånbok</translation>
-    </message>
-    <message>
-        <location filename="../bitcoingui.cpp" line="908"/>
-        <source>Wallet Data (*.dat)</source>
-        <translation>Plånboks-data (*.dat)</translation>
-    </message>
-    <message>
-        <location filename="../bitcoingui.cpp" line="911"/>
-        <source>Backup Failed</source>
-        <translation>Säkerhetskopiering misslyckades</translation>
-    </message>
-    <message>
-        <location filename="../bitcoingui.cpp" line="911"/>
-        <source>There was an error trying to save the wallet data to the new location.</source>
-        <translation>Det inträffade ett fel när plånboken skulle sparas till den nya platsen.</translation>
-    </message>
-    <message>
-        <source>A fatal error occured. Bitcoin can no longer continue safely and will quit.</source>
-        <translation type="obsolete">Ett allvarligt fel har uppstått. Bitcoin kan inte längre köras säkert och kommer att avslutas.</translation>
-    </message>
-    <message>
-        <location filename="../bitcoin.cpp" line="118"/>
-        <location filename="../bitcoin.cpp" line="125"/>
-        <source>A fatal error occured. Infinitecoin can no longer continue safely and will quit.</source>
-        <translation type="unfinished"></translation>
+        <location filename="../bitcoin.cpp" line="+111"/>
+        <source>A fatal error occurred. Infinitecoin can no longer continue safely and will quit.</source>
+        <translation>Ett allvarligt fel har uppstått. Infinitecoin kan inte längre köras säkert och kommer att avslutas.</translation>
     </message>
 </context>
 <context>
     <name>ClientModel</name>
     <message>
-        <location filename="../clientmodel.cpp" line="236"/>
+        <location filename="../clientmodel.cpp" line="+104"/>
         <source>Network Alert</source>
         <translation>Nätverkslarm</translation>
     </message>
 </context>
 <context>
-    <name>DisplayOptionsPage</name>
-    <message>
-        <source>Display</source>
-        <translation type="obsolete">Visa</translation>
-    </message>
-    <message>
-        <source>default</source>
-        <translation type="obsolete">standard</translation>
-    </message>
-    <message>
-        <source>The user interface language can be set here. This setting will only take effect after restarting Bitcoin.</source>
-        <translation type="obsolete">Användargränssnittets språk kan ställas in här. Denna inställning träder i kraft efter en omstart av Bitcoin.</translation>
-    </message>
-    <message>
-        <source>User Interface &amp;Language:</source>
-        <translation type="obsolete">Användargränssnittets &amp;Språk: </translation>
-    </message>
-    <message>
-        <source>&amp;Unit to show amounts in:</source>
-        <translation type="obsolete">&amp;Måttenhet att visa belopp i: </translation>
-    </message>
-    <message>
-        <source>Choose the default subdivision unit to show in the interface, and when sending coins</source>
-        <translation type="obsolete">Välj en måttenhet att visa när du skickar mynt</translation>
-    </message>
-    <message>
-        <source>&amp;Display addresses in transaction list</source>
-        <translation type="obsolete">&amp;Visa adresser i transaktionslistan</translation>
-    </message>
-    <message>
-        <source>Whether to show Bitcoin addresses in the transaction list</source>
-        <translation type="obsolete">Anger om Bitcoin-adresser skall visas i transaktionslistan</translation>
-    </message>
-    <message>
-        <source>Warning</source>
-        <translation type="obsolete">Varning</translation>
-    </message>
-    <message>
-        <source>This setting will take effect after restarting Bitcoin.</source>
-        <translation type="obsolete">Denna inställning träder i kraft efter en omstart av Bitcoin.</translation>
-    </message>
-</context>
-<context>
     <name>EditAddressDialog</name>
     <message>
-        <location filename="../forms/editaddressdialog.ui" line="14"/>
+        <location filename="../forms/editaddressdialog.ui" line="+14"/>
         <source>Edit Address</source>
         <translation>Redigera Adress</translation>
     </message>
     <message>
-        <location filename="../forms/editaddressdialog.ui" line="25"/>
+        <location line="+11"/>
         <source>&amp;Label</source>
         <translation>&amp;Etikett</translation>
     </message>
     <message>
-        <location filename="../forms/editaddressdialog.ui" line="35"/>
+        <location line="+10"/>
         <source>The label associated with this address book entry</source>
         <translation>Den etikett som är associerad med detta adressboksinlägg</translation>
     </message>
     <message>
-        <location filename="../forms/editaddressdialog.ui" line="42"/>
+        <location line="+7"/>
         <source>&amp;Address</source>
         <translation>&amp;Adress</translation>
     </message>
     <message>
-        <location filename="../forms/editaddressdialog.ui" line="52"/>
+        <location line="+10"/>
         <source>The address associated with this address book entry. This can only be modified for sending addresses.</source>
         <translation>Adressen som är associerad med detta adressboksinlägg. Detta kan enbart ändras för sändande adresser.</translation>
     </message>
     <message>
-        <location filename="../forms/editaddressdialog.ui" line="55"/>
-        <location filename="../editaddressdialog.cpp" line="22"/>
-        <source>Automatic generated</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../editaddressdialog.cpp" line="20"/>
+        <location filename="../editaddressdialog.cpp" line="+21"/>
         <source>New receiving address</source>
         <translation>Ny mottagaradress</translation>
     </message>
     <message>
-        <location filename="../editaddressdialog.cpp" line="25"/>
+        <location line="+4"/>
         <source>New sending address</source>
         <translation>Ny avsändaradress</translation>
     </message>
     <message>
-        <location filename="../editaddressdialog.cpp" line="29"/>
+        <location line="+3"/>
         <source>Edit receiving address</source>
         <translation>Redigera mottagaradress</translation>
     </message>
     <message>
-        <location filename="../editaddressdialog.cpp" line="34"/>
+        <location line="+4"/>
         <source>Edit sending address</source>
         <translation>Redigera avsändaradress</translation>
     </message>
     <message>
-        <location filename="../editaddressdialog.cpp" line="95"/>
+        <location line="+76"/>
         <source>The entered address &quot;%1&quot; is already in the address book.</source>
         <translation>Den angivna adressen &quot;%1&quot; finns redan i adressboken.</translation>
     </message>
     <message>
-        <location filename="../editaddressdialog.cpp" line="100"/>
+        <location line="-5"/>
         <source>The entered address &quot;%1&quot; is not a valid Infinitecoin address.</source>
-        <translation type="unfinished"></translation>
+        <translation>Den angivna adressen &quot;%1&quot; är inte en giltig Infinitecoin-adress.</translation>
     </message>
     <message>
-        <source>The entered address &quot;%1&quot; is not a valid Bitcoin address.</source>
-        <translation type="obsolete">Den angivna adressen &quot;%1&quot; är inte en giltig Bitcoin-adress.</translation>
-    </message>
-    <message>
-        <location filename="../editaddressdialog.cpp" line="105"/>
+        <location line="+10"/>
         <source>Could not unlock wallet.</source>
         <translation>Plånboken kunde inte låsas upp.</translation>
     </message>
     <message>
-        <location filename="../editaddressdialog.cpp" line="110"/>
+        <location line="+5"/>
         <source>New key generation failed.</source>
         <translation>Misslyckades med generering av ny nyckel.</translation>
     </message>
@@ -921,652 +755,379 @@ Adress: %4
 <context>
     <name>GUIUtil::HelpMessageBox</name>
     <message>
-        <location filename="../guiutil.cpp" line="426"/>
-        <location filename="../guiutil.cpp" line="438"/>
+        <location filename="../guiutil.cpp" line="+424"/>
+        <location line="+12"/>
         <source>Infinitecoin-Qt</source>
-        <translation type="unfinished"></translation>
+        <translation>Infinitecoin-Qt</translation>
     </message>
     <message>
-        <location filename="../guiutil.cpp" line="426"/>
+        <location line="-12"/>
         <source>version</source>
-        <translation type="unfinished">version</translation>
+        <translation>version</translation>
     </message>
     <message>
-        <location filename="../guiutil.cpp" line="428"/>
+        <location line="+2"/>
         <source>Usage:</source>
-        <translation type="unfinished">Användning:</translation>
+        <translation>Användning:</translation>
     </message>
     <message>
-        <location filename="../guiutil.cpp" line="429"/>
+        <location line="+1"/>
         <source>command-line options</source>
-        <translation type="unfinished"></translation>
+        <translation>kommandoradsalternativ</translation>
     </message>
     <message>
-        <location filename="../guiutil.cpp" line="433"/>
+        <location line="+4"/>
         <source>UI options</source>
-        <translation type="unfinished">UI alternativ</translation>
+        <translation>UI alternativ</translation>
     </message>
     <message>
-        <location filename="../guiutil.cpp" line="434"/>
+        <location line="+1"/>
         <source>Set language, for example &quot;de_DE&quot; (default: system locale)</source>
-        <translation type="unfinished">Ändra språk, till exempel &quot;de_DE&quot; (standard: systemets språk)</translation>
+        <translation>Ändra språk, till exempel &quot;de_DE&quot; (förvalt: systemets språk)</translation>
     </message>
     <message>
-        <location filename="../guiutil.cpp" line="435"/>
+        <location line="+1"/>
         <source>Start minimized</source>
-        <translation type="unfinished">Starta som minimerad</translation>
+        <translation>Starta som minimerad</translation>
     </message>
     <message>
-        <location filename="../guiutil.cpp" line="436"/>
+        <location line="+1"/>
         <source>Show splash screen on startup (default: 1)</source>
-        <translation type="unfinished">Visa startbilden vid uppstart (standard: 1)</translation>
-    </message>
-</context>
-<context>
-    <name>HelpMessageBox</name>
-    <message>
-        <source>Bitcoin-Qt</source>
-        <translation type="obsolete">Bitcoin-Qt</translation>
-    </message>
-    <message>
-        <source>version</source>
-        <translation type="obsolete">version</translation>
-    </message>
-    <message>
-        <source>Usage:</source>
-        <translation type="obsolete">Användning:</translation>
-    </message>
-    <message>
-        <source>options</source>
-        <translation type="obsolete">alternativ</translation>
-    </message>
-    <message>
-        <source>UI options</source>
-        <translation type="obsolete">UI alternativ</translation>
-    </message>
-    <message>
-        <source>Set language, for example &quot;de_DE&quot; (default: system locale)</source>
-        <translation type="obsolete">Ändra språk, till exempel &quot;de_DE&quot; (standard: systemets språk)</translation>
-    </message>
-    <message>
-        <source>Start minimized</source>
-        <translation type="obsolete">Starta som minimerad</translation>
-    </message>
-    <message>
-        <source>Show splash screen on startup (default: 1)</source>
-        <translation type="obsolete">Visa startbilden vid uppstart (standard: 1)</translation>
-    </message>
-</context>
-<context>
-    <name>MainOptionsPage</name>
-    <message>
-        <source>Detach block and address databases at shutdown. This means they can be moved to another data directory, but it slows down shutdown. The wallet is always detached.</source>
-        <translation type="obsolete">Frigör block- och adressdatabaser vid nedstängning. Detta innebär att de kan flyttas till en annan data katalog, men det saktar ner avstängningen. Plånboken är alltid frigjord.</translation>
-    </message>
-    <message>
-        <source>Pay transaction &amp;fee</source>
-        <translation type="obsolete">Betala överförings&amp;avgift</translation>
-    </message>
-    <message>
-        <source>Main</source>
-        <translation type="obsolete">Allmänt</translation>
-    </message>
-    <message>
-        <source>The fee is charged at 0.2% of the transfer amount, with a minimum of 100IFC and a maximum of 10000IFC.The system will automatically calculate the network fee, no need to set here.</source>
-        <translation type="obsolete"></translation>
-    </message>
-    <message>
-        <source>&amp;Start Bitcoin on system login</source>
-        <translation type="obsolete">&amp;Starta Bitcoin vid systemstart</translation>
-    </message>
-    <message>
-        <source>Automatically start Bitcoin after logging in to the system</source>
-        <translation type="obsolete">Starta Bitcoin automatiskt efter inloggning</translation>
-    </message>
-    <message>
-        <source>&amp;Detach databases at shutdown</source>
-        <translation type="obsolete">&amp;Frigör databaser vid nedstängning</translation>
-    </message>
-</context>
-<context>
-    <name>MessagePage</name>
-    <message>
-        <source>Sign Message</source>
-        <translation type="obsolete">Signera meddelande</translation>
-    </message>
-    <message>
-        <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation type="obsolete">Du kan signera meddelanden med dina adresser för att bevisa att du äger dem. Var försiktig med vad du signerar eftersom phising-attacker kan försöka få dig att skriva över din identitet till någon annan. Signera bara väldetaljerade påståenden du kan gå i god för.</translation>
-    </message>
-    <message>
-        <source>The address to sign the message with  (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation type="obsolete">Adressen att signera meddelandet med  (t.ex. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
-    </message>
-    <message>
-        <source>Choose adress from address book</source>
-        <translation type="obsolete">Välj adress från adressboken</translation>
-    </message>
-    <message>
-        <source>Alt+A</source>
-        <translation type="obsolete">Alt+A</translation>
-    </message>
-    <message>
-        <source>Paste address from clipboard</source>
-        <translation type="obsolete">Klistra in adress från Urklipp</translation>
-    </message>
-    <message>
-        <source>Alt+P</source>
-        <translation type="obsolete">Alt+P</translation>
-    </message>
-    <message>
-        <source>Enter the message you want to sign here</source>
-        <translation type="obsolete">Skriv in meddelandet du vill signera här</translation>
-    </message>
-    <message>
-        <source>Copy the current signature to the system clipboard</source>
-        <translation type="obsolete">Kopiera signaturen till systemets Urklipp</translation>
-    </message>
-    <message>
-        <source>&amp;Copy Signature</source>
-        <translation type="obsolete">&amp;Kopiera signatur</translation>
-    </message>
-    <message>
-        <source>Reset all sign message fields</source>
-        <translation type="obsolete">Rensa alla fält</translation>
-    </message>
-    <message>
-        <source>Clear &amp;All</source>
-        <translation type="obsolete">Rensa &amp;alla</translation>
-    </message>
-    <message>
-        <source>Click &quot;Sign Message&quot; to get signature</source>
-        <translation type="obsolete">Klicka &quot;Signera Meddelande&quot; för att få en signatur</translation>
-    </message>
-    <message>
-        <source>Sign a message to prove you own this address</source>
-        <translation type="obsolete">Signera ett meddelande för att bevisa att du äger denna adress</translation>
-    </message>
-    <message>
-        <source>&amp;Sign Message</source>
-        <translation type="obsolete">&amp;Signera meddelande</translation>
-    </message>
-    <message>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation type="obsolete">Ange en Bitcoin-adress (t.ex. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
-    </message>
-    <message>
-        <source>Error signing</source>
-        <translation type="obsolete">Fel vid signering</translation>
-    </message>
-    <message>
-        <source>%1 is not a valid address.</source>
-        <translation type="obsolete">%1 är ingen giltig adress.</translation>
-    </message>
-    <message>
-        <source>%1 does not refer to a key.</source>
-        <translation type="obsolete">%1 refererar inte till en nyckel.</translation>
-    </message>
-    <message>
-        <source>Private key for %1 is not available.</source>
-        <translation type="obsolete">Privata nyckeln för %1 är inte tillgänglig.</translation>
-    </message>
-    <message>
-        <source>Sign failed</source>
-        <translation type="obsolete">Signering misslyckades</translation>
-    </message>
-</context>
-<context>
-    <name>MiningPage</name>
-    <message>
-        <location filename="../forms/miningpage.ui" line="14"/>
-        <source>Mining</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../forms/miningpage.ui" line="33"/>
-        <source>Username</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../forms/miningpage.ui" line="43"/>
-        <source>Server</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../forms/miningpage.ui" line="63"/>
-        <source>Password</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../forms/miningpage.ui" line="73"/>
-        <source>Port</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../forms/miningpage.ui" line="86"/>
-        <source>Start Mining</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../forms/miningpage.ui" line="151"/>
-        <source>Scantime</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../forms/miningpage.ui" line="161"/>
-        <source>Threads</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../forms/miningpage.ui" line="168"/>
-        <source>Debug Logging</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../forms/miningpage.ui" line="175"/>
-        <source>Type</source>
-        <translation type="unfinished">Typ</translation>
-    </message>
-    <message>
-        <location filename="../forms/miningpage.ui" line="205"/>
-        <source>Solo Mining</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../forms/miningpage.ui" line="210"/>
-        <source>Pool Mining</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../forms/miningpage.ui" line="234"/>
-        <source>9322</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>NetworkOptionsPage</name>
-    <message>
-        <source>Network</source>
-        <translation type="obsolete">Nätverk</translation>
-    </message>
-    <message>
-        <source>Map port using &amp;UPnP</source>
-        <translation type="obsolete">Tilldela port med hjälp av &amp;UPnP</translation>
-    </message>
-    <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation type="obsolete">Öppna automatiskt Bitcoin-klientens port på routern. Detta fungerar endast om din router har UPnP aktiverat.</translation>
-    </message>
-    <message>
-        <source>&amp;Connect through SOCKS4 proxy:</source>
-        <translation type="obsolete">&amp;Anslut genom SOCKS4-proxy:</translation>
-    </message>
-    <message>
-        <source>Connect to the Bitcon network through a SOCKS4 proxy (e.g. when connecting through Tor)</source>
-        <translation type="obsolete">Anslut till Bitcoin-nätverket genom en SOCKS4-proxy (t.ex. när du ansluter genom Tor)</translation>
-    </message>
-    <message>
-        <source>Proxy &amp;IP:</source>
-        <translation type="obsolete">Proxy-&amp;IP: </translation>
-    </message>
-    <message>
-        <source>&amp;Port:</source>
-        <translation type="obsolete">&amp;Port: </translation>
-    </message>
-    <message>
-        <source>IP address of the proxy (e.g. 127.0.0.1)</source>
-        <translation type="obsolete">Proxyns IP-adress (t.ex. 127.0.0.1)</translation>
-    </message>
-    <message>
-        <source>Port of the proxy (e.g. 1234)</source>
-        <translation type="obsolete">Proxyns port (t.ex. 1234)</translation>
+        <translation>Visa startbilden vid uppstart (förvalt: 1)</translation>
     </message>
 </context>
 <context>
     <name>OptionsDialog</name>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="14"/>
+        <location filename="../forms/optionsdialog.ui" line="+14"/>
         <source>Options</source>
         <translation>Alternativ</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="30"/>
+        <location line="+16"/>
         <source>&amp;Main</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Allmänt</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="36"/>
-        <source>The fee is charged at 0.2% of the transfer amount, with a minimum of 100IFC and a maximum of 10000IFC.The system will automatically calculate the network fee, no need to set here.</source>
-        <translation type="unfinished"></translation>
+        <location line="+6"/>
+        <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB.</source>
+        <translation>Valfri transaktionsavgift per kB som ser till att dina transaktioner behandlas snabbt. De flesta transaktioner är 1 kB.</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="51"/>
+        <location line="+15"/>
         <source>Pay transaction &amp;fee</source>
-        <translation type="unfinished">Betala överförings&amp;avgift</translation>
+        <translation>Betala överförings&amp;avgift</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="82"/>
+        <location line="+31"/>
         <source>Automatically start Infinitecoin after logging in to the system.</source>
-        <translation type="unfinished"></translation>
+        <translation>Starta Infinitecoin automatiskt efter inloggning.</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="85"/>
+        <location line="+3"/>
         <source>&amp;Start Infinitecoin on system login</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Starta Infinitecoin vid systemstart</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="92"/>
-        <source>Detach block and address databases at shutdown. This means they can be moved to another data directory, but it slows down shutdown. The wallet is always detached.</source>
-        <translation type="unfinished">Frigör block- och adressdatabaser vid nedstängning. Detta innebär att de kan flyttas till en annan data katalog, men det saktar ner avstängningen. Plånboken är alltid frigjord.</translation>
+        <location line="+35"/>
+        <source>Reset all client options to default.</source>
+        <translation>Återställ alla klient inställningar till förvalen.</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="95"/>
-        <source>&amp;Detach databases at shutdown</source>
-        <translation type="unfinished">&amp;Frigör databaser vid nedstängning</translation>
+        <location line="+3"/>
+        <source>&amp;Reset Options</source>
+        <translation>&amp;Återställ Alternativ</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="116"/>
+        <location line="+13"/>
         <source>&amp;Network</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Nätverk</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="122"/>
+        <location line="+6"/>
         <source>Automatically open the Infinitecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation type="unfinished"></translation>
+        <translation>Öppna automatiskt Infinitecoin-klientens port på routern. Detta fungerar endast om din router har UPnP aktiverat.</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="125"/>
+        <location line="+3"/>
         <source>Map port using &amp;UPnP</source>
-        <translation type="unfinished">Tilldela port med hjälp av &amp;UPnP</translation>
+        <translation>Tilldela port med hjälp av &amp;UPnP</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="132"/>
+        <location line="+7"/>
         <source>Connect to the Infinitecoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation type="unfinished"></translation>
+        <translation>Anslut till Infinitecoin-nätverket genom en SOCKS-proxy (t.ex. när du ansluter genom Tor).</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="135"/>
+        <location line="+3"/>
         <source>&amp;Connect through SOCKS proxy:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Anslut genom SOCKS-proxy:</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="144"/>
+        <location line="+9"/>
         <source>Proxy &amp;IP:</source>
-        <translation type="unfinished">Proxy-&amp;IP: </translation>
+        <translation>Proxy-&amp;IP: </translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="163"/>
+        <location line="+19"/>
         <source>IP address of the proxy (e.g. 127.0.0.1)</source>
-        <translation type="unfinished">Proxyns IP-adress (t.ex. 127.0.0.1)</translation>
+        <translation>Proxyns IP-adress (t.ex. 127.0.0.1)</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="170"/>
+        <location line="+7"/>
         <source>&amp;Port:</source>
-        <translation type="unfinished">&amp;Port: </translation>
+        <translation>&amp;Port: </translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="189"/>
+        <location line="+19"/>
         <source>Port of the proxy (e.g. 9050)</source>
-        <translation type="unfinished">Proxyns port (t.ex. 1234) {9050)?}</translation>
+        <translation>Proxyns port (t.ex. 9050)</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="196"/>
+        <location line="+7"/>
         <source>SOCKS &amp;Version:</source>
-        <translation type="unfinished"></translation>
+        <translation>SOCKS &amp;Version:</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="209"/>
+        <location line="+13"/>
         <source>SOCKS version of the proxy (e.g. 5)</source>
-        <translation type="unfinished"></translation>
+        <translation>SOCKS version av proxyn (t.ex. 5)</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="245"/>
+        <location line="+36"/>
         <source>&amp;Window</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Fönster</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="251"/>
+        <location line="+6"/>
         <source>Show only a tray icon after minimizing the window.</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa endast en systemfältsikon vid minimering.</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="254"/>
+        <location line="+3"/>
         <source>&amp;Minimize to the tray instead of the taskbar</source>
-        <translation type="unfinished">&amp;Minimera till systemfältet istället för aktivitetsfältet</translation>
+        <translation>&amp;Minimera till systemfältet istället för aktivitetsfältet</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="261"/>
+        <location line="+7"/>
         <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
-        <translation type="unfinished">Minimera applikationen istället för att stänga ner den när fönstret stängs. Detta innebär att programmet fotrsätter att köras tills du väljer Avsluta i menyn.</translation>
+        <translation>Minimera applikationen istället för att stänga ner den när fönstret stängs. Detta innebär att programmet fotrsätter att köras tills du väljer Avsluta i menyn.</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="264"/>
+        <location line="+3"/>
         <source>M&amp;inimize on close</source>
-        <translation type="unfinished">M&amp;inimera vid stängning</translation>
+        <translation>M&amp;inimera vid stängning</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="285"/>
+        <location line="+21"/>
         <source>&amp;Display</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Visa</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="293"/>
+        <location line="+8"/>
         <source>User Interface &amp;language:</source>
-        <translation type="unfinished"></translation>
+        <translation>Användargränssnittets &amp;språk: </translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="306"/>
+        <location line="+13"/>
         <source>The user interface language can be set here. This setting will take effect after restarting Infinitecoin.</source>
-        <translation type="unfinished"></translation>
+        <translation>Användargränssnittets språk kan ställas in här. Denna inställning träder i kraft efter en omstart av Infinitecoin.</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="317"/>
+        <location line="+11"/>
         <source>&amp;Unit to show amounts in:</source>
-        <translation type="unfinished">&amp;Måttenhet att visa belopp i: </translation>
+        <translation>&amp;Måttenhet att visa belopp i: </translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="330"/>
+        <location line="+13"/>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation type="unfinished"></translation>
+        <translation>Välj en måttenhet att visa när du skickar mynt.</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="339"/>
+        <location line="+9"/>
         <source>Whether to show Infinitecoin addresses in the transaction list or not.</source>
-        <translation type="unfinished"></translation>
+        <translation>Anger om Infinitecoin-adresser skall visas i transaktionslistan.</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="342"/>
+        <location line="+3"/>
         <source>&amp;Display addresses in transaction list</source>
-        <translation type="unfinished">&amp;Visa adresser i transaktionslistan</translation>
+        <translation>&amp;Visa adresser i transaktionslistan</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="413"/>
+        <location line="+71"/>
         <source>&amp;OK</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;OK</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="420"/>
+        <location line="+7"/>
         <source>&amp;Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Avbryt</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="430"/>
+        <location line="+10"/>
         <source>&amp;Apply</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Verkställ</translation>
     </message>
     <message>
-        <location filename="../optionsdialog.cpp" line="63"/>
+        <location filename="../optionsdialog.cpp" line="+53"/>
         <source>default</source>
-        <translation type="unfinished">standard</translation>
+        <translation>standard</translation>
     </message>
     <message>
-        <location filename="../optionsdialog.cpp" line="196"/>
-        <location filename="../optionsdialog.cpp" line="205"/>
+        <location line="+130"/>
+        <source>Confirm options reset</source>
+        <translation>Bekräfta att alternativen ska återställs</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Some settings may require a client restart to take effect.</source>
+        <translation>Vissa inställningar kan behöva en omstart av klienten för att börja gälla.</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Do you want to proceed?</source>
+        <translation>Vill du fortsätta?</translation>
+    </message>
+    <message>
+        <location line="+42"/>
+        <location line="+9"/>
         <source>Warning</source>
-        <translation type="unfinished">Varning</translation>
+        <translation>Varning</translation>
     </message>
     <message>
-        <location filename="../optionsdialog.cpp" line="196"/>
-        <location filename="../optionsdialog.cpp" line="205"/>
+        <location line="-9"/>
+        <location line="+9"/>
         <source>This setting will take effect after restarting Infinitecoin.</source>
-        <translation type="unfinished"></translation>
+        <translation>Denna inställning träder i kraft efter en omstart av Infinitecoin.</translation>
     </message>
     <message>
-        <location filename="../optionsdialog.cpp" line="230"/>
+        <location line="+29"/>
         <source>The supplied proxy address is invalid.</source>
-        <translation type="unfinished"></translation>
+        <translation>Den medföljande proxy adressen är ogiltig.</translation>
     </message>
 </context>
 <context>
     <name>OverviewPage</name>
     <message>
-        <location filename="../forms/overviewpage.ui" line="14"/>
+        <location filename="../forms/overviewpage.ui" line="+14"/>
         <source>Form</source>
         <translation>Formulär</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="obsolete">Den visade informationen kan vara inaktuell. Plånboken synkroniseras automatiskt med Bitcoin-nätverket efter att anslutningen är upprättad, men denna process har inte slutförts ännu.</translation>
+        <location line="+50"/>
+        <location line="+166"/>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Infinitecoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Den visade informationen kan vara inaktuell. Plånboken synkroniseras automatiskt med Infinitecoin-nätverket efter att anslutningen är upprättad, men denna process har inte slutförts ännu.</translation>
     </message>
     <message>
-        <location filename="../forms/overviewpage.ui" line="89"/>
+        <location line="-124"/>
         <source>Balance:</source>
         <translation>Saldo:</translation>
     </message>
     <message>
-        <location filename="../forms/overviewpage.ui" line="173"/>
-        <source>Number of transactions:</source>
-        <translation>Antal transaktioner:</translation>
-    </message>
-    <message>
-        <location filename="../forms/overviewpage.ui" line="118"/>
+        <location line="+29"/>
         <source>Unconfirmed:</source>
         <translation>Obekräftade:</translation>
     </message>
     <message>
-        <location filename="../forms/overviewpage.ui" line="40"/>
+        <location line="-78"/>
         <source>Wallet</source>
         <translation>Plånbok</translation>
     </message>
     <message>
-        <location filename="../forms/overviewpage.ui" line="47"/>
-        <location filename="../forms/overviewpage.ui" line="297"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Infinitecoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../forms/overviewpage.ui" line="147"/>
+        <location line="+107"/>
         <source>Immature:</source>
-        <translation type="unfinished"></translation>
+        <translation>Omogen:</translation>
     </message>
     <message>
-        <location filename="../forms/overviewpage.ui" line="160"/>
+        <location line="+13"/>
         <source>Mined balance that has not yet matured</source>
-        <translation type="unfinished"></translation>
+        <translation>Den genererade balansen som ännu inte har mognat</translation>
     </message>
     <message>
-        <location filename="../forms/overviewpage.ui" line="217"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Navigation Site&lt;/span&gt;&lt;/a&gt; | &lt;a href=&quot;&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Blockchain Explorer&lt;/span&gt;&lt;/a&gt; | &lt;a href=&quot;&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Pool List&lt;/span&gt;&lt;/a&gt; | &lt;a href=&quot;&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Github&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../forms/overviewpage.ui" line="382"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Version 1.9.1 (2018-08-16)&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../forms/overviewpage.ui" line="290"/>
+        <location line="+46"/>
         <source>&lt;b&gt;Recent transactions&lt;/b&gt;</source>
         <translation>&lt;b&gt;Nyligen genomförda transaktioner&lt;/b&gt;</translation>
     </message>
     <message>
-        <location filename="../forms/overviewpage.ui" line="105"/>
+        <location line="-101"/>
         <source>Your current balance</source>
         <translation>Ditt nuvarande saldo</translation>
     </message>
     <message>
-        <location filename="../forms/overviewpage.ui" line="134"/>
+        <location line="+29"/>
         <source>Total of transactions that have yet to be confirmed, and do not yet count toward the current balance</source>
         <translation>Totalt antal transaktioner som ännu inte bekräftats, och som ännu inte räknas med i aktuellt saldo</translation>
     </message>
     <message>
-        <location filename="../forms/overviewpage.ui" line="180"/>
-        <source>Total number of transactions in wallet</source>
-        <translation>Totalt antal transaktioner i plånboken</translation>
-    </message>
-    <message>
+        <location filename="../overviewpage.cpp" line="+116"/>
+        <location line="+1"/>
         <source>out of sync</source>
-        <translation type="obsolete">osynkroniserad</translation>
+        <translation>osynkroniserad</translation>
     </message>
+</context>
+<context>
+    <name>PaymentServer</name>
     <message>
-        <location filename="../overviewpage.cpp" line="112"/>
-        <location filename="../overviewpage.cpp" line="113"/>
-        <source>Out of sync</source>
-        <translation type="unfinished"></translation>
+        <location filename="../paymentserver.cpp" line="+107"/>
+        <source>Cannot start infinitecoin: click-to-pay handler</source>
+        <translation>Kan inte starta infinitecoin: klicka-och-betala handhavare</translation>
     </message>
 </context>
 <context>
     <name>QRCodeDialog</name>
     <message>
-        <location filename="../forms/qrcodedialog.ui" line="14"/>
+        <location filename="../forms/qrcodedialog.ui" line="+14"/>
         <source>QR Code Dialog</source>
         <translation>QR-kod dialogruta</translation>
     </message>
     <message>
-        <source>QR Code</source>
-        <translation type="obsolete">QR-kod</translation>
-    </message>
-    <message>
-        <location filename="../forms/qrcodedialog.ui" line="73"/>
+        <location line="+59"/>
         <source>Request Payment</source>
         <translation>Begär Betalning</translation>
     </message>
     <message>
-        <location filename="../forms/qrcodedialog.ui" line="129"/>
+        <location line="+56"/>
         <source>Amount:</source>
         <translation>Belopp:</translation>
     </message>
     <message>
-        <source>IFC</source>
-        <translation type="obsolete">IFC</translation>
-    </message>
-    <message>
-        <location filename="../forms/qrcodedialog.ui" line="85"/>
+        <location line="-44"/>
         <source>Label:</source>
         <translation>Etikett:</translation>
     </message>
     <message>
-        <location filename="../forms/qrcodedialog.ui" line="104"/>
+        <location line="+19"/>
         <source>Message:</source>
         <translation>Meddelande:</translation>
     </message>
     <message>
-        <location filename="../forms/qrcodedialog.ui" line="175"/>
+        <location line="+71"/>
         <source>&amp;Save As...</source>
         <translation>&amp;Spara som...</translation>
     </message>
     <message>
-        <location filename="../qrcodedialog.cpp" line="62"/>
+        <location filename="../qrcodedialog.cpp" line="+62"/>
         <source>Error encoding URI into QR Code.</source>
         <translation>Fel vid skapande av QR-kod från URI.</translation>
     </message>
     <message>
-        <location filename="../qrcodedialog.cpp" line="102"/>
+        <location line="+40"/>
         <source>The entered amount is invalid, please check.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det angivna beloppet är ogiltigt, vänligen kontrollera.</translation>
     </message>
     <message>
-        <location filename="../qrcodedialog.cpp" line="125"/>
+        <location line="+23"/>
         <source>Resulting URI too long, try to reduce the text for label / message.</source>
         <translation>URI:n är för lång, försöka minska texten för etikett / meddelande.</translation>
     </message>
     <message>
-        <location filename="../qrcodedialog.cpp" line="150"/>
+        <location line="+25"/>
         <source>Save QR Code</source>
         <translation>Spara QR-kod</translation>
     </message>
     <message>
-        <location filename="../qrcodedialog.cpp" line="150"/>
+        <location line="+0"/>
         <source>PNG Images (*.png)</source>
         <translation>PNG-bilder (*.png)</translation>
     </message>
@@ -1574,162 +1135,146 @@ Adress: %4
 <context>
     <name>RPCConsole</name>
     <message>
-        <source>Bitcoin debug window</source>
-        <translation type="obsolete">Bitcoin debug fönster</translation>
-    </message>
-    <message>
-        <location filename="../forms/rpcconsole.ui" line="49"/>
+        <location filename="../forms/rpcconsole.ui" line="+46"/>
         <source>Client name</source>
         <translation>Klientnamn</translation>
     </message>
     <message>
-        <location filename="../forms/rpcconsole.ui" line="59"/>
-        <location filename="../forms/rpcconsole.ui" line="82"/>
-        <location filename="../forms/rpcconsole.ui" line="108"/>
-        <location filename="../forms/rpcconsole.ui" line="131"/>
-        <location filename="../forms/rpcconsole.ui" line="154"/>
-        <location filename="../forms/rpcconsole.ui" line="190"/>
-        <location filename="../forms/rpcconsole.ui" line="243"/>
-        <location filename="../forms/rpcconsole.ui" line="266"/>
-        <location filename="../forms/rpcconsole.ui" line="289"/>
-        <location filename="../rpcconsole.cpp" line="330"/>
+        <location line="+10"/>
+        <location line="+23"/>
+        <location line="+26"/>
+        <location line="+23"/>
+        <location line="+23"/>
+        <location line="+36"/>
+        <location line="+53"/>
+        <location line="+23"/>
+        <location line="+23"/>
+        <location filename="../rpcconsole.cpp" line="+339"/>
         <source>N/A</source>
         <translation>ej tillgänglig</translation>
     </message>
     <message>
-        <location filename="../forms/rpcconsole.ui" line="72"/>
+        <location line="-217"/>
         <source>Client version</source>
         <translation>Klient-version</translation>
     </message>
     <message>
-        <location filename="../forms/rpcconsole.ui" line="27"/>
+        <location line="-45"/>
         <source>&amp;Information</source>
         <translation>&amp;Information</translation>
     </message>
     <message>
-        <source>Client</source>
-        <translation type="obsolete">Klient</translation>
+        <location line="+68"/>
+        <source>Using OpenSSL version</source>
+        <translation>Använder OpenSSL version</translation>
     </message>
     <message>
-        <location filename="../forms/rpcconsole.ui" line="144"/>
+        <location line="+49"/>
         <source>Startup time</source>
         <translation>Uppstartstid</translation>
     </message>
     <message>
-        <location filename="../forms/rpcconsole.ui" line="173"/>
+        <location line="+29"/>
         <source>Network</source>
         <translation>Nätverk</translation>
     </message>
     <message>
-        <location filename="../forms/rpcconsole.ui" line="180"/>
+        <location line="+7"/>
         <source>Number of connections</source>
         <translation>Antalet anslutningar</translation>
     </message>
     <message>
-        <location filename="../forms/rpcconsole.ui" line="203"/>
+        <location line="+23"/>
         <source>On testnet</source>
         <translation>På testnet</translation>
     </message>
     <message>
-        <location filename="../forms/rpcconsole.ui" line="226"/>
+        <location line="+23"/>
         <source>Block chain</source>
         <translation>Blockkedja</translation>
     </message>
     <message>
-        <location filename="../forms/rpcconsole.ui" line="233"/>
+        <location line="+7"/>
         <source>Current number of blocks</source>
         <translation>Aktuellt antal block</translation>
     </message>
     <message>
-        <location filename="../forms/rpcconsole.ui" line="256"/>
+        <location line="+23"/>
         <source>Estimated total blocks</source>
         <translation>Beräknade totala block</translation>
     </message>
     <message>
-        <location filename="../forms/rpcconsole.ui" line="279"/>
+        <location line="+23"/>
         <source>Last block time</source>
         <translation>Sista blocktid</translation>
     </message>
     <message>
-        <location filename="../forms/rpcconsole.ui" line="321"/>
-        <source>Debug logfile</source>
-        <translation>Debugloggfil</translation>
-    </message>
-    <message>
-        <source>Open the Bitcoin debug logfile from the current data directory. This can take a few seconds for large logfiles.</source>
-        <translation type="obsolete">Öppna Bitcoin debug-loggfilen som finns i datakatalogen. Detta kan ta några sekunder för stora loggfiler.</translation>
-    </message>
-    <message>
-        <location filename="../forms/rpcconsole.ui" line="331"/>
+        <location line="+52"/>
         <source>&amp;Open</source>
         <translation>&amp;Öppna</translation>
     </message>
     <message>
-        <location filename="../forms/rpcconsole.ui" line="384"/>
+        <location line="+16"/>
+        <source>Command-line options</source>
+        <translation>Kommandoradsalternativ</translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Show the Infinitecoin-Qt help message to get a list with possible Infinitecoin command-line options.</source>
+        <translation>Visa Infinitecoin-Qt hjälpmeddelande för att få en lista med möjliga Infinitecoin kommandoradsalternativ.</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>&amp;Show</source>
+        <translation>&amp;Visa</translation>
+    </message>
+    <message>
+        <location line="+24"/>
         <source>&amp;Console</source>
         <translation>&amp;Konsol</translation>
     </message>
     <message>
-        <location filename="../forms/rpcconsole.ui" line="121"/>
+        <location line="-260"/>
         <source>Build date</source>
         <translation>Kompileringsdatum</translation>
     </message>
     <message>
-        <location filename="../forms/rpcconsole.ui" line="14"/>
+        <location line="-104"/>
         <source>Infinitecoin - Debug window</source>
-        <translation type="unfinished"></translation>
+        <translation>Infinitecoin - Debug fönster</translation>
     </message>
     <message>
-        <location filename="../forms/rpcconsole.ui" line="42"/>
+        <location line="+25"/>
         <source>Infinitecoin Core</source>
-        <translation type="unfinished"></translation>
+        <translation>Infinitecoin Kärna</translation>
     </message>
     <message>
-        <location filename="../forms/rpcconsole.ui" line="95"/>
-        <source>Using OpenSSL version</source>
-        <translation type="unfinished"></translation>
+        <location line="+279"/>
+        <source>Debug log file</source>
+        <translation>Debugloggfil</translation>
     </message>
     <message>
-        <location filename="../forms/rpcconsole.ui" line="328"/>
-        <source>Open the Infinitecoin debug logfile from the current data directory. This can take a few seconds for large logfiles.</source>
-        <translation type="unfinished"></translation>
+        <location line="+7"/>
+        <source>Open the Infinitecoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Öppna Infinitecoin debug-loggfilen som finns i datakatalogen. Detta kan ta några sekunder för stora loggfiler.</translation>
     </message>
     <message>
-        <location filename="../forms/rpcconsole.ui" line="347"/>
-        <source>Command-line options</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../forms/rpcconsole.ui" line="354"/>
-        <source>Show the Infinitecoin-Qt help message to get a list with possible Infinitecoin command-line options.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../forms/rpcconsole.ui" line="357"/>
-        <source>&amp;Show</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../forms/rpcconsole.ui" line="437"/>
+        <location line="+102"/>
         <source>Clear console</source>
         <translation>Rensa konsollen</translation>
     </message>
     <message>
+        <location filename="../rpcconsole.cpp" line="-30"/>
         <source>Welcome to the Infinitecoin RPC console.</source>
-        <translation type="obsolete">Välkommen till Infinitecoin RPC-konsollen.</translation>
+        <translation>Välkommen till Infinitecoin RPC-konsollen.</translation>
     </message>
     <message>
-        <location filename="../rpcconsole.cpp" line="297"/>
-        <source>Welcome to the Infinitecoin RPC console.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../rpcconsole.cpp" line="298"/>
+        <location line="+1"/>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
         <translation>Använd upp- och ner-pilarna för att navigera i historiken, och &lt;b&gt;Ctrl-L&lt;/b&gt; för att rensa skärmen.</translation>
     </message>
     <message>
-        <location filename="../rpcconsole.cpp" line="299"/>
+        <location line="+1"/>
         <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
         <translation>Skriv &lt;b&gt;help&lt;/b&gt; för en översikt av alla kommandon.</translation>
     </message>
@@ -1737,119 +1282,109 @@ Adress: %4
 <context>
     <name>SendCoinsDialog</name>
     <message>
-        <location filename="../forms/sendcoinsdialog.ui" line="14"/>
-        <location filename="../sendcoinsdialog.cpp" line="123"/>
-        <location filename="../sendcoinsdialog.cpp" line="128"/>
-        <location filename="../sendcoinsdialog.cpp" line="133"/>
-        <location filename="../sendcoinsdialog.cpp" line="138"/>
-        <location filename="../sendcoinsdialog.cpp" line="144"/>
-        <location filename="../sendcoinsdialog.cpp" line="149"/>
-        <location filename="../sendcoinsdialog.cpp" line="154"/>
+        <location filename="../forms/sendcoinsdialog.ui" line="+14"/>
+        <location filename="../sendcoinsdialog.cpp" line="+124"/>
+        <location line="+5"/>
+        <location line="+5"/>
+        <location line="+5"/>
+        <location line="+6"/>
+        <location line="+5"/>
+        <location line="+5"/>
         <source>Send Coins</source>
         <translation>Skicka pengar</translation>
     </message>
     <message>
-        <location filename="../forms/sendcoinsdialog.ui" line="73"/>
-        <source>The fee is charged at 0.2% of the transfer amount, with a minimum of 100IFC and a maximum of 10000IFC.</source>
-        <extracomment>111</extracomment>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../forms/sendcoinsdialog.ui" line="90"/>
+        <location line="+50"/>
         <source>Send to multiple recipients at once</source>
         <translation>Skicka till flera mottagare samtidigt</translation>
     </message>
     <message>
-        <location filename="../forms/sendcoinsdialog.ui" line="93"/>
-        <source>&amp;Add Recipient</source>
-        <translation>&amp;Lägg till mottagare</translation>
+        <location line="+3"/>
+        <source>Add &amp;Recipient</source>
+        <translation>Lägg till &amp;mottagare</translation>
     </message>
     <message>
-        <location filename="../forms/sendcoinsdialog.ui" line="113"/>
+        <location line="+20"/>
         <source>Remove all transaction fields</source>
         <translation>Ta bort alla transaktions-fält</translation>
     </message>
     <message>
-        <location filename="../forms/sendcoinsdialog.ui" line="116"/>
+        <location line="+3"/>
         <source>Clear &amp;All</source>
         <translation>Rensa &amp;alla</translation>
     </message>
     <message>
-        <location filename="../forms/sendcoinsdialog.ui" line="138"/>
+        <location line="+22"/>
         <source>Balance:</source>
         <translation>Balans:</translation>
     </message>
     <message>
-        <location filename="../forms/sendcoinsdialog.ui" line="148"/>
+        <location line="+10"/>
         <source>123.456 IFC</source>
-        <translation type="unfinished"></translation>
+        <translation>123,456 IFC</translation>
     </message>
     <message>
-        <source>123.456 IFC</source>
-        <translation type="obsolete">123,456 IFC</translation>
-    </message>
-    <message>
-        <location filename="../forms/sendcoinsdialog.ui" line="179"/>
+        <location line="+31"/>
         <source>Confirm the send action</source>
         <translation>Bekräfta sändordern</translation>
     </message>
     <message>
-        <location filename="../forms/sendcoinsdialog.ui" line="182"/>
-        <source>&amp;Send</source>
+        <location line="+3"/>
+        <source>S&amp;end</source>
         <translation>&amp;Skicka</translation>
     </message>
     <message>
-        <location filename="../sendcoinsdialog.cpp" line="95"/>
+        <location filename="../sendcoinsdialog.cpp" line="-59"/>
         <source>&lt;b&gt;%1&lt;/b&gt; to %2 (%3)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; till %2 (%3)</translation>
     </message>
     <message>
-        <location filename="../sendcoinsdialog.cpp" line="100"/>
+        <location line="+5"/>
         <source>Confirm send coins</source>
         <translation>Bekräfta skickade mynt</translation>
     </message>
     <message>
-        <location filename="../sendcoinsdialog.cpp" line="101"/>
+        <location line="+1"/>
         <source>Are you sure you want to send %1?</source>
         <translation>Är du säker på att du vill skicka %1?</translation>
     </message>
     <message>
-        <location filename="../sendcoinsdialog.cpp" line="101"/>
+        <location line="+0"/>
         <source> and </source>
         <translation> och </translation>
     </message>
     <message>
-        <location filename="../sendcoinsdialog.cpp" line="124"/>
-        <source>The recepient address is not valid, please recheck.</source>
+        <location line="+23"/>
+        <source>The recipient address is not valid, please recheck.</source>
         <translation>Mottagarens adress är inte giltig, vänligen kontrollera igen.</translation>
     </message>
     <message>
-        <location filename="../sendcoinsdialog.cpp" line="129"/>
+        <location line="+5"/>
         <source>The amount to pay must be larger than 0.</source>
         <translation>Det betalade beloppet måste vara större än 0.</translation>
     </message>
     <message>
-        <location filename="../sendcoinsdialog.cpp" line="134"/>
+        <location line="+5"/>
         <source>The amount exceeds your balance.</source>
         <translation>Värdet överstiger ditt saldo.</translation>
     </message>
     <message>
-        <location filename="../sendcoinsdialog.cpp" line="139"/>
+        <location line="+5"/>
         <source>The total exceeds your balance when the %1 transaction fee is included.</source>
         <translation>Totalvärdet överstiger ditt saldo när transaktionsavgiften %1 är pålagd.</translation>
     </message>
     <message>
-        <location filename="../sendcoinsdialog.cpp" line="145"/>
+        <location line="+6"/>
         <source>Duplicate address found, can only send to each address once per send operation.</source>
         <translation>Dubblett av adress funnen, kan bara skicka till varje adress en gång per sändning.</translation>
     </message>
     <message>
-        <location filename="../sendcoinsdialog.cpp" line="150"/>
-        <source>Error: Transaction creation failed.</source>
-        <translation>Fel: Transaktionen gick inte att skapa.</translation>
+        <location line="+5"/>
+        <source>Error: Transaction creation failed!</source>
+        <translation>Fel: Transaktionen gick inte att skapa!</translation>
     </message>
     <message>
-        <location filename="../sendcoinsdialog.cpp" line="155"/>
+        <location line="+5"/>
         <source>Error: The transaction was rejected. This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
         <translation>Fel: Transaktionen avslogs. Detta kan hända om några av mynten i plånboken redan spenderats, t.ex om du använt en kopia av wallet.dat och mynt spenderades i kopian men inte markerats som spenderas här.</translation>
     </message>
@@ -1857,679 +1392,574 @@ Adress: %4
 <context>
     <name>SendCoinsEntry</name>
     <message>
-        <location filename="../forms/sendcoinsentry.ui" line="14"/>
+        <location filename="../forms/sendcoinsentry.ui" line="+14"/>
         <source>Form</source>
         <translation>Formulär</translation>
     </message>
     <message>
-        <location filename="../forms/sendcoinsentry.ui" line="94"/>
+        <location line="+15"/>
         <source>A&amp;mount:</source>
         <translation>&amp;Belopp:</translation>
     </message>
     <message>
-        <location filename="../forms/sendcoinsentry.ui" line="107"/>
+        <location line="+13"/>
         <source>Pay &amp;To:</source>
         <translation>Betala &amp;Till:</translation>
     </message>
     <message>
-        <location filename="../forms/sendcoinsentry.ui" line="128"/>
-        <location filename="../sendcoinsentry.cpp" line="26"/>
+        <location line="+34"/>
+        <source>The address to send the payment to (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Adressen som betalningen skall skickas till  (t.ex. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+    </message>
+    <message>
+        <location line="+60"/>
+        <location filename="../sendcoinsentry.cpp" line="+26"/>
         <source>Enter a label for this address to add it to your address book</source>
         <translation>Ange ett namn för den här adressen och lägg till den i din adressbok</translation>
     </message>
     <message>
-        <location filename="../forms/sendcoinsentry.ui" line="137"/>
+        <location line="-78"/>
         <source>&amp;Label:</source>
         <translation>&amp;Etikett:</translation>
     </message>
     <message>
-        <location filename="../forms/sendcoinsentry.ui" line="34"/>
-        <source>The address to send the payment to  (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Adressen som betalningen skall skickas till  (t.ex. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
-    </message>
-    <message>
-        <location filename="../forms/sendcoinsentry.ui" line="44"/>
+        <location line="+28"/>
         <source>Choose address from address book</source>
         <translation>Välj adress från adresslistan</translation>
     </message>
     <message>
-        <location filename="../forms/sendcoinsentry.ui" line="54"/>
+        <location line="+10"/>
         <source>Alt+A</source>
         <translation>Alt+A</translation>
     </message>
     <message>
-        <location filename="../forms/sendcoinsentry.ui" line="61"/>
+        <location line="+7"/>
         <source>Paste address from clipboard</source>
         <translation>Klistra in adress från Urklipp</translation>
     </message>
     <message>
-        <location filename="../forms/sendcoinsentry.ui" line="71"/>
+        <location line="+10"/>
         <source>Alt+P</source>
         <translation>Alt+P</translation>
     </message>
     <message>
-        <location filename="../forms/sendcoinsentry.ui" line="78"/>
+        <location line="+7"/>
         <source>Remove this recipient</source>
         <translation>Ta bort denna mottagare</translation>
     </message>
     <message>
-        <location filename="../forms/sendcoinsentry.ui" line="170"/>
-        <source>0.0</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../forms/sendcoinsentry.ui" line="183"/>
-        <source>Fee Calc</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation type="obsolete">Ange en Bitcoin-adress (t.ex. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
-    </message>
-    <message>
-        <location filename="../sendcoinsentry.cpp" line="27"/>
-        <source>Enter a Infinitecoin address (starts with i)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../sendcoinsentry.cpp" line="186"/>
-        <location filename="../sendcoinsentry.cpp" line="188"/>
-        <location filename="../sendcoinsentry.cpp" line="192"/>
-        <source>Fee:</source>
-        <translation type="unfinished"></translation>
+        <location filename="../sendcoinsentry.cpp" line="+1"/>
+        <source>Enter a Infinitecoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Ange en Infinitecoin-adress (t.ex. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
 </context>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <location filename="../forms/signverifymessagedialog.ui" line="14"/>
+        <location filename="../forms/signverifymessagedialog.ui" line="+14"/>
         <source>Signatures - Sign / Verify a Message</source>
-        <translation type="unfinished"></translation>
+        <translation>Signaturer - Signera / Verifiera ett Meddelande</translation>
     </message>
     <message>
-        <location filename="../forms/signverifymessagedialog.ui" line="27"/>
-        <location filename="../forms/signverifymessagedialog.ui" line="151"/>
+        <location line="+13"/>
         <source>&amp;Sign Message</source>
-        <translation type="unfinished">&amp;Signera meddelande</translation>
+        <translation>&amp;Signera Meddelande</translation>
     </message>
     <message>
-        <location filename="../forms/signverifymessagedialog.ui" line="33"/>
+        <location line="+6"/>
         <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation type="unfinished">Du kan signera meddelanden med dina adresser för att bevisa att du äger dem. Var försiktig med vad du signerar eftersom phising-attacker kan försöka få dig att skriva över din identitet till någon annan. Signera bara väldetaljerade påståenden du kan gå i god för.</translation>
+        <translation>Du kan signera meddelanden med dina adresser för att bevisa att du äger dem. Var försiktig med vad du signerar eftersom phising-attacker kan försöka få dig att skriva över din identitet till någon annan. Signera bara väldetaljerade påståenden du kan gå i god för.</translation>
     </message>
     <message>
-        <location filename="../forms/signverifymessagedialog.ui" line="51"/>
-        <source>The address to sign the message with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation type="unfinished"></translation>
+        <location line="+18"/>
+        <source>The address to sign the message with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Adressen att signera meddelandet med  (t.ex. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
-        <location filename="../forms/signverifymessagedialog.ui" line="61"/>
-        <location filename="../forms/signverifymessagedialog.ui" line="264"/>
+        <location line="+10"/>
+        <location line="+213"/>
         <source>Choose an address from the address book</source>
-        <translation type="unfinished"></translation>
+        <translation>Välj en adress från adressboken</translation>
     </message>
     <message>
-        <location filename="../forms/signverifymessagedialog.ui" line="71"/>
-        <location filename="../forms/signverifymessagedialog.ui" line="274"/>
+        <location line="-203"/>
+        <location line="+213"/>
         <source>Alt+A</source>
-        <translation type="unfinished">Alt+A</translation>
+        <translation>Alt+A</translation>
     </message>
     <message>
-        <location filename="../forms/signverifymessagedialog.ui" line="81"/>
+        <location line="-203"/>
         <source>Paste address from clipboard</source>
-        <translation type="unfinished">Klistra in adress från Urklipp</translation>
+        <translation>Klistra in adress från Urklipp</translation>
     </message>
     <message>
-        <location filename="../forms/signverifymessagedialog.ui" line="91"/>
+        <location line="+10"/>
         <source>Alt+P</source>
-        <translation type="unfinished">Alt+P</translation>
+        <translation>Alt+P</translation>
     </message>
     <message>
-        <location filename="../forms/signverifymessagedialog.ui" line="103"/>
+        <location line="+12"/>
         <source>Enter the message you want to sign here</source>
-        <translation type="unfinished">Skriv in meddelandet du vill signera här</translation>
+        <translation>Skriv in meddelandet du vill signera här</translation>
     </message>
     <message>
-        <location filename="../forms/signverifymessagedialog.ui" line="127"/>
+        <location line="+7"/>
+        <source>Signature</source>
+        <translation>Signatur</translation>
+    </message>
+    <message>
+        <location line="+27"/>
         <source>Copy the current signature to the system clipboard</source>
-        <translation type="unfinished">Kopiera signaturen till systemets Urklipp</translation>
+        <translation>Kopiera signaturen till systemets Urklipp</translation>
     </message>
     <message>
-        <location filename="../forms/signverifymessagedialog.ui" line="148"/>
-        <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation type="unfinished"></translation>
+        <location line="+21"/>
+        <source>Sign the message to prove you own this Infinitecoin address</source>
+        <translation>Signera meddelandet för att bevisa att du äger denna adress</translation>
     </message>
     <message>
-        <location filename="../forms/signverifymessagedialog.ui" line="165"/>
+        <location line="+3"/>
+        <source>Sign &amp;Message</source>
+        <translation>Signera &amp;Meddelande</translation>
+    </message>
+    <message>
+        <location line="+14"/>
         <source>Reset all sign message fields</source>
-        <translation type="unfinished">Rensa alla fält</translation>
+        <translation>Rensa alla fält</translation>
     </message>
     <message>
-        <location filename="../forms/signverifymessagedialog.ui" line="168"/>
-        <location filename="../forms/signverifymessagedialog.ui" line="314"/>
+        <location line="+3"/>
+        <location line="+146"/>
         <source>Clear &amp;All</source>
-        <translation type="unfinished">Rensa &amp;alla</translation>
+        <translation>Rensa &amp;alla</translation>
     </message>
     <message>
-        <location filename="../forms/signverifymessagedialog.ui" line="227"/>
-        <location filename="../forms/signverifymessagedialog.ui" line="297"/>
+        <location line="-87"/>
         <source>&amp;Verify Message</source>
-        <translation type="unfinished">&amp;Verifiera Meddelande</translation>
+        <translation>&amp;Verifiera Meddelande</translation>
     </message>
     <message>
-        <location filename="../forms/signverifymessagedialog.ui" line="233"/>
+        <location line="+6"/>
         <source>Enter the signing address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack.</source>
-        <translation type="unfinished"></translation>
+        <translation>Skriv in din adress, meddelande (se till att du kopierar radbrytningar, mellanslag, tabbar, osv. exakt) och signatur nedan för att verifiera meddelandet. Var noga med att inte läsa in mer i signaturen än vad som finns i det signerade meddelandet, för att undvika att luras av en man-in-the-middle attack.</translation>
     </message>
     <message>
-        <location filename="../forms/signverifymessagedialog.ui" line="254"/>
-        <source>The address the message was signed with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation type="unfinished"></translation>
+        <location line="+21"/>
+        <source>The address the message was signed with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Adressen som meddelandet var signerat med  (t.ex. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
-        <location filename="../forms/signverifymessagedialog.ui" line="294"/>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation type="unfinished"></translation>
+        <location line="+40"/>
+        <source>Verify the message to ensure it was signed with the specified Infinitecoin address</source>
+        <translation>Verifiera meddelandet för att vara säker på att den var signerad med den angivna Infinitecoin-adressen</translation>
     </message>
     <message>
-        <location filename="../forms/signverifymessagedialog.ui" line="311"/>
+        <location line="+3"/>
+        <source>Verify &amp;Message</source>
+        <translation>Verifiera &amp;Meddelande</translation>
+    </message>
+    <message>
+        <location line="+14"/>
         <source>Reset all verify message fields</source>
-        <translation type="unfinished">Rensa alla fält</translation>
+        <translation>Rensa alla fält</translation>
     </message>
     <message>
-        <location filename="../signverifymessagedialog.cpp" line="27"/>
-        <location filename="../signverifymessagedialog.cpp" line="30"/>
-        <source>Enter a Infinitecoin address (e.g. iNS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation type="unfinished"></translation>
+        <location filename="../signverifymessagedialog.cpp" line="+27"/>
+        <location line="+3"/>
+        <source>Enter a Infinitecoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Ange en Infinitecoin-adress (t.ex. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
-        <location filename="../signverifymessagedialog.cpp" line="28"/>
+        <location line="-2"/>
         <source>Click &quot;Sign Message&quot; to generate signature</source>
-        <translation type="unfinished"></translation>
+        <translation>Klicka &quot;Signera Meddelande&quot; för att få en signatur</translation>
     </message>
     <message>
-        <location filename="../signverifymessagedialog.cpp" line="31"/>
+        <location line="+3"/>
         <source>Enter Infinitecoin signature</source>
-        <translation type="unfinished"></translation>
+        <translation>Ange Infinitecoin-signatur</translation>
     </message>
     <message>
-        <location filename="../signverifymessagedialog.cpp" line="113"/>
-        <location filename="../signverifymessagedialog.cpp" line="194"/>
+        <location line="+82"/>
+        <location line="+81"/>
         <source>The entered address is invalid.</source>
-        <translation type="unfinished"></translation>
+        <translation>Den angivna adressen är ogiltig.</translation>
     </message>
     <message>
-        <location filename="../signverifymessagedialog.cpp" line="113"/>
-        <location filename="../signverifymessagedialog.cpp" line="121"/>
-        <location filename="../signverifymessagedialog.cpp" line="194"/>
-        <location filename="../signverifymessagedialog.cpp" line="202"/>
+        <location line="-81"/>
+        <location line="+8"/>
+        <location line="+73"/>
+        <location line="+8"/>
         <source>Please check the address and try again.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vad god kontrollera adressen och försök igen.</translation>
     </message>
     <message>
-        <location filename="../signverifymessagedialog.cpp" line="121"/>
-        <location filename="../signverifymessagedialog.cpp" line="202"/>
+        <location line="-81"/>
+        <location line="+81"/>
         <source>The entered address does not refer to a key.</source>
-        <translation type="unfinished"></translation>
+        <translation>Den angivna adressen refererar inte till en nyckel.</translation>
     </message>
     <message>
-        <location filename="../signverifymessagedialog.cpp" line="129"/>
-        <source>Wallet unlock was canceled.</source>
-        <translation type="unfinished"></translation>
+        <location line="-73"/>
+        <source>Wallet unlock was cancelled.</source>
+        <translation>Upplåsningen av plånboken avbröts.</translation>
     </message>
     <message>
-        <location filename="../signverifymessagedialog.cpp" line="137"/>
+        <location line="+8"/>
         <source>Private key for the entered address is not available.</source>
-        <translation type="unfinished"></translation>
+        <translation>Privata nyckel för den angivna adressen är inte tillgänglig.</translation>
     </message>
     <message>
-        <location filename="../signverifymessagedialog.cpp" line="149"/>
+        <location line="+12"/>
         <source>Message signing failed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Signeringen av meddelandet misslyckades.</translation>
     </message>
     <message>
-        <location filename="../signverifymessagedialog.cpp" line="154"/>
+        <location line="+5"/>
         <source>Message signed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Meddelandet är signerat.</translation>
     </message>
     <message>
-        <location filename="../signverifymessagedialog.cpp" line="213"/>
+        <location line="+59"/>
         <source>The signature could not be decoded.</source>
-        <translation type="unfinished"></translation>
+        <translation>Signaturen kunde inte avkodas.</translation>
     </message>
     <message>
-        <location filename="../signverifymessagedialog.cpp" line="213"/>
-        <location filename="../signverifymessagedialog.cpp" line="226"/>
+        <location line="+0"/>
+        <location line="+13"/>
         <source>Please check the signature and try again.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kontrollera signaturen och försök igen.</translation>
     </message>
     <message>
-        <location filename="../signverifymessagedialog.cpp" line="226"/>
+        <location line="+0"/>
         <source>The signature did not match the message digest.</source>
-        <translation type="unfinished"></translation>
+        <translation>Signaturen matchade inte meddelandesammanfattningen.</translation>
     </message>
     <message>
-        <location filename="../signverifymessagedialog.cpp" line="233"/>
+        <location line="+7"/>
         <source>Message verification failed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Meddelandet verifikation misslyckades.</translation>
     </message>
     <message>
-        <location filename="../signverifymessagedialog.cpp" line="238"/>
+        <location line="+5"/>
         <source>Message verified.</source>
-        <translation type="unfinished"></translation>
+        <translation>Meddelandet är verifierad.</translation>
+    </message>
+</context>
+<context>
+    <name>SplashScreen</name>
+    <message>
+        <location filename="../splashscreen.cpp" line="+22"/>
+        <source>The Infinitecoin developers</source>
+        <translation>Infinitecoin-utvecklarna</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>[testnet]</source>
+        <translation>[testnet]</translation>
     </message>
 </context>
 <context>
     <name>TransactionDesc</name>
     <message>
-        <source>Open for %1 blocks</source>
-        <translation type="obsolete">Öppen för %1 block</translation>
-    </message>
-    <message>
-        <location filename="../transactiondesc.cpp" line="19"/>
+        <location filename="../transactiondesc.cpp" line="+20"/>
         <source>Open until %1</source>
         <translation>Öppet till %1</translation>
     </message>
     <message>
-        <source>%1/offline?</source>
-        <translation type="obsolete">%1/nerkopplad?</translation>
-    </message>
-    <message numerus="yes">
-        <location filename="../transactiondesc.cpp" line="17"/>
-        <source>Open for %n block(s)</source>
-        <translation type="unfinished">
-            <numerusform>Öppen i %n block</numerusform>
-            <numerusform>Öppen i %n block</numerusform>
-        </translation>
-    </message>
-    <message>
-        <location filename="../transactiondesc.cpp" line="25"/>
+        <location line="+6"/>
         <source>%1/offline</source>
-        <translation type="unfinished"></translation>
+        <translation>%1/nerkopplad</translation>
     </message>
     <message>
-        <location filename="../transactiondesc.cpp" line="27"/>
+        <location line="+2"/>
         <source>%1/unconfirmed</source>
         <translation>%1/obekräftade</translation>
     </message>
     <message>
-        <location filename="../transactiondesc.cpp" line="29"/>
+        <location line="+2"/>
         <source>%1 confirmations</source>
         <translation>%1 bekräftelser</translation>
     </message>
     <message>
-        <location filename="../transactiondesc.cpp" line="47"/>
+        <location line="+18"/>
         <source>Status</source>
-        <translation type="unfinished"></translation>
+        <translation>Status</translation>
     </message>
     <message numerus="yes">
-        <location filename="../transactiondesc.cpp" line="54"/>
+        <location line="+7"/>
         <source>, broadcast through %n node(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-        </translation>
+        <translation><numerusform>, sänd genom %n nod</numerusform><numerusform>, sänd genom %n noder</numerusform></translation>
     </message>
     <message>
-        <location filename="../transactiondesc.cpp" line="58"/>
+        <location line="+4"/>
         <source>Date</source>
-        <translation type="unfinished">Datum</translation>
+        <translation>Datum</translation>
     </message>
     <message>
-        <location filename="../transactiondesc.cpp" line="65"/>
+        <location line="+7"/>
         <source>Source</source>
-        <translation type="unfinished"></translation>
+        <translation>Källa</translation>
     </message>
     <message>
-        <location filename="../transactiondesc.cpp" line="65"/>
+        <location line="+0"/>
         <source>Generated</source>
-        <translation type="unfinished"></translation>
+        <translation>Genererad</translation>
     </message>
     <message>
-        <location filename="../transactiondesc.cpp" line="71"/>
-        <location filename="../transactiondesc.cpp" line="88"/>
+        <location line="+5"/>
+        <location line="+17"/>
         <source>From</source>
-        <translation type="unfinished"></translation>
+        <translation>Från</translation>
     </message>
     <message>
-        <location filename="../transactiondesc.cpp" line="89"/>
-        <location filename="../transactiondesc.cpp" line="111"/>
-        <location filename="../transactiondesc.cpp" line="169"/>
+        <location line="+1"/>
+        <location line="+22"/>
+        <location line="+58"/>
         <source>To</source>
-        <translation type="unfinished"></translation>
+        <translation>Till</translation>
     </message>
     <message>
-        <location filename="../transactiondesc.cpp" line="92"/>
-        <location filename="../transactiondesc.cpp" line="94"/>
+        <location line="-77"/>
+        <location line="+2"/>
         <source>own address</source>
-        <translation type="unfinished"></translation>
+        <translation>egen adress</translation>
     </message>
     <message>
-        <location filename="../transactiondesc.cpp" line="92"/>
+        <location line="-2"/>
         <source>label</source>
-        <translation type="unfinished"></translation>
+        <translation>etikett</translation>
     </message>
     <message>
-        <location filename="../transactiondesc.cpp" line="129"/>
-        <location filename="../transactiondesc.cpp" line="141"/>
-        <location filename="../transactiondesc.cpp" line="186"/>
-        <location filename="../transactiondesc.cpp" line="203"/>
-        <location filename="../transactiondesc.cpp" line="233"/>
+        <location line="+37"/>
+        <location line="+12"/>
+        <location line="+45"/>
+        <location line="+17"/>
+        <location line="+30"/>
         <source>Credit</source>
-        <translation type="unfinished"></translation>
+        <translation>Kredit</translation>
     </message>
     <message numerus="yes">
-        <location filename="../transactiondesc.cpp" line="131"/>
+        <location line="-102"/>
         <source>matures in %n more block(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-        </translation>
+        <translation><numerusform>mognar om %n block</numerusform><numerusform>mognar om %n fler block</numerusform></translation>
     </message>
     <message>
-        <location filename="../transactiondesc.cpp" line="133"/>
+        <location line="+2"/>
         <source>not accepted</source>
-        <translation type="unfinished"></translation>
+        <translation>inte accepterad</translation>
     </message>
     <message>
-        <location filename="../transactiondesc.cpp" line="177"/>
-        <location filename="../transactiondesc.cpp" line="185"/>
-        <location filename="../transactiondesc.cpp" line="200"/>
-        <location filename="../transactiondesc.cpp" line="230"/>
+        <location line="+44"/>
+        <location line="+8"/>
+        <location line="+15"/>
+        <location line="+30"/>
         <source>Debit</source>
-        <translation type="unfinished"></translation>
+        <translation>Belasta</translation>
     </message>
     <message>
-        <location filename="../transactiondesc.cpp" line="191"/>
+        <location line="-39"/>
         <source>Transaction fee</source>
-        <translation type="unfinished"></translation>
+        <translation>Transaktionsavgift</translation>
     </message>
     <message>
-        <location filename="../transactiondesc.cpp" line="207"/>
+        <location line="+16"/>
         <source>Net amount</source>
-        <translation type="unfinished"></translation>
+        <translation>Nettobelopp</translation>
     </message>
     <message>
-        <location filename="../transactiondesc.cpp" line="213"/>
+        <location line="+6"/>
         <source>Message</source>
-        <translation type="unfinished"></translation>
+        <translation>Meddelande</translation>
     </message>
     <message>
-        <location filename="../transactiondesc.cpp" line="215"/>
+        <location line="+2"/>
         <source>Comment</source>
-        <translation type="unfinished"></translation>
+        <translation>Kommentar</translation>
     </message>
     <message>
-        <location filename="../transactiondesc.cpp" line="217"/>
+        <location line="+2"/>
         <source>Transaction ID</source>
-        <translation type="unfinished"></translation>
+        <translation>Transaktions-ID</translation>
     </message>
     <message>
-        <location filename="../transactiondesc.cpp" line="220"/>
-        <source>Generated coins must mature 80 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation type="unfinished"></translation>
+        <location line="+3"/>
+        <source>Generated coins must mature 120 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
+        <translation>Genererade mynt måste vänta 120 block innan de kan användas. När du skapade detta block sändes det till nätverket för att läggas till i blockkedjan. Om blocket inte kommer in i kedjan kommer det att ändras till &quot;accepteras inte&quot; och kommer ej att gå att spendera. Detta kan ibland hända om en annan nod genererar ett block nästan samtidigt som dig.</translation>
     </message>
     <message>
-        <location filename="../transactiondesc.cpp" line="227"/>
+        <location line="+7"/>
         <source>Debug information</source>
-        <translation type="unfinished"></translation>
+        <translation>Debug information</translation>
     </message>
     <message>
-        <location filename="../transactiondesc.cpp" line="235"/>
+        <location line="+8"/>
         <source>Transaction</source>
-        <translation type="unfinished"></translation>
+        <translation>Transaktion</translation>
     </message>
     <message>
-        <location filename="../transactiondesc.cpp" line="240"/>
+        <location line="+3"/>
         <source>Inputs</source>
-        <translation type="unfinished"></translation>
+        <translation>Inputs</translation>
     </message>
     <message>
-        <location filename="../transactiondesc.cpp" line="263"/>
+        <location line="+23"/>
         <source>Amount</source>
-        <translation type="unfinished">Mängd</translation>
+        <translation>Mängd</translation>
     </message>
     <message>
-        <location filename="../transactiondesc.cpp" line="264"/>
+        <location line="+1"/>
         <source>true</source>
-        <translation type="unfinished"></translation>
+        <translation>sant</translation>
     </message>
     <message>
-        <location filename="../transactiondesc.cpp" line="264"/>
+        <location line="+0"/>
         <source>false</source>
-        <translation type="unfinished"></translation>
+        <translation>falsk</translation>
     </message>
     <message>
-        <source>&lt;b&gt;Status:&lt;/b&gt; </source>
-        <translation type="obsolete">&lt;b&gt;Status:&lt;/b&gt;</translation>
-    </message>
-    <message>
-        <location filename="../transactiondesc.cpp" line="52"/>
+        <location line="-209"/>
         <source>, has not been successfully broadcast yet</source>
         <translation>, har inte lyckats skickas ännu</translation>
     </message>
-    <message>
-        <source>, broadcast through %1 node</source>
-        <translation type="obsolete">, sänd genom %1 nod</translation>
+    <message numerus="yes">
+        <location line="-35"/>
+        <source>Open for %n more block(s)</source>
+        <translation><numerusform>Öppet för %n mer block</numerusform><numerusform>Öppet för %n mer block</numerusform></translation>
     </message>
     <message>
-        <source>, broadcast through %1 nodes</source>
-        <translation type="obsolete">, sänd genom %1 noder</translation>
-    </message>
-    <message>
-        <source>&lt;b&gt;Date:&lt;/b&gt; </source>
-        <translation type="obsolete">&lt;b&gt;Datum:&lt;/b&gt; </translation>
-    </message>
-    <message>
-        <source>&lt;b&gt;Source:&lt;/b&gt; Generated&lt;br&gt;</source>
-        <translation type="obsolete">&lt;b&gt;Källa:&lt;/b&gt; Genererade&lt;br&gt;</translation>
-    </message>
-    <message>
-        <source>&lt;b&gt;From:&lt;/b&gt; </source>
-        <translation type="obsolete">&lt;b&gt;Från:&lt;/b&gt; </translation>
-    </message>
-    <message>
-        <location filename="../transactiondesc.cpp" line="88"/>
+        <location line="+70"/>
         <source>unknown</source>
         <translation>okänd</translation>
-    </message>
-    <message>
-        <source>&lt;b&gt;To:&lt;/b&gt; </source>
-        <translation type="obsolete">&lt;b&gt;Till:&lt;/b&gt; </translation>
-    </message>
-    <message>
-        <source> (yours, label: </source>
-        <translation type="obsolete"> (din, etikett: </translation>
-    </message>
-    <message>
-        <source> (yours)</source>
-        <translation type="obsolete"> (dina)</translation>
-    </message>
-    <message>
-        <source>&lt;b&gt;Credit:&lt;/b&gt; </source>
-        <translation type="obsolete">&lt;b&gt;Kredit:&lt;/b&gt; </translation>
-    </message>
-    <message>
-        <source>(%1 matures in %2 more blocks)</source>
-        <translation type="obsolete">(%1 mognar om %2 block)</translation>
-    </message>
-    <message>
-        <source>(not accepted)</source>
-        <translation type="obsolete">(inte accepterad)</translation>
-    </message>
-    <message>
-        <source>&lt;b&gt;Debit:&lt;/b&gt; </source>
-        <translation type="obsolete">&lt;b&gt;Debet:&lt;/b&gt; </translation>
-    </message>
-    <message>
-        <source>&lt;b&gt;Transaction fee:&lt;/b&gt; </source>
-        <translation type="obsolete">&lt;b&gt;Transaktionsavgift:&lt;/b&gt; </translation>
-    </message>
-    <message>
-        <source>&lt;b&gt;Net amount:&lt;/b&gt; </source>
-        <translation type="obsolete">&lt;b&gt;Nettobelopp:&lt;/b&gt; </translation>
-    </message>
-    <message>
-        <source>Message:</source>
-        <translation type="obsolete">Meddelande:</translation>
-    </message>
-    <message>
-        <source>Comment:</source>
-        <translation type="obsolete">Kommentar:</translation>
-    </message>
-    <message>
-        <source>Transaction ID:</source>
-        <translation type="obsolete">Transaktions-ID:</translation>
-    </message>
-    <message>
-        <source>Generated coins must wait 80 blocks before they can be spent.  When you generated this block, it was broadcast to the network to be added to the block chain.  If it fails to get into the chain, it will change to &quot;not accepted&quot; and not be spendable.  This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation type="obsolete">Genererade mynt måste vänta 80 block innan de kan användas.  När du skapade detta block sändes det till nätverket för att läggas till i blockkedjan. Om blocket inte kommer in i kedjan kommer det att ändras till &quot;accepteras inte&quot; och kommer ej att gå att spendera.  Detta kan ibland hända om en annan nod genererar ett block nästan samtidigt som dig.</translation>
     </message>
 </context>
 <context>
     <name>TransactionDescDialog</name>
     <message>
-        <location filename="../forms/transactiondescdialog.ui" line="26"/>
+        <location filename="../forms/transactiondescdialog.ui" line="+14"/>
         <source>Transaction details</source>
         <translation>Transaktionsdetaljer</translation>
     </message>
     <message>
-        <location filename="../forms/transactiondescdialog.ui" line="154"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <location line="+6"/>
         <source>This pane shows a detailed description of the transaction</source>
-        <translation type="obsolete">Den här panelen visar en detaljerad beskrivning av transaktionen</translation>
+        <translation>Den här panelen visar en detaljerad beskrivning av transaktionen</translation>
     </message>
 </context>
 <context>
     <name>TransactionTableModel</name>
     <message>
-        <location filename="../transactiontablemodel.cpp" line="226"/>
+        <location filename="../transactiontablemodel.cpp" line="+225"/>
         <source>Date</source>
         <translation>Datum</translation>
     </message>
     <message>
-        <location filename="../transactiontablemodel.cpp" line="226"/>
+        <location line="+0"/>
         <source>Type</source>
         <translation>Typ</translation>
     </message>
     <message>
-        <location filename="../transactiontablemodel.cpp" line="226"/>
+        <location line="+0"/>
         <source>Address</source>
         <translation>Adress</translation>
     </message>
     <message>
-        <location filename="../transactiontablemodel.cpp" line="226"/>
+        <location line="+0"/>
         <source>Amount</source>
         <translation>Mängd</translation>
     </message>
     <message numerus="yes">
-        <location filename="../transactiontablemodel.cpp" line="283"/>
-        <source>Open for %n block(s)</source>
-        <translation>
-            <numerusform>Öppen i %n block</numerusform>
-            <numerusform>Öppen i %n block</numerusform>
-        </translation>
+        <location line="+57"/>
+        <source>Open for %n more block(s)</source>
+        <translation><numerusform>Öppet för %n mer block</numerusform><numerusform>Öppet för %n mer block</numerusform></translation>
     </message>
     <message>
-        <location filename="../transactiontablemodel.cpp" line="286"/>
+        <location line="+3"/>
         <source>Open until %1</source>
         <translation>Öppet till %1</translation>
     </message>
     <message>
-        <location filename="../transactiontablemodel.cpp" line="289"/>
+        <location line="+3"/>
         <source>Offline (%1 confirmations)</source>
         <translation>Offline (%1 bekräftelser)</translation>
     </message>
     <message>
-        <location filename="../transactiontablemodel.cpp" line="292"/>
+        <location line="+3"/>
         <source>Unconfirmed (%1 of %2 confirmations)</source>
         <translation>Obekräftad (%1 av %2 bekräftelser)</translation>
     </message>
     <message>
-        <location filename="../transactiontablemodel.cpp" line="295"/>
+        <location line="+3"/>
         <source>Confirmed (%1 confirmations)</source>
         <translation>Bekräftad (%1 bekräftelser)</translation>
     </message>
     <message numerus="yes">
-        <source>Mined balance will be available in %n more blocks</source>
-        <translation type="obsolete">
-            <numerusform>Genererat belopp kommer bli tillgängligt om %n block</numerusform>
-            <numerusform>Genererat belopp kommer bli tillgängligt om %n block</numerusform>
-        </translation>
-    </message>
-    <message numerus="yes">
-        <location filename="../transactiontablemodel.cpp" line="303"/>
+        <location line="+8"/>
         <source>Mined balance will be available when it matures in %n more block(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-        </translation>
+        <translation><numerusform>Genererade balansen kommer att finnas tillgänglig när den mognar om %n mer block</numerusform><numerusform>Genererade balansen kommer att finnas tillgänglig när den mognar om %n fler block</numerusform></translation>
     </message>
     <message>
-        <location filename="../transactiontablemodel.cpp" line="308"/>
+        <location line="+5"/>
         <source>This block was not received by any other nodes and will probably not be accepted!</source>
         <translation>Det här blocket togs inte emot av några andra noder och kommer antagligen inte att bli godkänt.</translation>
     </message>
     <message>
-        <location filename="../transactiontablemodel.cpp" line="311"/>
+        <location line="+3"/>
         <source>Generated but not accepted</source>
         <translation>Genererad men inte accepterad</translation>
     </message>
     <message>
-        <location filename="../transactiontablemodel.cpp" line="354"/>
+        <location line="+43"/>
         <source>Received with</source>
         <translation>Mottagen med</translation>
     </message>
     <message>
-        <location filename="../transactiontablemodel.cpp" line="356"/>
+        <location line="+2"/>
         <source>Received from</source>
         <translation>Mottaget från</translation>
     </message>
     <message>
-        <location filename="../transactiontablemodel.cpp" line="359"/>
+        <location line="+3"/>
         <source>Sent to</source>
         <translation>Skickad till</translation>
     </message>
     <message>
-        <location filename="../transactiontablemodel.cpp" line="361"/>
+        <location line="+2"/>
         <source>Payment to yourself</source>
         <translation>Betalning till dig själv</translation>
     </message>
     <message>
-        <location filename="../transactiontablemodel.cpp" line="363"/>
+        <location line="+2"/>
         <source>Mined</source>
         <translation>Genererade</translation>
     </message>
     <message>
-        <location filename="../transactiontablemodel.cpp" line="401"/>
+        <location line="+38"/>
         <source>(n/a)</source>
         <translation>(n/a)</translation>
     </message>
     <message>
-        <location filename="../transactiontablemodel.cpp" line="600"/>
+        <location line="+199"/>
         <source>Transaction status. Hover over this field to show number of confirmations.</source>
         <translation>Transaktionsstatus. Håll muspekaren över för att se antal bekräftelser.</translation>
     </message>
     <message>
-        <location filename="../transactiontablemodel.cpp" line="602"/>
+        <location line="+2"/>
         <source>Date and time that the transaction was received.</source>
         <translation>Tidpunkt då transaktionen mottogs.</translation>
     </message>
     <message>
-        <location filename="../transactiontablemodel.cpp" line="604"/>
+        <location line="+2"/>
         <source>Type of transaction.</source>
         <translation>Transaktionstyp.</translation>
     </message>
     <message>
-        <location filename="../transactiontablemodel.cpp" line="606"/>
+        <location line="+2"/>
         <source>Destination address of transaction.</source>
         <translation>Transaktionens destinationsadress.</translation>
     </message>
     <message>
-        <location filename="../transactiontablemodel.cpp" line="608"/>
+        <location line="+2"/>
         <source>Amount removed from or added to balance.</source>
         <translation>Belopp draget eller tillagt till balans.</translation>
     </message>
@@ -2537,931 +1967,973 @@ Adress: %4
 <context>
     <name>TransactionView</name>
     <message>
-        <location filename="../transactionview.cpp" line="55"/>
-        <location filename="../transactionview.cpp" line="71"/>
+        <location filename="../transactionview.cpp" line="+52"/>
+        <location line="+16"/>
         <source>All</source>
         <translation>Alla</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="56"/>
+        <location line="-15"/>
         <source>Today</source>
         <translation>Idag</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="57"/>
+        <location line="+1"/>
         <source>This week</source>
         <translation>Denna vecka</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="58"/>
+        <location line="+1"/>
         <source>This month</source>
         <translation>Denna månad</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="59"/>
+        <location line="+1"/>
         <source>Last month</source>
         <translation>Föregående månad</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="60"/>
+        <location line="+1"/>
         <source>This year</source>
         <translation>Det här året</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="61"/>
+        <location line="+1"/>
         <source>Range...</source>
         <translation>Period...</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="72"/>
+        <location line="+11"/>
         <source>Received with</source>
         <translation>Mottagen med</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="74"/>
+        <location line="+2"/>
         <source>Sent to</source>
         <translation>Skickad till</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="76"/>
+        <location line="+2"/>
         <source>To yourself</source>
         <translation>Till dig själv</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="77"/>
+        <location line="+1"/>
         <source>Mined</source>
         <translation>Genererade</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="78"/>
+        <location line="+1"/>
         <source>Other</source>
         <translation>Övriga</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="85"/>
+        <location line="+7"/>
         <source>Enter address or label to search</source>
         <translation>Sök efter adress eller etikett </translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="92"/>
+        <location line="+7"/>
         <source>Min amount</source>
         <translation>Minsta mängd</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="126"/>
+        <location line="+34"/>
         <source>Copy address</source>
         <translation>Kopiera adress</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="127"/>
+        <location line="+1"/>
         <source>Copy label</source>
         <translation>Kopiera etikett</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="128"/>
+        <location line="+1"/>
         <source>Copy amount</source>
         <translation>Kopiera belopp</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="129"/>
+        <location line="+1"/>
+        <source>Copy transaction ID</source>
+        <translation>Kopiera transaktions ID</translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>Edit label</source>
         <translation>Ändra etikett</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="130"/>
+        <location line="+1"/>
         <source>Show transaction details</source>
         <translation>Visa transaktionsdetaljer</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="272"/>
+        <location line="+139"/>
         <source>Export Transaction Data</source>
         <translation>Exportera Transaktionsdata</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="273"/>
+        <location line="+1"/>
         <source>Comma separated file (*.csv)</source>
         <translation>Kommaseparerad fil (*. csv)</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="281"/>
+        <location line="+8"/>
         <source>Confirmed</source>
         <translation>Bekräftad</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="282"/>
+        <location line="+1"/>
         <source>Date</source>
         <translation>Datum</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="283"/>
+        <location line="+1"/>
         <source>Type</source>
         <translation>Typ</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="284"/>
+        <location line="+1"/>
         <source>Label</source>
         <translation>Etikett</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="285"/>
+        <location line="+1"/>
         <source>Address</source>
         <translation>Adress</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="286"/>
+        <location line="+1"/>
         <source>Amount</source>
         <translation>Mängd</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="287"/>
+        <location line="+1"/>
         <source>ID</source>
         <translation>ID</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="291"/>
+        <location line="+4"/>
         <source>Error exporting</source>
         <translation>Fel vid export</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="291"/>
+        <location line="+0"/>
         <source>Could not write to file %1.</source>
         <translation>Kunde inte skriva till filen %1.</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="386"/>
+        <location line="+100"/>
         <source>Range:</source>
         <translation>Intervall:</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="394"/>
+        <location line="+8"/>
         <source>to</source>
         <translation>till</translation>
     </message>
 </context>
 <context>
-    <name>VerifyMessageDialog</name>
-    <message>
-        <source>Verify Signed Message</source>
-        <translation type="obsolete">Verifiera Signerat Meddelande</translation>
-    </message>
-    <message>
-        <source>Enter the message and signature below (be careful to correctly copy newlines, spaces, tabs and other invisible characters) to obtain the Bitcoin address used to sign the message.</source>
-        <translation type="obsolete">Skriv meddelandet och signaturen nedan (var noga med att kopiera rätt nyradstecken, mellanslag, tabbar och andra osynliga tecken) för att erhålla Bitcoin-adressen som användes för att signera meddelandet.</translation>
-    </message>
-    <message>
-        <source>Verify a message and obtain the Bitcoin address used to sign the message</source>
-        <translation type="obsolete">Verifiera ett meddelande och erhåll Bitcoin-adressen som användes för att signera meddelandet</translation>
-    </message>
-    <message>
-        <source>&amp;Verify Message</source>
-        <translation type="obsolete">&amp;Verifiera Meddelande</translation>
-    </message>
-    <message>
-        <source>Copy the currently selected address to the system clipboard</source>
-        <translation type="obsolete">Kopiera den markerade adressen till systemets Urklipp</translation>
-    </message>
-    <message>
-        <source>&amp;Copy Address</source>
-        <translation type="obsolete">&amp;Kopiera adress</translation>
-    </message>
-    <message>
-        <source>Reset all verify message fields</source>
-        <translation type="obsolete">Rensa alla fält</translation>
-    </message>
-    <message>
-        <source>Clear &amp;All</source>
-        <translation type="obsolete">Rensa &amp;alla</translation>
-    </message>
-    <message>
-        <source>Enter Bitcoin signature</source>
-        <translation type="obsolete">Ange Bitcoin-signatur</translation>
-    </message>
-    <message>
-        <source>Click &quot;Verify Message&quot; to obtain address</source>
-        <translation type="obsolete">Klicka på &quot;Verifiera meddelande&quot; för att få adressen</translation>
-    </message>
-    <message>
-        <source>Invalid Signature</source>
-        <translation type="obsolete">Ogiltig Signatur</translation>
-    </message>
-    <message>
-        <source>The signature could not be decoded. Please check the signature and try again.</source>
-        <translation type="obsolete">Signaturen kunde inte avkodas. Kontrollera signaturen och försök igen.</translation>
-    </message>
-    <message>
-        <source>The signature did not match the message digest. Please check the signature and try again.</source>
-        <translation type="obsolete">Signaturen matchade inte meddelandesammanfattningen. Kontrollera signaturen och försök igen.</translation>
-    </message>
-    <message>
-        <source>Address not found in address book.</source>
-        <translation type="obsolete">Adressen hittas ej i adressboken.</translation>
-    </message>
-    <message>
-        <source>Address found in address book: %1</source>
-        <translation type="obsolete">Adressen hittades i adressboken: %1</translation>
-    </message>
-</context>
-<context>
     <name>WalletModel</name>
     <message>
-        <location filename="../walletmodel.cpp" line="192"/>
-        <source>Sending...</source>
-        <translation>Skickar...</translation>
+        <location filename="../walletmodel.cpp" line="+193"/>
+        <source>Send Coins</source>
+        <translation>Skicka pengar</translation>
     </message>
 </context>
 <context>
-    <name>WindowOptionsPage</name>
+    <name>WalletView</name>
     <message>
-        <source>Window</source>
-        <translation type="obsolete">Fönster</translation>
+        <location filename="../walletview.cpp" line="+42"/>
+        <source>&amp;Export</source>
+        <translation>&amp;Exportera</translation>
     </message>
     <message>
-        <source>&amp;Minimize to the tray instead of the taskbar</source>
-        <translation type="obsolete">&amp;Minimera till systemfältet istället för aktivitetsfältet</translation>
+        <location line="+1"/>
+        <source>Export the data in the current tab to a file</source>
+        <translation>Exportera informationen i den nuvarande fliken till en fil</translation>
     </message>
     <message>
-        <source>Show only a tray icon after minimizing the window</source>
-        <translation type="obsolete">Visa endast en systemfältsikon vid minimering</translation>
+        <location line="+193"/>
+        <source>Backup Wallet</source>
+        <translation>Säkerhetskopiera Plånbok</translation>
     </message>
     <message>
-        <source>M&amp;inimize on close</source>
-        <translation type="obsolete">M&amp;inimera vid stängning</translation>
+        <location line="+0"/>
+        <source>Wallet Data (*.dat)</source>
+        <translation>Plånboks-data (*.dat)</translation>
     </message>
     <message>
-        <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
-        <translation type="obsolete">Minimera applikationen istället för att stänga ner den när fönstret stängs. Detta innebär att programmet fotrsätter att köras tills du väljer Avsluta i menyn.</translation>
+        <location line="+3"/>
+        <source>Backup Failed</source>
+        <translation>Säkerhetskopiering misslyckades</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>There was an error trying to save the wallet data to the new location.</source>
+        <translation>Det inträffade ett fel när plånboken skulle sparas till den nya platsen.</translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Backup Successful</source>
+        <translation>Säkerhetskopiering lyckades</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>The wallet data was successfully saved to the new location.</source>
+        <translation>Plånbokens data har sparats till den nya platsen.</translation>
     </message>
 </context>
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Bitcoin version</source>
-        <translation type="obsolete">Bitcoin version</translation>
+        <location filename="../bitcoinstrings.cpp" line="+94"/>
+        <source>Infinitecoin version</source>
+        <translation>Infinitecoin version</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="138"/>
+        <location line="+102"/>
         <source>Usage:</source>
         <translation>Användning:</translation>
     </message>
     <message>
-        <source>Send command to -server or bitcoind</source>
-        <translation type="obsolete">Skicka kommando till -server eller bitcoind</translation>
+        <location line="-29"/>
+        <source>Send command to -server or infinitecoind</source>
+        <translation>Skicka kommando till -server eller infinitecoind</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="97"/>
+        <location line="-23"/>
         <source>List commands</source>
         <translation>Lista kommandon</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="88"/>
+        <location line="-12"/>
         <source>Get help for a command</source>
         <translation>Få hjälp med ett kommando</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="107"/>
+        <location line="+24"/>
         <source>Options:</source>
         <translation>Inställningar:</translation>
     </message>
     <message>
-        <source>Specify configuration file (default: bitcoin.conf)</source>
-        <translation type="obsolete">Ange konfigurationsfil (standard: bitcoin.conf)</translation>
+        <location line="+24"/>
+        <source>Specify configuration file (default: infinitecoin.conf)</source>
+        <translation>Ange konfigurationsfil (förvalt: infinitecoin.conf)</translation>
     </message>
     <message>
-        <source>Specify pid file (default: bitcoind.pid)</source>
-        <translation type="obsolete">Ange pid fil (standard: bitcoind.pid)</translation>
+        <location line="+3"/>
+        <source>Specify pid file (default: infinitecoind.pid)</source>
+        <translation>Ange pid fil (förvalt: infinitecoind.pid)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="87"/>
-        <source>Generate coins</source>
-        <translation>Generera mynt</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="73"/>
-        <source>Don&apos;t generate coins</source>
-        <translation>Generera inte mynt</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="128"/>
+        <location line="-1"/>
         <source>Specify data directory</source>
         <translation>Ange katalog för data</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="123"/>
+        <location line="-9"/>
         <source>Set database cache size in megabytes (default: 25)</source>
-        <translation>Sätt databas cache storleken i megabyte (standard: 25)</translation>
+        <translation>Sätt databas cache storleken i megabyte (förvalt: 25)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="124"/>
-        <source>Set database disk log size in megabytes (default: 100)</source>
-        <translation>Sätt databasens loggfil storlek i megabyte (standard: 100)</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="127"/>
-        <source>Specify connection timeout (in milliseconds)</source>
-        <translation>Ange timeout för uppkoppling (i millisekunder)</translation>
-    </message>
-    <message>
+        <location line="-28"/>
         <source>Listen for connections on &lt;port&gt; (default: 9321 or testnet: 19321)</source>
-        <translation type="obsolete">Lyssna efter anslutningar på &lt;port&gt; (förval: 9321 eller testnet: 19321)</translation>
+        <translation>Lyssna efter anslutningar på &lt;port&gt; (förvalt: 9321 eller testnet: 19321)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="103"/>
+        <location line="+5"/>
         <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
-        <translation>Ha som mest &lt;n&gt; anslutningar till andra klienter (förval: 125)</translation>
+        <translation>Ha som mest &lt;n&gt; anslutningar till andra klienter (förvalt: 125)</translation>
     </message>
     <message>
-        <source>Connect only to the specified node</source>
-        <translation type="obsolete">Koppla enbart upp till den specifierade noden</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="71"/>
+        <location line="-48"/>
         <source>Connect to a node to retrieve peer addresses, and disconnect</source>
         <translation>Anslut till en nod för att hämta klientadresser, och koppla från</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="130"/>
+        <location line="+82"/>
         <source>Specify your own public address</source>
         <translation>Ange din egen publika adress</translation>
     </message>
     <message>
-        <source>Only connect to nodes in network &lt;net&gt; (IPv4 or IPv6)</source>
-        <translation type="obsolete">Anslut enbart till noder i nätverket &lt;net&gt; (IPv4 eller IPv6)</translation>
-    </message>
-    <message>
-        <source>Try to discover public IP address (default: 1)</source>
-        <translation type="obsolete">Försök att upptäcka den publika IP-adressen (standard: 1)</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="61"/>
-        <source>Bind to given address. Use [host]:port notation for IPv6</source>
-        <translation>Bind till given adress. Använd [värd]:port notation för IPv6</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="132"/>
+        <location line="+3"/>
         <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
-        <translation>Tröskelvärde för att koppla ifrån klienter som missköter sig (förval: 100)</translation>
+        <translation>Tröskelvärde för att koppla ifrån klienter som missköter sig (förvalt: 100)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="36"/>
+        <location line="-134"/>
         <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
-        <translation>Antal sekunder att hindra klienter som missköter sig från att ansluta (förval: 86400)</translation>
+        <translation>Antal sekunder att hindra klienter som missköter sig från att ansluta (förvalt: 86400)</translation>
     </message>
     <message>
-        <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: 10000)</source>
-        <translation type="obsolete">Maximal buffert för mottagning per anslutning, &lt;n&gt;*1000 byte (förval: 10000)</translation>
+        <location line="-29"/>
+        <source>An error occurred while setting up the RPC port %u for listening on IPv4: %s</source>
+        <translation>Ett fel uppstod vid upprättandet av RPC port %u för att lyssna på IPv4: %s</translation>
     </message>
     <message>
-        <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: 10000)</source>
-        <translation type="obsolete">Maximal buffert för sändning per anslutning, &lt;n&gt;*1000 byte (förval: 10000)</translation>
+        <location line="+27"/>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 9322 or testnet: 19322)</source>
+        <translation>Lyssna på JSON-RPC-anslutningar på &lt;port&gt; (förvalt: 9322 eller testnet: 19322)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="24"/>
-        <source>Detach block and address databases. Increases shutdown time (default: 0)</source>
-        <translation>Frigör block- och adressdatabaser vid nedstängning. Detta ökar tiden för nedstängning (standard: 0)</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="55"/>
+        <location line="+37"/>
         <source>Accept command line and JSON-RPC commands</source>
         <translation>Tillåt kommandon från kommandotolken och JSON-RPC-kommandon</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="114"/>
+        <location line="+76"/>
         <source>Run in the background as a daemon and accept commands</source>
         <translation>Kör i bakgrunden som tjänst och acceptera kommandon</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="115"/>
-        <source>Select the version of socks proxy to use (4-5, default: 5)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="116"/>
-        <source>Send command to -server or infinitecoind</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="126"/>
-        <source>Specify configuration file (default: infinitecoin.conf)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="129"/>
-        <source>Specify pid file (default: infinitecoind.pid)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="140"/>
-        <source>Use UPnP to map the listening port (default: 0)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="141"/>
-        <source>Use UPnP to map the listening port (default: 1 when listening)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="142"/>
-        <source>Use proxy to reach tor hidden services (default: same as -proxy)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="143"/>
+        <location line="+37"/>
         <source>Use the test network</source>
         <translation>Använd testnätverket</translation>
     </message>
     <message>
-        <source>Output extra debugging information</source>
-        <translation type="obsolete">Skriv ut extra felsökningsinformation</translation>
+        <location line="-112"/>
+        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
+        <translation>Acceptera anslutningar utifrån (förvalt: 1 om ingen -proxy eller -connect)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="111"/>
-        <source>Prepend debug output with timestamp</source>
-        <translation>Skriv ut tid i felsökningsinformationen</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="118"/>
-        <source>Send trace/debug info to console instead of debug.log file</source>
-        <translation>Skicka trace-/debuginformation till terminalen istället för till debug.log</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="119"/>
-        <source>Send trace/debug info to debugger</source>
-        <translation>Skicka trace-/debuginformation till debugger</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="144"/>
-        <source>Username for JSON-RPC connections</source>
-        <translation>Användarnamn för JSON-RPC-anslutningar</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="110"/>
-        <source>Password for JSON-RPC connections</source>
-        <translation>Lösenord för JSON-RPC-anslutningar</translation>
-    </message>
-    <message>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 9322)</source>
-        <translation type="obsolete">Lyssna på JSON-RPC-anslutningar på &lt;port&gt; (förval: 9322)</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="59"/>
-        <source>Allow JSON-RPC connections from specified IP address</source>
-        <translation>Tillåt JSON-RPC-anslutningar från specifika IP-adresser</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="117"/>
-        <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
-        <translation>Skicka kommandon till klient på &lt;ip&gt; (förval: 127.0.0.1)</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="33"/>
-        <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
-        <translation>Exekvera kommando när bästa blocket ändras (%s i cmd är utbytt av blockhash)</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="137"/>
-        <source>Upgrade wallet to latest format</source>
-        <translation>Uppgradera plånboken till senaste formatet</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="125"/>
-        <source>Set key pool size to &lt;n&gt; (default: 100)</source>
-        <translation>Sätt storleken på nyckelpoolen till &lt;n&gt; (förval: 100)</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="112"/>
-        <source>Rescan the block chain for missing wallet transactions</source>
-        <translation>Sök i block-kedjan efter saknade wallet transaktioner</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="89"/>
-        <source>How many blocks to check at startup (default: 2500, 0 = all)</source>
-        <translation>Hur många block att kontrollera vid uppstart (standardvärde: 2500, 0 = alla)</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="90"/>
-        <source>How thorough the block verification is (0-6, default: 1)</source>
-        <translation>Hur grundlig blockverifikationen är (0-6, standardvärde: 1)</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="91"/>
-        <source>Imports blocks from external blk000?.dat file</source>
-        <translation>Inporterar block från extern blk000?.dat fil</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="52"/>
-        <source>
-SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
-        <translation>
-SSL-inställningar: (se Bitcoin-wikin för instruktioner)</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="139"/>
-        <source>Use OpenSSL (https) for JSON-RPC connections</source>
-        <translation>Använd OpenSSL (https) för JSON-RPC-anslutningar</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="121"/>
-        <source>Server certificate file (default: server.cert)</source>
-        <translation>Serverns certifikatfil (förval: server.cert)</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="122"/>
-        <source>Server private key (default: server.pem)</source>
-        <translation>Serverns privata nyckel (förval: server.pem)</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="18"/>
-        <source>Acceptable ciphers (default: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</source>
-        <translation>Accepterade krypteringsalgoritmer (förval: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="145"/>
-        <source>Wallet needed to be rewritten: restart Infinitecoin to complete</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="146"/>
-        <source>Warning: Disk space is low</source>
-        <translation>Varning: Hårddiskutrymme börjar bli lågt</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="131"/>
-        <source>This help message</source>
-        <translation>Det här hjälp medelandet</translation>
-    </message>
-    <message>
-        <source>Cannot obtain a lock on data directory %s.  Bitcoin is probably already running.</source>
-        <translation type="obsolete">Kan inte låsa data-mappen %s.  Bitcoin körs förmodligen redan.</translation>
-    </message>
-    <message>
-        <source>Bitcoin</source>
-        <translation type="obsolete">Bitcoin</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="134"/>
-        <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
-        <translation>Det går inte att binda till %s på den här datorn (bind returnerade felmeddelande %d, %s)</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="70"/>
-        <source>Connect through socks proxy</source>
-        <translation>Anslut genom socks-proxy</translation>
-    </message>
-    <message>
-        <source>Select the version of socks proxy to use (4 or 5, 5 is default)</source>
-        <translation type="obsolete">Välj socks-proxy version att använda (4 eller 5, 5 är standard)</translation>
-    </message>
-    <message>
-        <source>Do not use proxy for connections to network &lt;net&gt; (IPv4 or IPv6)</source>
-        <translation type="obsolete">Använd inte en proxy för anslutningar till nätverket &lt;net&gt; (IPv4 eller IPv6)</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="58"/>
-        <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
-        <translation>Tillåt DNS-sökningar för -addnode, -seednode och -connect</translation>
-    </message>
-    <message>
-        <source>Pass DNS requests to (SOCKS5) proxy</source>
-        <translation type="obsolete">Skicka vidare DNS-förfrågningar till (SOCKS5) proxy</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="100"/>
-        <source>Loading addresses...</source>
-        <translation>Laddar adresser...</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="75"/>
-        <source>Error loading blkindex.dat</source>
-        <translation>Fel vid inläsning av blkindex.dat</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="77"/>
-        <source>Error loading wallet.dat: Wallet corrupted</source>
-        <translation>Fel vid inläsningen av wallet.dat: Plånboken är skadad</translation>
-    </message>
-    <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin</source>
-        <translation type="obsolete">Fel vid inläsningen av wallet.dat: Plånboken kräver en senare version av Bitcoin</translation>
-    </message>
-    <message>
-        <source>Wallet needed to be rewritten: restart Bitcoin to complete</source>
-        <translation type="obsolete">Plånboken behöver skrivas om: Starta om Bitcoin för att färdigställa</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="76"/>
-        <source>Error loading wallet.dat</source>
-        <translation>Fel vid inläsning av plånboksfilen wallet.dat</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="93"/>
-        <source>Invalid -proxy address: &apos;%s&apos;</source>
-        <translation>Ogiltig -proxy adress: &apos;%s&apos;</translation>
-    </message>
-    <message>
-        <source>Unknown network specified in -noproxy: &apos;%s&apos;</source>
-        <translation type="obsolete">Okänt nätverk som anges i -noproxy: &apos;%s&apos;</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="136"/>
-        <source>Unknown network specified in -onlynet: &apos;%s&apos;</source>
-        <translation>Okänt nätverk som anges i -onlynet: &apos;%s&apos;</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="135"/>
-        <source>Unknown -socks proxy version requested: %i</source>
-        <translation>Okänd -socks proxy version begärd: %i</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="66"/>
-        <source>Cannot resolve -bind address: &apos;%s&apos;</source>
-        <translation>Kan inte matcha -bind adress: &apos;%s&apos;</translation>
-    </message>
-    <message>
-        <source>Not listening on any port</source>
-        <translation type="obsolete">Lyssnar ej på någon port</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="67"/>
-        <source>Cannot resolve -externalip address: &apos;%s&apos;</source>
-        <translation>Kan inte matcha -externalip adress: &apos;%s&apos;</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="95"/>
-        <source>Invalid amount for -paytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation>Ogiltigt belopp för -paytxfee=&lt;belopp&gt;:&apos;%s&apos;</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="82"/>
-        <source>Error: could not start node</source>
-        <translation>Fel: kunde inte starta nod</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="81"/>
-        <source>Error: Wallet locked, unable to create transaction  </source>
-        <translation>Fel: Plånboken är låst, det går ej att skapa en transaktion  </translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="30"/>
-        <source>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds  </source>
-        <translation>Fel: Denna transaktion kräver en transaktionsavgift på minst %s på grund av dess storlek, komplexitet, eller användning av senast mottagna bitcoins  </translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="80"/>
-        <source>Error: Transaction creation failed  </source>
-        <translation>Fel: Transaktionen gick inte att skapa  </translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="120"/>
-        <source>Sending...</source>
-        <translation>Skickar...</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="26"/>
-        <source>Error: The transaction was rejected.  This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Fel: Transaktionen avslogs.  Detta kan hända om några av mynten i plånboken redan spenderats, t.ex om du använt en kopia av wallet.dat och mynt spenderades i kopian men inte markerats som spenderas här.</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="96"/>
-        <source>Invalid amount</source>
-        <translation>Ogiltig mängd</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="92"/>
-        <source>Insufficient funds</source>
-        <translation>Otillräckligt med bitcoins</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="101"/>
-        <source>Loading block index...</source>
-        <translation>Laddar blockindex...</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="57"/>
-        <source>Add a node to connect to and attempt to keep the connection open</source>
-        <translation>Lägg till en nod att koppla upp mot och försök att hålla anslutningen öppen</translation>
-    </message>
-    <message>
-        <source>Unable to bind to %s on this computer. Bitcoin is probably already running.</source>
-        <translation type="obsolete">Det går inte att binda till %s på den här datorn. Bitcoin är förmodligen redan igång.</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="86"/>
-        <source>Find peers using internet relay chat (default: 0)</source>
-        <translation>Sök efter klienter med internet relay chat (standard: 0)</translation>
-    </message>
-    <message>
-        <source>Accept connections from outside (default: 1)</source>
-        <translation type="obsolete">Acceptera anslutningar utifrån (standard: 1)</translation>
-    </message>
-    <message>
-        <source>Find peers using DNS lookup (default: 1)</source>
-        <translation type="obsolete">Sök efter klienter med DNS sökningen (standard: 1)</translation>
-    </message>
-    <message>
-        <source>Use Universal Plug and Play to map the listening port (default: 1)</source>
-        <translation type="obsolete">Använd Universal Plug and Play för att mappa den lyssnande porten (standard: 1)</translation>
-    </message>
-    <message>
-        <source>Use Universal Plug and Play to map the listening port (default: 0)</source>
-        <translation type="obsolete">Använd Universal Plug and Play för att mappa den lyssnande porten (standard: 0)</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="84"/>
-        <source>Fee per KB to add to transactions you send</source>
-        <translation>Avgift per KB att lägga till på transaktioner du skickar</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="41"/>
-        <source>Warning: -paytxfee is set very high. This is the transaction fee you will pay if you send a transaction.</source>
-        <translation>Varning: -paytxfee är satt väldigt hög. Detta är avgiften du kommer betala för varje transaktion.</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="102"/>
-        <source>Loading wallet...</source>
-        <translation>Laddar plånbok...</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="64"/>
-        <source>Cannot downgrade wallet</source>
-        <translation>Kan inte nedgradera plånboken</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="9"/>
+        <location line="-80"/>
         <source>%s, you must set a rpcpassword in the configuration file:
- %s
+%s
 It is recommended you use the following random password:
 rpcuser=infinitecoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
+The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
+It is also recommended to set alertnotify so you are notified of problems;
+for example: alertnotify=echo %%s | mail -s &quot;Infinitecoin Alert&quot; admin@foo.com
 </source>
-        <translation type="unfinished"></translation>
+        <translation>%s, du behöver sätta ett rpclösensord i konfigurationsfilen:
+%s
+Det är rekommenderat att använda följande slumpade lösenord:
+rpcuser=infinitecoinrpc
+rpcpassword=%s
+(du behöver inte komma ihåg lösenordet)
+Användarnamnet och lösenordet FÅR INTE bara detsamma.
+Om filen inte existerar, skapa den med enbart ägarläsbara filrättigheter.
+Det är också rekommenderat att sätta alertnotify så du meddelas om problem;
+till exempel: alertnotify=echo %%s | mail -s &quot;Infinitecoin Alert&quot; admin@foo.com
+</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="21"/>
-        <source>Cannot obtain a lock on data directory %s.  Infinitecoin is probably already running.</source>
-        <translation type="unfinished"></translation>
+        <location line="+17"/>
+        <source>An error occurred while setting up the RPC port %u for listening on IPv6, falling back to IPv4: %s</source>
+        <translation>Ett fel uppstod vid upprättandet av RPC port %u för att lyssna på IPv6, faller tillbaka till IPV4: %s</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="39"/>
+        <location line="+3"/>
+        <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
+        <translation>Bind till given adress och lyssna alltid på den. Använd [värd]:port notation för IPv6</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Cannot obtain a lock on data directory %s. Infinitecoin is probably already running.</source>
+        <translation>Kan inte låsa data-mappen %s. Infinitecoin körs förmodligen redan.</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Error: The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
+        <translation>Fel: Transaktionen avslogs! Detta kan hända om några av mynten i plånboken redan spenderats, t.ex om du använt en kopia av wallet.dat och mynt spenderades i kopian men inte markerats som spenderas här.</translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds!</source>
+        <translation>Fel: Denna transaktion kräver en transaktionsavgift på minst %s på grund av dess storlek, komplexitet, eller användning av senast mottagna infinitecoins!</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Execute command when a relevant alert is received (%s in cmd is replaced by message)</source>
+        <translation>Exekvera kommando när ett relevant meddelande är mottagen (%s i cmd är utbytt med ett meddelande)</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
+        <translation>Exekvera kommando när en plånbokstransaktion ändras (%s i cmd är ersatt av TxID)</translation>
+    </message>
+    <message>
+        <location line="+11"/>
+        <source>Set maximum size of high-priority/low-fee transactions in bytes (default: 27000)</source>
+        <translation>Sätt den maximala storleken av hög-prioriterade/låg-avgifts transaktioner i byte (förvalt: 27000)</translation>
+    </message>
+    <message>
+        <location line="+6"/>
+        <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
+        <translation>Detta är ett förhands testbygge - använd på egen risk - använd inte för mining eller handels applikationer</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
+        <translation>Varning: -paytxfee är satt väldigt hög! Detta är avgiften du kommer betala för varje transaktion.</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Warning: Displayed transactions may not be correct! You may need to upgrade, or other nodes may need to upgrade.</source>
+        <translation>Varning: Visade transaktioner kanske inte är korrekt! Du kan behöva uppgradera, eller andra noder kan behöva uppgradera.</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Infinitecoin will not work properly.</source>
+        <translation>Varning: Vänligen kolla så att din dators datum och tid är korrekt! Om din klocka går fel kommer Infinitecoin inte fungera korrekt.</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
+        <translation>Varning: fel vid läsning av wallet.dat! Alla nycklar lästes korrekt, men transaktionsdatan eller adressbokens poster kanske saknas eller är felaktiga.</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Warning: wallet.dat corrupt, data salvaged! Original wallet.dat saved as wallet.{timestamp}.bak in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
+        <translation>Varning: wallet.dat korrupt, datan har räddats! Den ursprungliga wallet.dat har sparas som wallet.{timestamp}.bak i %s; om ditt saldo eller transaktioner är felaktiga ska du återställa från en säkerhetskopia.</translation>
+    </message>
+    <message>
+        <location line="+14"/>
+        <source>Attempt to recover private keys from a corrupt wallet.dat</source>
+        <translation>Försök att rädda de privata nycklarna från en korrupt wallet.dat</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Block creation options:</source>
+        <translation>Block skapande inställningar:</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Connect only to the specified node(s)</source>
+        <translation>Koppla enbart upp till den/de specificerade noden/noder</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Corrupted block database detected</source>
+        <translation>Korrupt blockdatabas har upptäckts</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Discover own IP address (default: 1 when listening and no -externalip)</source>
+        <translation>Hitta egen IP-adress (förvalt: 1 under lyssning och utan -externalip)</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Do you want to rebuild the block database now?</source>
+        <translation>Vill du bygga om blockdatabasen nu?</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Error initializing block database</source>
+        <translation>Fel vid initiering av blockdatabasen</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Error initializing wallet database environment %s!</source>
+        <translation>Fel vid initiering av plånbokens databasmiljö %s!</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Error loading block database</source>
+        <translation>Fel vid inläsning av blockdatabasen</translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Error opening block database</source>
+        <translation>Fel vid öppning av blockdatabasen</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Error: Disk space is low!</source>
+        <translation>Fel: Hårddiskutrymme är lågt!</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Error: Wallet locked, unable to create transaction!</source>
+        <translation>Fel: Plånboken är låst, det går ej att skapa en transaktion!</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Error: system error: </source>
+        <translation>Fel: systemfel:</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
+        <translation>Misslyckades att lyssna på någon port. Använd -listen=0 om du vill detta.</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Failed to read block info</source>
+        <translation>Misslyckades att läsa blockinformation</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Failed to read block</source>
+        <translation>Misslyckades att läsa blocket</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Failed to sync block index</source>
+        <translation>Misslyckades att synkronisera blockindex</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Failed to write block index</source>
+        <translation>Misslyckades att skriva blockindex</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Failed to write block info</source>
+        <translation>Misslyckades att skriva blockinformation</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Failed to write block</source>
+        <translation>Misslyckades att skriva blocket</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Failed to write file info</source>
+        <translation>Misslyckades att skriva filinformation</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Failed to write to coin database</source>
+        <translation>Misslyckades att skriva till myntdatabas</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Failed to write transaction index</source>
+        <translation>Misslyckades att skriva transaktionsindex</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Failed to write undo data</source>
+        <translation>Misslyckades att skriva ångradata</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Find peers using DNS lookup (default: 1 unless -connect)</source>
+        <translation>Sök efter klienter med DNS sökningen (förvalt: 1 om inte -connect)</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Generate coins (default: 0)</source>
+        <translation>Generera mynt (förvalt: 0)</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>How many blocks to check at startup (default: 288, 0 = all)</source>
+        <translation>Hur många block att kontrollera vid uppstart (standardvärde: 288, 0 = alla)</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>How thorough the block verification is (0-4, default: 3)</source>
+        <translation>Hur grundlig blockverifikationen är (0-4, förvalt: 3)</translation>
+    </message>
+    <message>
+        <location line="+19"/>
+        <source>Not enough file descriptors available.</source>
+        <translation>Inte tillräckligt med filbeskrivningar tillgängliga.</translation>
+    </message>
+    <message>
+        <location line="+8"/>
+        <source>Rebuild block chain index from current blk000??.dat files</source>
+        <translation>Återskapa blockkedjans index från nuvarande blk000??.dat filer</translation>
+    </message>
+    <message>
+        <location line="+16"/>
+        <source>Set the number of threads to service RPC calls (default: 4)</source>
+        <translation>Ange antalet trådar för att hantera RPC anrop (standard: 4)</translation>
+    </message>
+    <message>
+        <location line="+26"/>
+        <source>Verifying blocks...</source>
+        <translation>Verifierar block...</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Verifying wallet...</source>
+        <translation>Verifierar plånboken...</translation>
+    </message>
+    <message>
+        <location line="-69"/>
+        <source>Imports blocks from external blk000??.dat file</source>
+        <translation>Importerar block från extern blk000??.dat fil</translation>
+    </message>
+    <message>
+        <location line="-76"/>
+        <source>Set the number of script verification threads (up to 16, 0 = auto, &lt;0 = leave that many cores free, default: 0)</source>
+        <translation>Ange antalet skriptkontrolltrådar (upp till 16, 0 = auto, &lt;0 = lämna så många kärnor lediga, förval: 0)</translation>
+    </message>
+    <message>
+        <location line="+77"/>
+        <source>Information</source>
+        <translation>Information</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Invalid -tor address: &apos;%s&apos;</source>
+        <translation>Ogiltig -tor adress: &apos;%s&apos;</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
+        <translation>Ogiltigt belopp för -minrelaytxfee=&lt;belopp&gt;: &apos;%s&apos;</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Invalid amount for -mintxfee=&lt;amount&gt;: &apos;%s&apos;</source>
+        <translation>Ogiltigt belopp för -mintxfee=&lt;belopp&gt;: &apos;%s&apos;</translation>
+    </message>
+    <message>
+        <location line="+8"/>
+        <source>Maintain a full transaction index (default: 0)</source>
+        <translation>Upprätthåll ett fullständigt transaktionsindex (förval: 0)</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: 5000)</source>
+        <translation>Maximal buffert för mottagning per anslutning, &lt;n&gt;*1000 byte (förvalt: 5000)</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: 1000)</source>
+        <translation>Maximal buffert för sändning per anslutning, &lt;n&gt;*1000 byte (förvalt: 5000)</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Only accept block chain matching built-in checkpoints (default: 1)</source>
+        <translation>Acceptera bara blockkedjans matchande inbyggda kontrollpunkter (förvalt: 1)</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Only connect to nodes in network &lt;net&gt; (IPv4, IPv6 or Tor)</source>
+        <translation>Anslut enbart till noder i nätverket &lt;net&gt; (IPv4, IPv6 eller Tor)</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Output extra debugging information. Implies all other -debug* options</source>
+        <translation>Skriv ut extra felsökningsinformation. Gäller alla andra -debug* alternativ</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Output extra network debugging information</source>
+        <translation>Skriv ut extra felsökningsinformation om nätverk</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Prepend debug output with timestamp</source>
+        <translation>Skriv ut tid i felsökningsinformationen</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>SSL options: (see the Infinitecoin Wiki for SSL setup instructions)</source>
+        <translation>SSL-inställningar: (se Infinitecoin-wikin för SSL-setup instruktioner)</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Select the version of socks proxy to use (4-5, default: 5)</source>
+        <translation>Välj socks-proxy version att använda (4-5, förvalt: 5)</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Send trace/debug info to console instead of debug.log file</source>
+        <translation>Skicka trace-/debuginformation till terminalen istället för till debug.log</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Send trace/debug info to debugger</source>
+        <translation>Skicka trace-/debuginformation till debugger</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Set maximum block size in bytes (default: 250000)</source>
+        <translation>Sätt maximal blockstorlek i byte (förvalt: 250000)</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Set minimum block size in bytes (default: 0)</source>
+        <translation>Sätt minsta blockstorlek i byte (förvalt: 0)</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
+        <translation>Krymp debug.log filen vid klient start (förvalt: 1 vid ingen -debug)</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Signing transaction failed</source>
+        <translation>Signering av transaktion misslyckades</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Specify connection timeout in milliseconds (default: 5000)</source>
+        <translation>Ange timeout för uppkoppling i millisekunder (förvalt: 5000)</translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>System error: </source>
+        <translation>Systemfel:</translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Transaction amount too small</source>
+        <translation>Transaktions belopp för liten</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Transaction amounts must be positive</source>
+        <translation>Transaktionens belopp måste vara positiva</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Transaction too large</source>
+        <translation>Transaktionen är för stor</translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Use UPnP to map the listening port (default: 0)</source>
+        <translation>Använd UPnP för att mappa den lyssnande porten (förvalt: 0)</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Use UPnP to map the listening port (default: 1 when listening)</source>
+        <translation>Använd UPnP för att mappa den lyssnande porten (förvalt: 1 under lyssning)</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Use proxy to reach tor hidden services (default: same as -proxy)</source>
+        <translation>Använd en proxy för att nå tor (förvalt: samma som -proxy)</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Username for JSON-RPC connections</source>
+        <translation>Användarnamn för JSON-RPC-anslutningar</translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Warning</source>
+        <translation>Varning</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Warning: This version is obsolete, upgrade required!</source>
+        <translation>Varning: denna version är föråldrad, uppgradering krävs!</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>You need to rebuild the databases using -reindex to change -txindex</source>
+        <translation>Du måste återskapa databaserna med -reindex för att ändra -txindex</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>wallet.dat corrupt, salvage failed</source>
+        <translation>wallet.dat korrupt, räddning misslyckades</translation>
+    </message>
+    <message>
+        <location line="-50"/>
+        <source>Password for JSON-RPC connections</source>
+        <translation>Lösenord för JSON-RPC-anslutningar</translation>
+    </message>
+    <message>
+        <location line="-67"/>
+        <source>Allow JSON-RPC connections from specified IP address</source>
+        <translation>Tillåt JSON-RPC-anslutningar från specifika IP-adresser</translation>
+    </message>
+    <message>
+        <location line="+76"/>
+        <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
+        <translation>Skicka kommandon till klient på &lt;ip&gt; (förvalt: 127.0.0.1)</translation>
+    </message>
+    <message>
+        <location line="-120"/>
+        <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
+        <translation>Exekvera kommando när det bästa blocket ändras (%s i cmd är utbytt av blockhash)</translation>
+    </message>
+    <message>
+        <location line="+147"/>
+        <source>Upgrade wallet to latest format</source>
+        <translation>Uppgradera plånboken till senaste formatet</translation>
+    </message>
+    <message>
+        <location line="-21"/>
+        <source>Set key pool size to &lt;n&gt; (default: 100)</source>
+        <translation>Sätt storleken på nyckelpoolen till &lt;n&gt; (förvalt: 100)</translation>
+    </message>
+    <message>
+        <location line="-12"/>
+        <source>Rescan the block chain for missing wallet transactions</source>
+        <translation>Sök i blockkedjan efter saknade plånboks transaktioner</translation>
+    </message>
+    <message>
+        <location line="+35"/>
+        <source>Use OpenSSL (https) for JSON-RPC connections</source>
+        <translation>Använd OpenSSL (https) för JSON-RPC-anslutningar</translation>
+    </message>
+    <message>
+        <location line="-26"/>
+        <source>Server certificate file (default: server.cert)</source>
+        <translation>Serverns certifikatfil (förvalt: server.cert)</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Server private key (default: server.pem)</source>
+        <translation>Serverns privata nyckel (förvalt: server.pem)</translation>
+    </message>
+    <message>
+        <location line="-151"/>
+        <source>Acceptable ciphers (default: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</source>
+        <translation>Accepterade krypteringsalgoritmer (förvalt: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</translation>
+    </message>
+    <message>
+        <location line="+165"/>
+        <source>This help message</source>
+        <translation>Det här hjälp medelandet</translation>
+    </message>
+    <message>
+        <location line="+6"/>
+        <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
+        <translation>Det går inte att binda till %s på den här datorn (bind returnerade felmeddelande %d, %s)</translation>
+    </message>
+    <message>
+        <location line="-91"/>
+        <source>Connect through socks proxy</source>
+        <translation>Anslut genom socks-proxy</translation>
+    </message>
+    <message>
+        <location line="-10"/>
+        <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
+        <translation>Tillåt DNS-sökningar för -addnode, -seednode och -connect</translation>
+    </message>
+    <message>
+        <location line="+55"/>
+        <source>Loading addresses...</source>
+        <translation>Laddar adresser...</translation>
+    </message>
+    <message>
+        <location line="-35"/>
+        <source>Error loading wallet.dat: Wallet corrupted</source>
+        <translation>Fel vid inläsningen av wallet.dat: Plånboken är skadad</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Error loading wallet.dat: Wallet requires newer version of Infinitecoin</source>
+        <translation>Fel vid inläsningen av wallet.dat: Plånboken kräver en senare version av Infinitecoin</translation>
+    </message>
+    <message>
+        <location line="+93"/>
+        <source>Wallet needed to be rewritten: restart Infinitecoin to complete</source>
+        <translation>Plånboken behöver skrivas om: Starta om Infinitecoin för att färdigställa</translation>
+    </message>
+    <message>
+        <location line="-95"/>
+        <source>Error loading wallet.dat</source>
+        <translation>Fel vid inläsning av plånboksfilen wallet.dat</translation>
+    </message>
+    <message>
+        <location line="+28"/>
+        <source>Invalid -proxy address: &apos;%s&apos;</source>
+        <translation>Ogiltig -proxy adress: &apos;%s&apos;</translation>
+    </message>
+    <message>
+        <location line="+56"/>
+        <source>Unknown network specified in -onlynet: &apos;%s&apos;</source>
+        <translation>Okänt nätverk som anges i -onlynet: &apos;%s&apos;</translation>
+    </message>
+    <message>
+        <location line="-1"/>
+        <source>Unknown -socks proxy version requested: %i</source>
+        <translation>Okänd -socks proxy version begärd: %i</translation>
+    </message>
+    <message>
+        <location line="-96"/>
+        <source>Cannot resolve -bind address: &apos;%s&apos;</source>
+        <translation>Kan inte matcha -bind adress: &apos;%s&apos;</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Cannot resolve -externalip address: &apos;%s&apos;</source>
+        <translation>Kan inte matcha -externalip adress: &apos;%s&apos;</translation>
+    </message>
+    <message>
+        <location line="+44"/>
+        <source>Invalid amount for -paytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
+        <translation>Ogiltigt belopp för -paytxfee=&lt;belopp&gt;:&apos;%s&apos;</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Invalid amount</source>
+        <translation>Ogiltig mängd</translation>
+    </message>
+    <message>
+        <location line="-6"/>
+        <source>Insufficient funds</source>
+        <translation>Otillräckligt med infinitecoins</translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <source>Loading block index...</source>
+        <translation>Laddar blockindex...</translation>
+    </message>
+    <message>
+        <location line="-57"/>
+        <source>Add a node to connect to and attempt to keep the connection open</source>
+        <translation>Lägg till en nod att koppla upp mot och försök att hålla anslutningen öppen</translation>
+    </message>
+    <message>
+        <location line="-25"/>
         <source>Unable to bind to %s on this computer. Infinitecoin is probably already running.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det går inte att binda till %s på den här datorn. Infinitecoin är förmodligen redan igång.</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="44"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong Infinitecoin will not work properly.</source>
-        <translation type="unfinished"></translation>
+        <location line="+64"/>
+        <source>Fee per KB to add to transactions you send</source>
+        <translation>Avgift per KB att lägga till på transaktioner du skickar</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="56"/>
-        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
-        <translation type="unfinished"></translation>
+        <location line="+19"/>
+        <source>Loading wallet...</source>
+        <translation>Laddar plånbok...</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="62"/>
-        <source>Infinitecoin version</source>
-        <translation type="unfinished"></translation>
+        <location line="-52"/>
+        <source>Cannot downgrade wallet</source>
+        <translation>Kan inte nedgradera plånboken</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="63"/>
-        <source>Infinitecoin</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="65"/>
-        <source>Cannot initialize keypool</source>
-        <translation>Kan inte initiera keypool</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="68"/>
+        <location line="+3"/>
         <source>Cannot write default address</source>
         <translation>Kan inte skriva standardadress</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="69"/>
-        <source>Connect only to the specified node(s)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="72"/>
-        <source>Discover own IP address (default: 1 when listening and no -externalip)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="78"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Infinitecoin</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="83"/>
-        <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="85"/>
-        <source>Find peers using DNS lookup (default: 1 unless -connect)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="94"/>
-        <source>Invalid -tor address: &apos;%s&apos;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="98"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 9322)</source>
-        <translation type="unfinished">Lyssna på JSON-RPC-anslutningar på &lt;port&gt; (förval: 9322) {9322)?}</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="99"/>
-        <source>Listen for connections on &lt;port&gt; (default: 9321 or testnet: 19321)</source>
-        <translation type="unfinished">Lyssna efter anslutningar på &lt;port&gt; (förval: 9321 eller testnet: 19321) {9321 ?} {19321)?}</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="104"/>
-        <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: 5000)</source>
-        <translation type="unfinished">Maximal buffert för mottagning per anslutning, &lt;n&gt;*1000 byte (förval: 10000) {1000 ?} {5000)?}</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="105"/>
-        <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: 1000)</source>
-        <translation type="unfinished">Maximal buffert för sändning per anslutning, &lt;n&gt;*1000 byte (förval: 10000) {1000 ?} {1000)?}</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="106"/>
-        <source>Only connect to nodes in network &lt;net&gt; (IPv4, IPv6 or Tor)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="108"/>
-        <source>Output extra debugging information. Implies all other -debug* options</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="109"/>
-        <source>Output extra network debugging information</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="113"/>
+        <location line="+64"/>
         <source>Rescanning...</source>
         <translation>Söker igen...</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="147"/>
-        <source>Warning: this version is obsolete, upgrade required</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="74"/>
+        <location line="-57"/>
         <source>Done loading</source>
         <translation>Klar med laddning</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="133"/>
+        <location line="+82"/>
         <source>To use the %s option</source>
         <translation>Att använda %s alternativet</translation>
     </message>
     <message>
-        <source>%s, you must set a rpcpassword in the configuration file:
- %s
-It is recommended you use the following random password:
-rpcuser=bitcoinrpc
-rpcpassword=%s
-(you do not need to remember this password)
-If the file does not exist, create it with owner-readable-only file permissions.
-</source>
-        <translation type="obsolete">%s, du behöver sätta ett rpclösensord i konfigurationsfilen:
- %s
-Det är rekommenderat att använda följande slumpade lösenord:
-rpcuser=bitcoinrpc
-rpcpassword=%s
-(du behöver inte komma ihåg lösenordet)
-Om filen inte existerar, skapa den med enbart ägarläsbara filrättigheter.
-</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="79"/>
+        <location line="-74"/>
         <source>Error</source>
         <translation>Fel</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="60"/>
-        <source>An error occured while setting up the RPC port %i for listening: %s</source>
-        <translation>Ett fel uppstod vid upprättandet av RPC port %i för att lyssna: %s</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="47"/>
+        <location line="-31"/>
         <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
 %s
 If the file does not exist, create it with owner-readable-only file permissions.</source>
         <translation>Du behöver välja ett rpclösensord i konfigurationsfilen:
 %s
 Om filen inte existerar, skapa den med filrättigheten endast läsbar för ägaren.</translation>
-    </message>
-    <message>
-        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong Bitcoin will not work properly.</source>
-        <translation type="obsolete">Varning: Vänligen kolla så din dators datum och tid är korrekt.  Om din klocka går fel kommer Bitcoin inte fungera korrekt.</translation>
     </message>
 </context>
 </TS>

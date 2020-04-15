@@ -16,9 +16,6 @@
   <layout class="QVBoxLayout" name="verticalLayout_2">
    <item>
     <widget class="QTabWidget" name="tabWidget">
-     <property name="enabled">
-      <bool>true</bool>
-     </property>
      <property name="currentIndex">
       <number>0</number>
      </property>
@@ -318,14 +315,14 @@
           </font>
          </property>
          <property name="text">
-          <string>Debug logfile</string>
+          <string>Debug log file</string>
          </property>
         </widget>
        </item>
        <item row="15" column="0">
         <widget class="QPushButton" name="openDebugLogfileButton">
          <property name="toolTip">
-          <string>Open the Infinitecoin debug logfile from the current data directory. This can take a few seconds for large logfiles.</string>
+          <string>Open the Infinitecoin debug log file from the current data directory. This can take a few seconds for large log files.</string>
          </property>
          <property name="text">
           <string>&amp;Open</string>
@@ -377,9 +374,6 @@
       </layout>
      </widget>
      <widget class="QWidget" name="tab_console">
-      <property name="enabled">
-       <bool>true</bool>
-      </property>
       <attribute name="title">
        <string>&amp;Console</string>
       </attribute>
@@ -419,11 +413,7 @@
           </widget>
          </item>
          <item>
-          <widget class="QLineEdit" name="lineEdit">
-           <property name="maxLength">
-            <number>3276700</number>
-           </property>
-          </widget>
+          <widget class="QLineEdit" name="lineEdit"/>
          </item>
          <item>
           <widget class="QPushButton" name="clearButton">
